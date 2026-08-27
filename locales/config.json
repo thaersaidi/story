@@ -1,0 +1,8 @@
+{
+  "defaultLanguage": "en",
+  "languages": [
+    { "code": "en", "label": "EN", "name": "English", "nativeName": "English", "dir": "ltr" },
+    { "code": "fr", "label": "FR", "name": "French", "nativeName": "Francais", "dir": "ltr" },
+    { "code": "ar", "label": "AR", "name": "Arabic", "nativeName": "العربية", "dir": "rtl" }
+  ]
+}
