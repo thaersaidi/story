@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Genesis Mesh: Elections 2026</title>
+<meta name="description" content="Sovereignty in code: institutional IP extraction, verifiable authority, and the elections 2026 case, told as one story.">
+<style>
+  :root{
+    --bg:#08090b;
+    --bg-raise:#111318;
+    --line:#26292f;
+    --fg:#f4f3ef;
+    --fg-mute:#8a8d95;
+    --accent:#e94f37;
+    --mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    --sans: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, 'Segoe UI', sans-serif;
+    --topbar-h: 58px;
+    --tabs-h: 46px;
+    --dots-h: 54px;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  html,body{height:100%;}
+  body{
+    background:var(--bg);
+    color:var(--fg);
+    font-family:var(--mono);
+    line-height:1.55;
+    -webkit-font-smoothing:antialiased;
+    overflow:hidden;
+    overscroll-behavior:none;
+  }
+  a{color:inherit;}
+  button{font-family:inherit; cursor:pointer; background:none; border:none; color:inherit;}
+  ::selection{background:var(--accent); color:#0a0a0a;}
+
+  /* progress bar */
+  #progress{
+    position:fixed; top:0; left:0; height:3px; width:0%;
+    background:var(--accent); z-index:110; transition:width .45s cubic-bezier(.4,0,.2,1);
+  }
+
+  /* top bar */
+  header.topbar{
+    position:fixed; top:0; left:0; right:0; height:var(--topbar-h); z-index:100;
+    display:flex; align-items:center; justify-content:space-between;
+    padding:0 20px; font-size:11px; letter-spacing:.12em;
+    background:rgba(8,9,11,.9); backdrop-filter:blur(6px);
+    border-bottom:1px solid var(--line);
+  }
+  header.topbar .brand{font-weight:700; letter-spacing:.18em; white-space:nowrap;}
+  header.topbar .sub{color:var(--fg-mute); display:none;}
+  @media(min-width:720px){ header.topbar .sub{display:inline;} }
+  header.topbar .cta{
+    text-decoration:none; white-space:nowrap; transition:.2s; font-size:10px;
+    font-weight:700; letter-spacing:.1em;
+  }
+  header.topbar .cta::before{content:'['; color:var(--fg-mute); margin-right:4px;}
+  header.topbar .cta::after{content:']'; color:var(--fg-mute); margin-left:4px;}
+  header.topbar .cta:hover{color:var(--accent);}
+  header.topbar .cta:hover::before, header.topbar .cta:hover::after{color:var(--accent);}
+
+  /* tab bar */
+  nav.tabs{
+    position:fixed; top:var(--topbar-h); left:0; right:0; height:var(--tabs-h); z-index:99;
+    display:flex; overflow-x:auto; -webkit-overflow-scrolling:touch;
+    background:var(--bg); border-bottom:1px solid var(--line);
+    scrollbar-width:none;
+  }
+  nav.tabs::-webkit-scrollbar{display:none;}
+  nav.tabs button{
+    flex:0 0 auto; padding:0 16px; font-size:11px; letter-spacing:.08em;
+    color:var(--fg-mute); border-right:1px solid var(--line); white-space:nowrap;
+    display:flex; align-items:center; gap:6px; transition:.2s;
+  }
+  nav.tabs button .idx{color:var(--accent); font-size:10px;}
+  nav.tabs button:hover{color:var(--fg); background:var(--bg-raise);}
+  nav.tabs button.active{color:var(--fg); background:var(--bg-raise); box-shadow:inset 0 -2px 0 var(--accent);}
+
+  /* slider */
+  .slider{
+    position:fixed; top:calc(var(--topbar-h) + var(--tabs-h)); bottom:var(--dots-h); left:0; right:0;
+    overflow:hidden;
+  }
+  .track{
+    display:flex; height:100%; width:100%;
+    transition:transform .55s cubic-bezier(.65,0,.35,1);
+    will-change:transform;
+  }
+  .slide{
+    flex:0 0 100%; height:100%; overflow-y:auto; -webkit-overflow-scrolling:touch;
+    padding:44px 7vw 60px;
+    display:flex; flex-direction:column; justify-content:center;
+  }
+  .slide-inner{max-width:760px; width:100%; margin:0 auto;}
+  .kicker{
+    font-size:11px; letter-spacing:.22em; color:var(--accent); margin-bottom:16px;
+    display:flex; align-items:center; gap:10px;
+  }
+  .kicker::before{content:''; width:24px; height:1px; background:var(--accent);}
+  h1,h2{
+    font-family:var(--sans); font-weight:800;
+    line-height:1.08; letter-spacing:-.02em; text-transform:uppercase;
+  }
+  h1{font-size:clamp(28px,5.2vw,54px);}
+  h2{font-size:clamp(22px,3.8vw,38px);}
+  em{color:var(--accent); font-style:italic; font-weight:800;}
+  .story p{
+    margin-top:20px; max-width:66ch; font-size:clamp(14px,1.4vw,17px);
+    color:#d7d6d2; font-family:var(--sans); font-weight:400; line-height:1.75;
+  }
+  .story p:first-of-type{margin-top:26px;}
+  .story a{color:var(--accent); text-decoration:underline; text-underline-offset:3px; transition:.2s;}
+  .story a:hover{color:#ff6347;}
+  .byline{margin-top:32px; font-size:11px; color:var(--fg-mute); letter-spacing:.08em;}
+  .byline strong{color:var(--fg); letter-spacing:.14em;}
+  .cta-row{display:flex; flex-wrap:wrap; gap:22px; margin-top:34px;}
+  .btn{
+    display:inline-flex; align-items:center; gap:6px;
+    text-decoration:none; background:none; border:none; padding:4px 0;
+    font-family:var(--mono); font-size:12px; letter-spacing:.08em; font-weight:700;
+    text-transform:uppercase; color:var(--fg); transition:.2s; position:relative;
+  }
+  .btn::before{content:'['; color:var(--fg-mute); margin-right:6px; transition:.2s;}
+  .btn::after{content:']'; color:var(--fg-mute); margin-left:6px; transition:.2s;}
+  .btn:hover{color:var(--accent);}
+  .btn:hover::before, .btn:hover::after{color:var(--accent);}
+  .btn.solid{color:var(--accent);}
+  .btn.solid::before, .btn.solid::after{color:var(--accent);}
+  .btn.solid:hover{color:#ff6347;}
+  .btn.solid:hover::before, .btn.solid:hover::after{color:#ff6347;}
+  .statline{
+    margin-top:26px; display:flex; flex-wrap:wrap; gap:8px 0; font-size:12px; color:var(--fg-mute);
+  }
+  .statline span{white-space:nowrap;}
+  .statline b{color:var(--accent); font-weight:600;}
+  .statline .sep{margin:0 10px; opacity:.4;}
+
+  /* arrows */
+  .arrow{
+    position:fixed; top:calc(50% + (var(--topbar-h) + var(--tabs-h) - var(--dots-h))/2); transform:translateY(-50%);
+    z-index:98; width:42px; height:42px; border-radius:50%;
+    border:1px solid var(--line); background:rgba(8,9,11,.7); backdrop-filter:blur(4px);
+    display:flex; align-items:center; justify-content:center; font-size:18px;
+    transition:.2s; -webkit-tap-highlight-color:transparent;
+  }
+  .arrow:hover{border-color:var(--accent); color:var(--accent);}
+  .arrow:active{border-color:var(--accent); color:var(--accent); transform:translateY(-50%) scale(.92);}
+  .arrow:disabled{opacity:.2; pointer-events:none;}
+  .arrow.left{left:10px;}
+  .arrow.right{right:10px;}
+  @media(max-width:640px){
+    .arrow{width:36px; height:36px; font-size:16px; background:rgba(8,9,11,.55);}
+    .arrow.left{left:6px;}
+    .arrow.right{right:6px;}
+  }
+
+  /* dots */
+  .dotsbar{
+    position:fixed; bottom:0; left:0; right:0; height:var(--dots-h); z-index:99;
+    display:flex; align-items:center; justify-content:center; gap:10px;
+    background:var(--bg); border-top:1px solid var(--line);
+  }
+  .dotsbar .count{
+    position:absolute; right:18px; font-size:11px; color:var(--fg-mute); letter-spacing:.08em;
+  }
+  .dotsbar .dot{
+    width:7px; height:7px; border-radius:50%; border:1px solid var(--fg-mute); transition:.2s;
+  }
+  .dotsbar .dot.active{background:var(--accent); border-color:var(--accent); width:20px; border-radius:5px;}
+
+  .swipehint{display:none;}
+  @media(max-width:640px){
+    .swipehint{
+      display:block; margin-top:30px; font-size:11px; color:var(--fg-mute); letter-spacing:.08em;
+    }
+  }
+</style>
+</head>
+<body>
+
+<div id="progress"></div>
+
+<header class="topbar">
+  <span class="brand">GENESIS MESH</span>
+  <span class="sub">SOVEREIGNTY IN CODE / ELECTIONS 2026</span>
+  <a class="cta" href="https://dev.connectorzzz.com/" target="_blank" rel="noopener">EXPLORE ↗</a>
+</header>
+
+<nav class="tabs" id="tabs"></nav>
+
+<div class="slider">
+  <div class="track" id="track">
+
+    <section class="slide" data-title="Prologue">
+      <div class="slide-inner">
+        <div class="kicker">00 / PROLOGUE</div>
+        <h1>SOVEREIGNTY IS NOW <em>CODE.</em></h1>
+        <div class="story">
+          <p>I built systems before I had a name for what I was building. A hackathon in Mumbai, a whiteboard sketch that turned into an autonomous enterprise pattern. Then, quietly, a decade in which almost every company I touched found a way to keep the pattern and forget the person who drew it.</p>
+          <p>By the time Elections 2026 came into view, I'd stopped telling this as a story about employment. It had become a story about who gets to govern the infrastructure that governs everyone else.</p>
+          <p>This is that story: the pattern, the stakes, the remedy I built, and the choice now in front of all of us.</p>
+        </div>
+        <div class="byline">
+          <strong>THAER SAIDI</strong><br>
+          SEPT 7, 2026 → MAR 6, 2027 · PUBLIC BRIEF 26 / GENESIS MESH
+        </div>
+        <div class="cta-row">
+          <a class="btn solid" href="https://dev.connectorzzz.com/" target="_blank" rel="noopener">EXPLORE THE MESH ↗</a>
+        </div>
+        <div class="swipehint">← swipe to continue →</div>
+      </div>
+    </section>
+
+    <section class="slide" data-title="The Pattern">
+      <div class="slide-inner">
+        <div class="kicker">01 / THE PATTERN</div>
+        <h2>FIRST, THEY HIRED <em>THE ARCHITECT.</em></h2>
+        <div class="story">
+          <p>It started in Mumbai, in a hackathon I won before "autonomous enterprise systems" was a phrase anyone used. The prototype was real, though. TCS took the pattern global: a ten-year relationship, 2016 to 2026, and the invoice for that original work is still open.</p>
+          <p>That same year, 2016, I was also building on IBM Bluemix: early quantum computing and crypto infrastructure work, running in parallel with the enterprise pattern. It's the same thread that eventually became Genesis Mesh's own quantum layer, now open-sourced at <a href="https://github.com/GenesisMeshLabs/genesis-quantum-lab" target="_blank" rel="noopener">genesis-quantum-lab</a>.</p>
+          <p>What follows is a sample, not the full account. Across a decade of engagements, the same pattern repeated with practically every major systems integrator I sat inside, not just a handful. At Electrolux, Cognizant had the account from 2017 to 2020, watching me lay down cloud, DevOps, and GDPR-aligned patterns, then folding them into a packaged solution with my name nowhere on it. Accenture picked up the same account and rode it from 2017 to 2023: SAP on hypervisors, Akamai at the edge, turning architecture into a six-year managed-services contract.</p>
+          <p>IBM Consulting arrived in 2021, embedded in the same building, and left with a portfolio of IP and AWS patterns that, by my own account, resurfaced for resale on Amazon's platforms. Nordcloud and IBM followed me to Volvo in 2023, where I was designing Chinese-Western orchestration; what left the building became Volvo's own integration playbook. By 2024, Crayon had me architecting multi-cloud infrastructure across the Microsoft ecosystem.</p>
+          <p>These six are just the names with dates attached. They're the documented cases, not the edge cases. The same pattern runs through nearly every systems integrator I've been embedded with, at nearly every client, for a decade straight. By 2025 it had a name I couldn't unsee: hire the architect, extract the system, replace the architect.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="slide" data-title="The Stakes">
+      <div class="slide-inner">
+        <div class="kicker">02 / THE STAKES</div>
+        <h2>THEN I ASKED: <em>WHO CONTROLS THE ELECTION?</em></h2>
+        <div class="story">
+          <p>Not legally. Operationally. Tier-1 systems integrators, Accenture, IBM, TCS, Cognizant, and effectively every peer in that tier, don't just consult on election infrastructure; they design and run it. And the model that let them do that to me, repeatedly, across nearly every one of them, is the same model running underneath: the architect disappears, and the vendor inherits the revenue, the access, and the institutional memory.</p>
+          <p>That's a business problem until you follow it one step further. A systems integrator sitting on code it quietly extracted isn't just a vendor risk anymore. If a nation-state ever gains control of that integrator, it inherits everything the integrator absorbed. And when the machinery of an election runs through vendor-owned systems, being legally independent stops being the same thing as being operationally sovereign.</p>
+          <p>Extraction, at that scale, is just control wearing a services contract.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="slide" data-title="The Remedy">
+      <div class="slide-inner">
+        <div class="kicker">03 / THE REMEDY</div>
+        <h2>SO I BUILT <em>GENESIS MESH.</em></h2>
+        <div class="story">
+          <p>I built the thing that would have stopped it from happening to me, and to everyone whose infrastructure now depends on the same kind of vendor.</p>
+          <p>Genesis Mesh is a trust and authority layer for autonomous systems, and it runs on four verbs I now treat as non-negotiable. <strong>Verify</strong>: every step from human to authority to delegation to agent has to be provable. <strong>Limit</strong>: every actor gets scoped capability, never a blank check. <strong>Revoke</strong>: trust can be withdrawn instantly, not renegotiated. <strong>Audit</strong>: the trail is immutable, and it holds across every provider in the stack, not just the friendly one.</p>
+          <p>Sovereignty, I've come to believe, isn't a legal status. It's the standing ability to verify, limit, revoke, and replace every provider you rely on, on your terms, on your timeline.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="slide" data-title="The Reversal">
+      <div class="slide-inner">
+        <div class="kicker">04 / THE REVERSAL</div>
+        <h2>THE ARCHITECT IS NO LONGER HIRED. <em>THE ARCHITECT IS THE AUTHORITY.</em></h2>
+        <div class="story">
+          <p>The proof had to be real, not theoretical, so I ran it back through the same companies.</p>
+          <p>At TCS, the autonomous systems I built and was never paid for are now, live, the H&amp;M implementation, running under architect authority, not vendor ownership. At IBM, the pattern I'd alleged was resold through Amazon has a validated answer: the Volvo/Geely model, open-sourced and fully auditable, nothing hidden left to extract. Cognizant's simultaneous-extraction problem is closed: Genesis Mesh doesn't allow the loop that let it happen. And the six-year extraction I lived through at Accenture is closed too: no hidden access, because there's nothing left to hide.</p>
+          <p>These four are just the ones with public before/after data. They're not the exception. They're the demonstration. The same reversal applies everywhere the pattern showed up, which is most places I've worked.</p>
+          <p>The architect isn't hired anymore. The architect is the authority.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="slide" data-title="Deployment">
+      <div class="slide-inner">
+        <div class="kicker">05 / THE DEPLOYMENT</div>
+        <h2>ONE GOVERNANCE MODEL. <em>MANY PROVIDERS.</em></h2>
+        <div class="story">
+          <p>One governance model, running across every provider that touches it. That was the design goal at H&amp;M, and it's live.</p>
+          <p>Akamai and Cloudflare sit at the edge, routing requests and absorbing DDoS traffic. A serverless layer on MongoDB Atlas handles GDPR-aligned data in Europe; Salesforce carries the CRM layer in the US. SAP still runs the legacy ERP backbone, because sovereignty doesn't mean ripping out what works. It means governing it. Genesis Mesh sits in the middle as the orchestration layer, verifying, limiting, revoking, and auditing across Azure, GCP, VMware, and AWS underneath it, with Ons Allouche at EY Stockholm coordinating the whole thing in real time.</p>
+          <p>Different vendors, different clouds, different legal jurisdictions. One authority model holds it together.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="slide" data-title="Hardware">
+      <div class="slide-inner">
+        <div class="kicker">06 / HARDWARE SOVEREIGNTY</div>
+        <h2>SOFTWARE WAS <em>NOT ENOUGH.</em></h2>
+        <div class="story">
+          <p>Software was never going to be enough on its own, not if the chips underneath it were still someone else's to control.</p>
+          <p>That's TSWI, the Tunisian Sovereign Wafer Initiative: buy the commodity chiplets, make the interposer and the AI logic in-house, and own the packaging factory outright. The roadmap runs in four stages: a multi-chiplet proof for $5–10M in year one, a CPU-and-AI wafer with a Tunis pilot for $30–60M in year two, a sovereign AI cluster for $20–40M in year three, and a full facility for $150–300M in year four. Phase one is done.</p>
+          <p>What's left is an open-source, wafer-scale packaging hub with EMEA residency, solar power, and more than half the compute cost stripped out, co-founded with Ons Allouche, who leads the industry side while I lead the technology.</p>
+        </div>
+        <div class="statline">
+          <span>UNIT COGS <b>~$185K</b></span><span class="sep">·</span>
+          <span>TARGET PRICE <b>~$450K</b></span><span class="sep">·</span>
+          <span>MARGIN <b>~58%</b></span><span class="sep">·</span>
+          <span>CAAS <b>~$45/hr</b> vs AWS $98.32/hr</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="slide" data-title="Coordination">
+      <div class="slide-inner">
+        <div class="kicker">07 / COORDINATION</div>
+        <h2>THEN THE LAYERS <em>BECAME ONE SYSTEM.</em></h2>
+        <div class="story">
+          <p>Eventually the layers stopped being separate projects and became one system. Aspayr handles the wallet and coordinates across every domain it touches: infrastructure, hardware, crypto rails, music and audio, VR and the Meta OS, cyber and networks, biotech and wearables. TSWI supplies the wafers, the packaging, the compute underneath everything. Genesis Mesh still does what it's always done: verify, limit, revoke, audit. And H&amp;M, alongside a widening set of government deployments, is where all three actually run.</p>
+          <p>Past March 6, 2027, the plan is a TSWI phase-two raise of $30–60M, with a Tunisian Ministry and AfDB anchor MOU as the target. If it lands, it proves something bigger than any one deal: that Chinese-Western integration, the <a href="https://github.com/GenesisMeshLabs/genesis-quantum-lab" target="_blank" rel="noopener">quantum computing</a> work that traces back to the 2016 Bluemix build, autonomous systems, and sovereign hardware can all operate under a single governance model.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="slide" data-title="The Choice">
+      <div class="slide-inner">
+        <div class="kicker">08 / THE CHOICE</div>
+        <h2>DO NOT JUST VOTE <em>FOR A GOVERNMENT.</em></h2>
+        <h2 style="margin-top:4px;">Vote for the capacity to govern.</h2>
+        <div class="story">
+          <p>Ten years. Practically every major systems integrator I've worked inside, not five, not six, all of them. A pattern I lived through before I had a name for it. A security cost that's no longer hypothetical. And a remedy that's already running in production.</p>
+          <p>So don't just vote for a government. Vote for the capacity to govern: the standing ability to verify who holds authority, limit what they can do with it, revoke it the moment that trust breaks, and audit the trail so no one has to take your word for it.</p>
+          <p><strong>Hire the authority. Not the vendor.</strong></p>
+        </div>
+        <div class="cta-row">
+          <a class="btn solid" href="https://dev.connectorzzz.com/" target="_blank" rel="noopener">EXPLORE GENESIS MESH ↗</a>
+          <a class="btn" href="https://github.com/GenesisMeshLabs" target="_blank" rel="noopener">VIEW THE OPEN-SOURCE ORGANIZATION ↗</a>
+        </div>
+      </div>
+    </section>
+
+  </div>
+</div>
+
+<button class="arrow left" id="prevBtn" aria-label="Previous">‹</button>
+<button class="arrow right" id="nextBtn" aria-label="Next">›</button>
+
+<div class="dotsbar">
+  <div id="dots" style="display:flex; gap:10px;"></div>
+  <span class="count" id="count">01 / 09</span>
+</div>
+
+<script>
+  const slides = Array.from(document.querySelectorAll('.slide'));
+  const track = document.getElementById('track');
+  const tabsNav = document.getElementById('tabs');
+  const dotsWrap = document.getElementById('dots');
+  const countEl = document.getElementById('count');
+  const prevBtn = document.getElementById('prevBtn');
+  const nextBtn = document.getElementById('nextBtn');
+  const progress = document.getElementById('progress');
+
+  const n = slides.length;
+  let current = 0;
+
+  slides.forEach((s, i) => {
+    const tab = document.createElement('button');
+    tab.innerHTML = '<span class="idx">' + String(i).padStart(2,'0') + '</span> ' + s.dataset.title;
+    tab.addEventListener('click', () => goTo(i));
+    tabsNav.appendChild(tab);
+
+    const dot = document.createElement('button');
+    dot.className = 'dot';
+    dot.setAttribute('aria-label', 'Go to ' + s.dataset.title);
+    dot.addEventListener('click', () => goTo(i));
+    dotsWrap.appendChild(dot);
+  });
+
+  const tabButtons = Array.from(tabsNav.children);
+  const dotButtons = Array.from(dotsWrap.children);
+
+  function render(){
+    track.style.transform = 'translateX(-' + (current * 100) + '%)';
+    tabButtons.forEach((b,i) => b.classList.toggle('active', i === current));
+    dotButtons.forEach((d,i) => d.classList.toggle('active', i === current));
+    countEl.textContent = String(current+1).padStart(2,'0') + ' / ' + String(n).padStart(2,'0');
+    progress.style.width = (current/(n-1)*100) + '%';
+    prevBtn.disabled = current === 0;
+    nextBtn.disabled = current === n-1;
+    const active = tabButtons[current];
+    if (active) active.scrollIntoView({behavior:'smooth', inline:'center', block:'nearest'});
+    history.replaceState(null, '', '#' + slides[current].dataset.title.toLowerCase().replace(/\s+/g,'-'));
+  }
+
+  function goTo(i){
+    current = Math.max(0, Math.min(n-1, i));
+    render();
+  }
+
+  prevBtn.addEventListener('click', () => goTo(current-1));
+  nextBtn.addEventListener('click', () => goTo(current+1));
+
+  window.addEventListener('keydown', (e) => {
+    if (e.key === 'ArrowRight') goTo(current+1);
+    if (e.key === 'ArrowLeft') goTo(current-1);
+  });
+
+  // touch swipe
+  let touchStartX = null, touchStartY = null;
+  track.addEventListener('touchstart', (e) => {
+    touchStartX = e.touches[0].clientX;
+    touchStartY = e.touches[0].clientY;
+  }, {passive:true});
+  track.addEventListener('touchend', (e) => {
+    if (touchStartX === null) return;
+    const dx = e.changedTouches[0].clientX - touchStartX;
+    const dy = e.changedTouches[0].clientY - touchStartY;
+    if (Math.abs(dx) > 60 && Math.abs(dx) > Math.abs(dy)) {
+      if (dx < 0) goTo(current+1); else goTo(current-1);
+    }
+    touchStartX = null; touchStartY = null;
+  }, {passive:true});
+
+  // deep link on load
+  const hash = location.hash.replace('#','');
+  if (hash) {
+    const idx = slides.findIndex(s => s.dataset.title.toLowerCase().replace(/\s+/g,'-') === hash);
+    if (idx >= 0) current = idx;
+  }
+  render();
+</script>
+
+</body>
+</html>
