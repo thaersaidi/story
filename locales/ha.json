@@ -1,0 +1,187 @@
+{
+  "meta": {
+    "title": "Genesis Mesh: Zaben 2026",
+    "description": "Mulkin kai a cikin lamba: fitar da haƙƙin mallaka na ƙungiya, ikon da za a iya tabbatarwa, da labarin zaben 2026, an bayyana shi a matsayin labari guda ɗaya."
+  },
+  "ui": {
+    "subtitle": "MULKIN KAI A CIKIN LAMBA / ZABEN 2026",
+    "explore": "BIYI ->",
+    "swipeHint": "<- yi ja don ci gaba ->",
+    "goTo": "Je zuwa",
+    "searchLanguage": "Neman harshe",
+    "chapters": "Babi",
+    "previous": "Na baya",
+    "next": "Na gaba"
+  },
+  "slides": [
+    {
+      "slug": "prologue",
+      "title": "Gabatarwa",
+      "kicker": "FARKO",
+      "headings": [
+        "IKON SARAKUNA YANZU <em>CODE.</em>"
+      ],
+      "paragraphs": [
+        "Na gina tsarin kafin in sami suna ga abin da nake ginawa. Wani hackathon a Mumbai, zane a allon fari da ya zama tsarin kamfani mai cin gashin kansa. Sannan, a hankali, shekaru goma inda kusan kowace kamfani da na taba ta sami wata hanya ta riƙe tsarin kuma ta manta da mutumin da ya zana shi.",
+        "Da lokacin da Zaɓen 2026 ya bayyana, na daina bada wannan a matsayin labari game da aikin yi. Ya zama labari game da wanda yake da damar mulkin tsarin da ke mulkar kowa da kowa.",
+        "Wannan shi ne labarin: tsarin, hadarin, maganin da na gina, da zaɓin da ke gabanka yanzu ga kowa da kowa daga cikinmu."
+      ],
+      "byline": {
+        "name": "THAER SAIDI",
+        "meta": "7 SATUMBA, 2026 -> 6 MARIS, 2027. BAYANI NA JAMA'A 26 / TUSHEN HAƘIƘA"
+      },
+      "buttons": [
+        {
+          "label": "BIYI TSARIN ->",
+          "href": "https://dev.connectorzzz.com/",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "slug": "the-pattern",
+      "title": "Tsarin",
+      "kicker": "TSARIN",
+      "headings": [
+        "DA FARKO, SUN HAYAR DA <em>MASU ZANE.</em>"
+      ],
+      "paragraphs": [
+        "Ya fara a Mumbai, a wani hackathon da na ci kafin 'autonomous enterprise systems' ya zama kalma da kowa ke amfani da ita. Amma samfurin abin gaske ne. TCS ta ɗaukaka tsarin zuwa duniya: dangantaka ta shekaru goma, daga 2016 zuwa 2026, kuma har yanzu an bude invoice ɗin wannan aikin na asali.",
+        "A wannan shekarar guda, 2016, kuma ina gina akan IBM Bluemix: farkon aikin lissafin quantum da tsarin crypto, yana gudana a lokaci guda da tsarin enterprise. Wannan shi ne zaren da daga baya ya zama rukunin quantum na Genesis Mesh, yanzu an bude shi ga jama'a a <a href='https://github.com/GenesisMeshLabs/genesis-quantum-lab' target='_blank' rel='noopener'>genesis-quantum-lab</a>.",
+        "Abin da ke bi shi ne samfurin, ba cikakken bayani ba. A cikin shekaru goma na hulɗa, irin wannan tsarin ya maimaita kusan a duk manyan masu haɗa tsarin da na shiga ciki, ba kaɗan ba. A Electrolux, Cognizant ya riƙe asusun daga 2017 zuwa 2020, yana kallona na shimfiɗa girgije, DevOps, da tsare-tsaren da suka dace da GDPR, sannan ya haɗa su cikin mafita da aka ƙayyade ba tare da sunana a ciki ba. Accenture ta ɗauki wannan asusun kuma ta ci gaba da shi daga 2017 zuwa 2023: SAP akan hypervisors, Akamai a gefen, yana mai da tsarin gine-gine cikin kwangilar sabis da aka sarrafa na tsawon shekaru shida.",
+        "IBM Consulting ta iso a shekarar 2021, tana cikin ginin guda, sannan ta tafi da kundin IP da tsarin AWS da, bisa ga lissafina, suka sake fitowa don sake sayarwa a dandamalin Amazon. Nordcloud da IBM suka biyo ni zuwa Volvo a shekarar 2023, inda nake tsara hadin gwiwar Sin-Western; abin da ya fita daga ginin ya zama littafin jagorar haɗin kai na Volvo. Zuwa shekarar 2024, Crayon ta sa ni zanen tsarin gine-ginen girgijen da yawa a cikin tsarin Microsoft.",
+        "Wadannan shida suna nan kawai suna da sunaye da kwanakin da aka makala. Su ne shari'o'in da aka rubuta, ba shari'o'in da suka wuce kima ba. Haka ne tsarin da ke gudana a cikin kusan kowace mai haɗa tsarin da na samu aiki da ita, a kusan kowane abokin ciniki, tsawon shekaru goma. Zuwa 2025 ya samu suna wanda ba zan iya watsi da shi ba: dauki mai zanen gini, fitar da tsarin, maye gurbin mai zanen gini."
+      ]
+    },
+    {
+      "slug": "the-stakes",
+      "title": "Abubuwan da ake haɗari",
+      "kicker": "ABUBUWAN DA AKE HAƊARI",
+      "headings": [
+        "SA'AN NAN NA TAMBAYA: <em>WANNE NE KE KULA DA ZABE?</em>"
+      ],
+      "paragraphs": [
+        "Ba bisa doka ba. Ta hanyar aiki. Masu haɗa tsarin Tier-1, Accenture, IBM, TCS, Cognizant, da kusan kowane abokin aiki a wannan matakin, ba kawai suna ba da shawara kan tsarin zaɓe ba; suna ƙirƙira da gudanar da shi. Kuma samfurin da ya ba su damar yin hakan a kaina, akai-akai, a kusan kowane ɗayansu, shi ne samfurin da ke gudana a ƙasa: mai ƙira yana ɓacewa, kuma mai sayarwa yana gado samun kuɗaɗen shiga, samun damar, da ƙwaƙwalwar cibiyar.",
+        "Wannan matsala ce ta kasuwanci har sai ka bi ta mataki ɗaya gaba. Haɗa tsarin da ke zaune a kan lambobin da aka cire cikin shiru ba kawai haɗarin mai siyarwa ba ne yanzu. Idan ƙasa ta samu iko akan wannan mai haɗa tsarin, zai gaji duk abin da mai haɗa tsarin ya ɗauka. Kuma lokacin da injin zabe ya gudana ta cikin tsarin da mai siyarwa ke da shi, kasancewa doka ɗaya kawai ba ya nufin ainihin 'yancin aiki.",
+        "Cirewa, a wannan matsayi, kawai iko ne da ke sa hannu kan kwangilar sabis."
+      ]
+    },
+    {
+      "slug": "the-remedy",
+      "title": "Maganin",
+      "kicker": "MAGANIN",
+      "headings": [
+        "DON HAKA NA GINA <em>GENESIS MESH.</em>"
+      ],
+      "paragraphs": [
+        "Na gina abin da zai iya hana hakan faruwa a gareni, da kuma ga kowa wanda tsarin aikinsa yanzu ya dogara da irin wannan mai kaya.",
+        "Genesis Mesh wani mataki ne na amana da iko ga tsarin kai tsaye, kuma yana aiki akan ayyuka hudu da yanzu nake ɗauka a matsayin marasa sassauci. <strong>Tabbatar</strong>: duk matakin daga ɗan adam zuwa iko zuwa wakilci zuwa wakili dole ne a iya tabbatarwa. <strong>Iyaka</strong>: kowanne mai aiki yana da iyakacin ikon da aka tsara, ba tare da takardar cike ba. <strong>Soke</strong>: amana za a iya janye ta nan take, ba a sake tattaunawa ba. <strong>Bincike</strong>: hanyar tana dawwama, kuma tana da inganci a duk mai bada sabis a tsarin, ba kawai wanda ya yi abota ba.",
+        "Mulki na kansa, na fara yarda, ba matsayin doka bane. Shine ikon tsaye wajen tabbatarwa, takaita, soke, da maye gurbin duk mai ba da sabis da kake dogara a kansu, bisa sharuɗɗanka, bisa lokacin da ka tsara."
+      ]
+    },
+    {
+      "slug": "the-reversal",
+      "title": "Juyin",
+      "kicker": "JUYEWA",
+      "headings": [
+        "BA A KARBA NADIN MAI TSARA GINSA BA KARA. <em>MAI TSARA GINSA NE MAI MULKI.</em>"
+      ],
+      "paragraphs": [
+        "Dole ne shaidar ta kasance ta gaskiya, ba ta kimiyya ba, don haka na sake gudanar da shi ta cikin kamfanonin iri ɗaya.",
+        "A TCS, tsarin kanta na da na gina kuma ba a biya ni ba yanzu, yana aiki, aiwatarwar H&amp;M, yana ƙarƙashin ikon mai tsara gine-gine, ba mallakar mai siyarwa ba. A IBM, tsarin da na yi zargi an sake sayarwa ta Amazon yana da amsa da aka tabbatar: samfurin Volvo/Geely, budadden tushe kuma zai iya bincike gabaɗaya, babu abin ɓoyayya da za a ciro. Matsalar cirewa lokaci guda na Cognizant an rufe: Genesis Mesh baya ba da damar zagaye da ya sa hakan ta faru. Kuma cirewar shekaru shida da na fuskanta a Accenture an rufe kuma: babu shiga ɓoye, saboda babu abin da za a iya ɓoye.",
+        "Waɗannan huɗu kawai sune waɗanda ke da bayanan jama'a kafin/bayan. Ba su ne keɓantattu ba. Su ne misali. Hakanan, juyin baya yana aiki a ko'ina inda aka nuna tsarin, wanda shine mafi yawan wuraren da na yi aiki.",
+        "Ba a ɗauki mai tsara gine-gine aiki ba yanzu. Mai tsara gine-ginen shi ne mai iko."
+      ]
+    },
+    {
+      "slug": "deployment",
+      "title": "Aiwatarwa",
+      "kicker": "AIWATARWA",
+      "headings": [
+        "ƊAYA TSARIN GUDANARWA. <em>MAI DAUKAR DAUKINAKI DA DAMA.</em>"
+      ],
+      "paragraphs": [
+        "Ɗaya daga cikin tsarin mulki, yana gudana a duk mai bayarwa da ke hulɗa da shi. Wannan shi ne manufar ƙira a H&M, kuma yanzu yana aiki.",
+        "Akamai da Cloudflare suna a ɓangaren ƙarshe, suna shirya buƙatu kuma suna ɗaukar harin DDoS. Wani ɓangare mara uwar garke a MongoDB Atlas yana sarrafa bayanai da suka dace da GDPR a Turai; Salesforce yana ɗaukar ɓangaren CRM a Amurka. SAP har yanzu yana gudanar da tushen ERP na gargajiya, domin mallakar ƙasa ba ya nufin cire abin da yake aiki. Yana nufin mulkin sa. Genesis Mesh yana tsakiyar a matsayin ɓangaren haɗa kai, yana tabbatarwa, iyakancewa, soke, da kuma duba a kan Azure, GCP, VMware, da AWS a ƙasa da shi, tare da Ons Allouche a EY Stockholm yana tsara duk abin a ainihin lokacin.",
+        "Masu siyarwa daban-daban, girgije daban-daban, dokokin ƙasa daban-daban. Samfurin iko guda ɗaya yana haɗa su gaba ɗaya."
+      ]
+    },
+    {
+      "slug": "hardware",
+      "title": "Kayan aiki",
+      "kicker": "IKON KAYAN AIKI",
+      "headings": [
+        "BA SOFTWARE TAISA BA."
+      ],
+      "paragraphs": [
+        "Software ba za ta taɓa wadatarwa da kanta ba, idan chips ɗin da ke ƙasan ta har yanzu mallakar wani ne don sarrafawa.",
+        "Wannan shi ne TSWI, Tunisinan Sovereign Wafer Initiative: sayi commodity chiplets, yi interposer da AI logic a cikin gida, kuma mallaki gidan kayan aiki na marufi gaba daya. Tashar hanya tana gudana a matakai hudu: tabbatar da multi-chiplet don $5-10M a shekara ta farko, wafer na CPU-da-AI tare da pilot na Tunis don $30-60M a shekara ta biyu, wani sovereign AI cluster don $20-40M a shekara ta uku, da cikakken masana'anta don $150-300M a shekara ta hudu. Mataki na daya an kammala.",
+        "Abin da ya rage shi ne wani hub na marufi na wafer-scale mai buɗewa (open-source) tare da zama a EMEA, ikon rana, da fiye da rabin kudin lissafin kwamfuta da aka cire, wanda ake gudanarwa tare da Ons Allouche, wanda ke jagorantar bangaren masana'antu yayin da ni ke jagorantar fasaha."
+      ],
+      "statline": [
+        {
+          "label": "KUDIN SAMFURI",
+          "value": "~$185K"
+        },
+        {
+          "separator": true
+        },
+        {
+          "label": "FARASHIN MANUFI",
+          "value": "~$450K"
+        },
+        {
+          "separator": true
+        },
+        {
+          "label": "RIBI",
+          "value": "~58%"
+        },
+        {
+          "separator": true
+        },
+        {
+          "label": "CAAS",
+          "value": "~$45/hr vs AWS $98.32/hr"
+        }
+      ]
+    },
+    {
+      "slug": "coordination",
+      "title": "Haɗin kai",
+      "kicker": "HAƊIN KAI",
+      "headings": [
+        "SAI SAUKI <em>YA ZAMA TSARI DAYA.</em>"
+      ],
+      "paragraphs": [
+        "A ƙarshe, layukan sun daina zama ayyuka daban-daban kuma suka zama tsarin guda ɗaya. Aspayr yana sarrafa walat ɗin kuma yana daidaita a dukkan fannonin da yake shafar: tsarin gine-gine, kayan aiki, hanyoyin crypto, kiɗa da sauti, VR da Meta OS, yanar gizo da cibiyoyi, kimiyyar halittu da kayan sawa. TSWI yana samar da wafers, marufi, da sarrafa kwamfuta a ƙarƙashin komai. Genesis Mesh har yanzu yana yin abin da ya kasance yana yi koyaushe: tabbatarwa, iyakancewa, soke, bincike. Kuma H&M, tare da haɓaka jerin ayyukan gwamnati, shi ne inda duk uku suke gudana a zahiri.",
+        "Bayan 6 ga Maris, 2027, shirin shine TSWI mataki na biyu na tara kuɗi $30-60M, tare da MOU na Ma'aikatar Tunisia da AfDB a matsayin burin. Idan ya samu, zai nuna wani abu mafi girma fiye da kowanne yarjejeniya guda: cewa haɗin gwiwar Sinawa da Yammaci, aikin <a href='https://github.com/GenesisMeshLabs/genesis-quantum-lab' target='_blank' rel='noopener'>ƙididdigar quantum</a> wanda ya samo asali daga ginin Bluemix na 2016, tsarin kai tsaye, da kayan aikin da ƙasa ke mallaka za su iya aiki duk a ƙarƙashin wani tsarin gwamnati guda ɗaya."
+      ]
+    },
+    {
+      "slug": "the-choice",
+      "title": "Zaɓi",
+      "kicker": "ZAƁI",
+      "headings": [
+        "KADA KA KAWO KAWO <em>GOVENMENTI.</em>",
+        "Zaɓi don ƙarfin gudanar da gwamnati."
+      ],
+      "paragraphs": [
+        "Shekaru goma. Kusan duk manyan masu haɗa tsarin da na yi aiki a ciki, ba biyar ba, ba shida ba, dukkansu. Wani tsari da na rayu da shi kafin in samu suna a kai. Wata farashin tsaro da ba kawai tsammani ba. Kuma wata magani da tuni yana aiki a cikin samarwa.",
+        "Don haka kada ka yi kada kuri'a kawai don gwamnati. Yi kada kuri'a don ikon mulki: ikon da ake da shi na bincika wanda ke da iko, iyakance abin da za su iya yi da shi, soke shi da zarar wannan amincewar ta karye, da kuma duba tsarin don kada wani ya dauki kalmanka kawai.",
+        "<strong>Ɗauki iko. Kada ka ɗauki mai sayarwa.</strong>"
+      ],
+      "buttons": [
+        {
+          "label": "BI SAURAN GENESIS MESH ->",
+          "href": "https://dev.connectorzzz.com/",
+          "primary": true
+        },
+        {
+          "label": "DUBA ƘUNGIYAR BUDE-SOURCE ->",
+          "href": "https://github.com/GenesisMeshLabs"
+        }
+      ]
+    }
+  ]
+}

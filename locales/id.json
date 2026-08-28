@@ -1,0 +1,187 @@
+{
+  "meta": {
+    "title": "Genesis Mesh: Pemilihan 2026",
+    "description": "Kedaulatan dalam kode: ekstraksi IP institusional, otoritas yang dapat diverifikasi, dan kasus pemilihan 2026, diceritakan sebagai satu cerita."
+  },
+  "ui": {
+    "subtitle": "KEDAULATAN DALAM KODE / PEMILIHAN 2026",
+    "explore": "JELAJAHI ->",
+    "swipeHint": "<- geser untuk melanjutkan ->",
+    "goTo": "Pergi ke",
+    "searchLanguage": "Cari bahasa",
+    "chapters": "Bab",
+    "previous": "Sebelumnya",
+    "next": "Berikutnya"
+  },
+  "slides": [
+    {
+      "slug": "prologue",
+      "title": "Prolog",
+      "kicker": "PROLOGUE",
+      "headings": [
+        "KEDAULATAN SEKARANG <em>KODE.</em>"
+      ],
+      "paragraphs": [
+        "Saya membangun sistem sebelum saya memiliki nama untuk apa yang saya bangun. Sebuah hackathon di Mumbai, sketsa papan tulis yang berubah menjadi pola perusahaan otonom. Lalu, diam-diam, satu dekade di mana hampir setiap perusahaan yang saya sentuh menemukan cara untuk mempertahankan pola tersebut dan melupakan orang yang menggambarnya.",
+        "Pada saat Pemilu 2026 mulai terlihat, saya berhenti menceritakan ini sebagai kisah tentang pekerjaan. Ini telah menjadi kisah tentang siapa yang berhak mengatur infrastruktur yang mengatur semua orang lainnya.",
+        "Ini adalah cerita itu: pola, taruhannya, obat yang saya buat, dan pilihan yang sekarang ada di depan kita semua."
+      ],
+      "byline": {
+        "name": "THAER SAIDI",
+        "meta": "7 SEPTEMBER 2026 -> 6 MARET 2027 . BRIEF PUBLIK 26 / GENESIS MESH"
+      },
+      "buttons": [
+        {
+          "label": "JELAJAHI MESH ->",
+          "href": "https://dev.connectorzzz.com/",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "slug": "the-pattern",
+      "title": "Polanya",
+      "kicker": "POLANYA",
+      "headings": [
+        "PERTAMA, MEREKA MEREKRUT <em>ARSITEK.</em>"
+      ],
+      "paragraphs": [
+        "Semua ini dimulai di Mumbai, dalam sebuah hackathon yang saya menangkan sebelum istilah \"sistem perusahaan otonom\" digunakan orang. Prototipenya nyata, meskipun. TCS membawa pola ini ke tingkat global: sebuah hubungan selama sepuluh tahun, 2016 hingga 2026, dan faktur untuk pekerjaan awal itu masih terbuka.",
+        "Di tahun yang sama, 2016, saya juga sedang mengembangkan di IBM Bluemix: pekerjaan awal mengenai komputasi kuantum dan infrastruktur kripto, berjalan paralel dengan pola perusahaan. Ini adalah benang merah yang akhirnya menjadi lapisan kuantum milik Genesis Mesh, yang sekarang bersifat open-source di <a href='https://github.com/GenesisMeshLabs/genesis-quantum-lab' target='_blank' rel='noopener'>genesis-quantum-lab</a>.",
+        "Yang berikut adalah contoh, bukan keseluruhan cerita. Selama satu dekade keterlibatan, pola yang sama terulang dengan hampir semua integrator sistem besar yang saya temui, bukan hanya beberapa. Di Electrolux, Cognizant memegang akun tersebut dari 2017 hingga 2020, menyaksikan saya menerapkan pola cloud, DevOps, dan GDPR yang sesuai, lalu menggabungkannya ke dalam solusi paket tanpa nama saya di dalamnya. Accenture mengambil alih akun yang sama dan menanganinya dari 2017 hingga 2023: SAP di hypervisor, Akamai di tepi, mengubah arsitektur menjadi kontrak layanan terkelola selama enam tahun.",
+        "IBM Consulting datang pada tahun 2021, menempati gedung yang sama, dan pergi dengan portofolio IP dan pola AWS yang, menurut pengamatan saya sendiri, muncul kembali untuk dijual di platform Amazon. Nordcloud dan IBM mengikuti saya ke Volvo pada tahun 2023, di mana saya sedang merancang orkestrasi Tiongkok-Barat; apa yang meninggalkan gedung itu menjadi buku panduan integrasi milik Volvo sendiri. Pada tahun 2024, Crayon membuat saya merancang infrastruktur multi-cloud di seluruh ekosistem Microsoft.",
+        "Enam ini hanyalah nama-nama dengan tanggal yang terlampir. Mereka adalah kasus yang terdokumentasi, bukan kasus ekstrem. Pola yang sama terjadi hampir di setiap integrator sistem yang pernah saya tempati, di hampir setiap klien, selama satu dekade penuh. Menjelang 2025, hal itu memiliki nama yang tidak bisa saya lupakan: pekerjakan arsitek, ekstrak sistem, ganti arsitek."
+      ]
+    },
+    {
+      "slug": "the-stakes",
+      "title": "Taruhannya",
+      "kicker": "TARUHANNYA",
+      "headings": [
+        "LALU SAYA BERTANYA: <em>SIAPA YANG MENGENDALIKAN PEMILIHAN?</em>"
+      ],
+      "paragraphs": [
+        "Tidak secara hukum. Secara operasional. Integrator sistem Tier-1, seperti Accenture, IBM, TCS, Cognizant, dan pada dasarnya setiap rekan di tingkat itu, tidak hanya memberikan konsultasi pada infrastruktur pemilu; mereka merancang dan menjalankannya. Dan model yang memungkinkan mereka melakukan itu kepada saya, berulang kali, di hampir setiap dari mereka, adalah model yang sama yang berjalan di bawahnya: arsiteknya menghilang, dan vendor mewarisi pendapatan, akses, dan memori kelembagaan.",
+        "Itu adalah masalah bisnis sampai Anda menindaklanjutinya satu langkah lebih jauh. Seorang integrator sistem yang menyimpan kode yang diekstraknya secara diam-diam tidak lagi hanya menjadi risiko vendor. Jika suatu negara-negara pernah mengendalikan integrator itu, ia mewarisi semuanya yang telah diserap oleh integrator tersebut. Dan ketika mekanisme pemilihan berjalan melalui sistem yang dimiliki vendor, bersikap secara hukum independen tidak lagi sama dengan bersikap berdaulat secara operasional.",
+        "Ekstraksi, pada skala itu, hanyalah kontrol yang mengenakan kontrak layanan."
+      ]
+    },
+    {
+      "slug": "the-remedy",
+      "title": "Solusinya",
+      "kicker": "SOLUSINYA",
+      "headings": [
+        "JADI SAYA MEMBUAT <em>GENESIS MESH.</em>"
+      ],
+      "paragraphs": [
+        "Saya membuat sesuatu yang seharusnya mencegah hal itu terjadi pada saya, dan pada setiap orang yang infrastrukturnya sekarang bergantung pada jenis penyedia yang sama.",
+        "Genesis Mesh adalah lapisan kepercayaan dan otoritas untuk sistem otonom, dan ia berjalan berdasarkan empat kata kerja yang sekarang saya anggap tidak dapat dinegosiasikan. <strong>Verifikasi</strong>: setiap langkah dari manusia ke otoritas ke delegasi ke agen harus dapat dibuktikan. <strong>Batas</strong>: setiap aktor mendapatkan kemampuan yang terbatas, tidak pernah cek kosong. <strong>Cabut</strong>: kepercayaan dapat ditarik secara instan, tidak dinegosiasikan kembali. <strong>Audit</strong>: jejaknya tidak dapat diubah, dan berlaku di semua penyedia dalam tumpukan, bukan hanya yang ramah.",
+        "Kedaulatan, saya mulai percaya, bukanlah status hukum. Itu adalah kemampuan yang ada untuk memverifikasi, membatasi, mencabut, dan mengganti setiap penyedia yang Anda andalkan, berdasarkan syarat Anda, sesuai jadwal Anda."
+      ]
+    },
+    {
+      "slug": "the-reversal",
+      "title": "Pembalikan",
+      "kicker": "PEMBALIKAN",
+      "headings": [
+        "ARSITEK TIDAK LAGI DIPEKERJAKAN. <em>ARSITEK ADALAH OTORITAS.</em>"
+      ],
+      "paragraphs": [
+        "Bukti itu harus nyata, bukan teoretis, jadi saya menjalankannya kembali melalui perusahaan yang sama.",
+        "Di TCS, sistem otonom yang saya bangun dan tidak pernah dibayar sekarang sudah berjalan, implementasi H&amp;M, dijalankan di bawah otoritas arsitek, bukan kepemilikan vendor. Di IBM, pola yang saya tuduhkan dijual kembali melalui Amazon memiliki jawaban yang tervalidasi: model Volvo/Geely, open-source dan sepenuhnya dapat diaudit, tidak ada yang disembunyikan untuk diambil. Masalah ekstraksi simultan di Cognizant telah diselesaikan: Genesis Mesh tidak memungkinkan loop yang membuatnya terjadi. Dan enam tahun ekstraksi yang saya alami di Accenture juga telah ditutup: tidak ada akses tersembunyi, karena tidak ada yang tersisa untuk disembunyikan.",
+        "Keempat ini hanyalah yang memiliki data sebelum/sesudah yang dipublikasikan. Mereka bukan pengecualian. Mereka adalah demonstrasi. Pembalikan yang sama berlaku di mana pun pola itu muncul, yang merupakan sebagian besar tempat saya bekerja.",
+        "Arsitek tidak lagi dipekerjakan. Arsitek adalah otoritas."
+      ]
+    },
+    {
+      "slug": "deployment",
+      "title": "Penerapan",
+      "kicker": "PENERAPAN",
+      "headings": [
+        "SATU MODEL TATA KELOLA. <em>BANYAK PENYEDIA.</em>"
+      ],
+      "paragraphs": [
+        "Satu model tata kelola, berjalan di setiap penyedia yang terlibat. Itu adalah tujuan desain di H&amp;M, dan sekarang sudah diterapkan.",
+        "Akamai dan Cloudflare berada di tepi jaringan, mengarahkan permintaan dan menyerap lalu lintas DDoS. Lapisan tanpa server di MongoDB Atlas menangani data yang sesuai GDPR di Eropa; Salesforce mengelola lapisan CRM di AS. SAP masih menjalankan tulang punggung ERP warisan, karena kedaulatan tidak berarti menghapus apa yang sudah berfungsi. Itu berarti mengelolanya. Genesis Mesh berada di tengah sebagai lapisan orkestrasi, memverifikasi, membatasi, mencabut, dan melakukan audit di seluruh Azure, GCP, VMware, dan AWS di bawahnya, dengan Ons Allouche di EY Stockholm mengoordinasikan semuanya secara real time.",
+        "Vendor yang berbeda, cloud yang berbeda, yurisdiksi hukum yang berbeda. Satu model otoritas menahannya bersama."
+      ]
+    },
+    {
+      "slug": "hardware",
+      "title": "Perangkat Keras",
+      "kicker": "KEDAULATAN PERANGKAT KERAS",
+      "headings": [
+        "PERANGKAT LUNAK <em>TIDAK CUKUP.</em>"
+      ],
+      "paragraphs": [
+        "Perangkat lunak tidak akan pernah cukup sendiri, tidak jika chip di bawahnya masih dikendalikan oleh orang lain.",
+        "Itu adalah TSWI, Inisiatif Wafer Kedaulatan Tunisia: beli chiplet komoditas, buat interposer dan logika AI secara internal, dan miliki pabrik pengemasan secara penuh. Peta jalan berjalan dalam empat tahap: bukti multi-chiplet seharga $5-10 juta pada tahun pertama, wafer CPU-dan-AI dengan pilot Tunis seharga $30-60 juta pada tahun kedua, klaster AI kedaulatan seharga $20-40 juta pada tahun ketiga, dan fasilitas lengkap seharga $150-300 juta pada tahun keempat. Tahap pertama telah selesai.",
+        "Yang tersisa adalah pusat pengemasan berskala wafer open-source dengan domisili di EMEA, tenaga surya, dan lebih dari setengah biaya komputasi telah dihilangkan, didirikan bersama Ons Allouche, yang memimpin sisi industri sementara saya memimpin teknologi."
+      ],
+      "statline": [
+        {
+          "label": "HARGA POKOK UNIT",
+          "value": "~$185K"
+        },
+        {
+          "separator": true
+        },
+        {
+          "label": "HARGA TARGET",
+          "value": "~$450K"
+        },
+        {
+          "separator": true
+        },
+        {
+          "label": "MARGIN",
+          "value": "~58%"
+        },
+        {
+          "separator": true
+        },
+        {
+          "label": "CAAS",
+          "value": "~$45/hr vs AWS $98.32/hr"
+        }
+      ]
+    },
+    {
+      "slug": "coordination",
+      "title": "Koordinasi",
+      "kicker": "KOORDINASI",
+      "headings": [
+        "KEMUDIAN LAPISAN-LAPISAN <em>MENJADI SATU SISTEM.</em>"
+      ],
+      "paragraphs": [
+        "Akhirnya lapisan-lapisan itu berhenti menjadi proyek-proyek terpisah dan menjadi satu sistem. Aspayr menangani dompet dan berkoordinasi di setiap domain yang disentuhnya: infrastruktur, perangkat keras, jalur kripto, musik dan audio, VR dan Meta OS, dunia siber dan jaringan, bioteknologi dan perangkat yang dapat dikenakan. TSWI menyediakan wafer, kemasan, dan komputasi di bawah semuanya. Genesis Mesh tetap melakukan apa yang selalu dilakukannya: memverifikasi, membatasi, mencabut, mengaudit. Dan H&M, bersama dengan serangkaian implementasi pemerintah yang semakin luas, adalah tempat ketiganya benar-benar dijalankan.",
+        "Setelah 6 Maret 2027, rencananya adalah peningkatan fase-dua TSWI sebesar $30-60 juta, dengan Kementerian Tunisia dan MOU jangkar AfDB sebagai target. Jika tercapai, ini membuktikan sesuatu yang lebih besar daripada satu kesepakatan: bahwa integrasi Tiongkok-Barat, <a href='https://github.com/GenesisMeshLabs/genesis-quantum-lab' target='_blank' rel='noopener'>pekerjaan komputasi kuantum</a> yang menelusuri kembali ke pembangunan Bluemix 2016, sistem otonom, dan perangkat keras berdaulat semuanya bisa beroperasi di bawah satu model pemerintahan."
+      ]
+    },
+    {
+      "slug": "the-choice",
+      "title": "Pilihan",
+      "kicker": "PILIHAN",
+      "headings": [
+        "JANGAN HANYA MEMILIH <em>UNTUK PEMERINTAHAN.</em>",
+        "Pilihlah kapasitas untuk memerintah."
+      ],
+      "paragraphs": [
+        "Sepuluh tahun. Hampir setiap integrator sistem besar yang pernah saya kerjakan di dalamnya, bukan lima, bukan enam, semua. Pola yang saya alami sebelum saya punya nama untuk itu. Biaya keamanan yang tidak lagi hipotetis. Dan solusi yang sudah berjalan di produksi.",
+        "Jadi jangan hanya memilih pemerintah. Pilihlah kapasitas untuk memerintah: kemampuan yang ada untuk memverifikasi siapa yang memegang otoritas, membatasi apa yang bisa mereka lakukan dengannya, mencabutnya saat kepercayaan itu hilang, dan mengaudit jejaknya sehingga tidak ada yang harus hanya mengandalkan kata-kata Anda.",
+        "<strong>Pekerjakan otoritasnya. Bukan penjualnya.</strong>"
+      ],
+      "buttons": [
+        {
+          "label": "JELAJAHI GENESIS MESH ->",
+          "href": "https://dev.connectorzzz.com/",
+          "primary": true
+        },
+        {
+          "label": "LIHAT ORGANISASI OPEN-SOURCE ->",
+          "href": "https://github.com/GenesisMeshLabs"
+        }
+      ]
+    }
+  ]
+}

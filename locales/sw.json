@@ -1,0 +1,187 @@
+{
+  "meta": {
+    "title": "Genesis Mesh: Uchaguzi 2026",
+    "description": "Uhuru katika msimbo: uchimbaji wa IP wa kitaasisi, mamlaka yanayothibitishwa, na kesi ya uchaguzi 2026, ikisimulishwa kama hadithi moja."
+  },
+  "ui": {
+    "subtitle": "UHURU KATIKA MSIMBO / UCHAGUZI 2026",
+    "explore": "CHUNGUZA ->",
+    "swipeHint": "<- sukuma kuendelea ->",
+    "goTo": "Nenda kwenye",
+    "searchLanguage": "Tafuta lugha",
+    "chapters": "Sura",
+    "previous": "Iliyopita",
+    "next": "Ifuatayo"
+  },
+  "slides": [
+    {
+      "slug": "prologue",
+      "title": "Tangi la mwanzo",
+      "kicker": "UTANGULIZI",
+      "headings": [
+        "UPELELEZI SASA NI <em>MSINGI WA KODI.</em>"
+      ],
+      "paragraphs": [
+        "Nilijenga mifumo kabla sijaweka jina kwa kile nilichokuwa nikijenga. Shindano la hackathon huko Mumbai, mchoro wa bodi nyeupe uliogeuka kuwa mfano wa biashara ya kujitegemea. Kisha, kimya kimya, muongo mmoja ambapo karibu kila kampuni niliyoigusa ilipata njia ya kuweka mfano huo na kusahau mtu aliyochora.",
+        "Hadi uchaguzi wa 2026 ukaja machoni, nilikuwa nilisimama kuzungumza hii hadithi kama hadithi ya ajira. Ilikuwa imekuwa hadithi kuhusu nani anayepewa nafasi ya kusimamia miundombinu inayosimamia kila mtu mwingine.",
+        "Hii ndiyo hadithi hiyo: muundo, hatari, tiba niliyojenga, na chaguo sasa kilicho mbele yetu sote."
+      ],
+      "byline": {
+        "name": "THAER SAIDI",
+        "meta": "7 SEPT 2026 -> 6 MAR 2027 . TAFSIRI YA UMMA 26 / MESH YA GENESIS"
+      },
+      "buttons": [
+        {
+          "label": "CHUNGUZA MESH ->",
+          "href": "https://dev.connectorzzz.com/",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "slug": "the-pattern",
+      "title": "Muundo",
+      "kicker": "MUUNDO",
+      "headings": [
+        "KWANZA, WALIMUHAIRI <em>MCHORAJI WA MIUNDO.</em>"
+      ],
+      "paragraphs": [
+        "Ilianza huko Mumbai, katika hackathon niliyoshinda kabla ya maneno \"mfumo wa biashara huru\" kutumika na mtu yeyote. Lakini lebo la awali lilikuwa halisi. TCS ililetwa mtindo huo kimataifa: uhusiano wa miaka kumi, 2016 hadi 2026, na ankara kwa kazi ya awali bado iko wazi.",
+        "Mwaka huo huo, 2016, pia nilikuwa nikijenga kwenye IBM Bluemix: kazi za mapema za kompyuta za quantum na miundombinu ya crypto, zikifanyika sambamba na mtindo wa biashara. Ni mnyororo ule ule ulioishia kuwa safu ya quantum ya Genesis Mesh, ambayo sasa imewekwa wazi kwenye <a href='https://github.com/GenesisMeshLabs/genesis-quantum-lab' target='_blank' rel='noopener'>genesis-quantum-lab</a>.",
+        "Kinacho fuata ni mfano, sio hadithi kamili. Katika muongo wa mikutano, muundo ule ule ulirudiwa na karibu kila mchanganuzi mkubwa wa mifumo niliyeketi ndani yake, si wachache tu. Katika Electrolux, Cognizant ilikuwa na akaunti hiyo kuanzia 2017 hadi 2020, wakiwa wanangalia nikiunda mifumo ya wingu, DevOps, na inayolingana na GDPR, kisha kuiunganisha kuwa suluhisho lililopakiwa huku jina langu likiwepo popote. Accenture ilichukua akaunti ile ile na kuifanya kuanzia 2017 hadi 2023: SAP kwenye hypervisors, Akamai kwenye kingo, kugeuza usanifu kuwa mkataba wa huduma ulioendeshwa kwa miaka sita.",
+        "Consulting ya IBM ilifika mwaka 2021, ikajumuishwa ndani ya jengo lile lile, na ikaondoka ikiwa na mkusanyiko wa IP na mifumo ya AWS ambayo, kwa maelezo yangu mwenyewe, ilirudi kuuzwa kwenye majukwaa ya Amazon. Nordcloud na IBM walinifuata hadi Volvo mwaka 2023, ambapo nilikuwa nikibuni orchestration ya Kichina-Kiwest; kile kilichoondoka jengo lilikuwa kitabu cha kuunganishwa cha Volvo wenyewe. Kufikia mwaka 2024, Crayon ilikuwa ikinifanya nimbanishe miundombinu ya wingu nyingi katika mfumo wa Microsoft.",
+        "Hawa sita ni majina tu yenye tarehe zinazounganishwa. Hizi ndizo kesi zilizodokumentishwa, si kesi za kuwasha shaka. Muundo huo huo unaonekana karibu katika kila mjumbe wa mfumo niliyekuwepo naye, kwa karibu kila mteja, kwa mfululizo wa miaka kumi. Kufikia mwaka 2025 ilikuwa na jina ambalo singependa kuliona: ajiri mbunifu, toa mfumo, badilisha mbunifu."
+      ]
+    },
+    {
+      "slug": "the-stakes",
+      "title": "Vigezo",
+      "kicker": "VIGEZO",
+      "headings": [
+        "Kisha niliuliza: <em>NANI ANASIMAMIA CHAGUO?</em>"
+      ],
+      "paragraphs": [
+        "Sio kisheria. Kitaalamu. Waunganishi wa mifumo ya Kiwango-1, Accenture, IBM, TCS, Cognizant, na kimsingi kila mwenzake katika kiwango hicho, hawasaidii tu kuhusu miundombinu ya uchaguzi; wanaiunda na kuendesha. Na modeli ambayo iliruhusu wakufanye hivyo kwangu, mara kwa mara, karibu kila mmoja wao, ni modeli ile ile inayofanya kazi chini: mbunifu anapotea, na muuzaji anakabidhiwa mapato, upatikanaji, na kumbukumbu ya kiasasi.",
+        "Hiyo ni tatizo la biashara hadi utafute hatua moja zaidi. Mchanganuzi wa mifumo anayekaa juu ya msimbo aliyouchukua kimya kimya si tena hatari kwa muuzaji pekee. Ikiwa taifa lolote linapopata udhibiti wa mchanganuzi huyo, linapata kila kitu ambacho mchanganuzi huyo alikichukua. Na wakati mashine ya uchaguzi inapopita kupitia mifumo inayomilikiwa na muuzaji, kuwapo kisheria huru hakubaki kuwa sawa na kuwa huru kivitendo.",
+        "Utoaji, kwa kiwango hicho, ni kudhibiti kuvaa mkataba wa huduma."
+      ]
+    },
+    {
+      "slug": "the-remedy",
+      "title": "Dawa",
+      "kicker": "TIBU",
+      "headings": [
+        "HIVYO NILIJENGA <em>GENESIS MESH.</em>"
+      ],
+      "paragraphs": [
+        "Niligundua kitu ambacho kingeingiza tukio hilo lisitokee kwangu, na kwa kila mtu ambaye miundombinu yake sasa inategemea aina ile ile ya muuzaji.",
+        "Genesis Mesh ni tabaka la uaminifu na mamlaka kwa mifumo huru, na inaendeshwa kwa vitenzi vinne ambavyo sasa ninavizingatia kama havijakabiliana. <strong>Thibitisha</strong>: kila hatua kutoka binadamu hadi mamlaka hadi wawakilishi hadi wakala lazima iweze kuthibitishwa. <strong>Kikwazo</strong>: kila mchezaji anapata uwezo uliopunguzwa, kamwe si hundi tupu. <strong>Kufuta</strong>: uaminifu unaweza kuondolewa mara moja, si kujadiliwa upya. <strong>Kukagua</strong>: njia ni isiyobadilika, na inaendelea kushikilia kwa kila mtoa huduma katika safu, si ile tu ya kirafiki.",
+        "Uti wa mgongo wa taifa, nimeanza kuamini, si hali ya kisheria. Ni uwezo wa kudumu wa kuthibitisha, kupunguza, kufuta, na kubadilisha kila mtoa huduma unayemategemea, kwa masharti yako, kwa ratiba yako."
+      ]
+    },
+    {
+      "slug": "the-reversal",
+      "title": "Kigezo cha Kurudisha",
+      "kicker": "KIGEZO CHA KURUDISHA",
+      "headings": [
+        "MCHORAJI HAWATAJWA KAZI TENA. <em>MCHORAJI NDIO MAMLAKA.</em>"
+      ],
+      "paragraphs": [
+        "Uthibitisho ulilazimika kuwa halisi, si wa nadharia, kwa hivyo niliuendesha tena kupitia kampuni hizo zile zile.",
+        "Katika TCS, mifumo ya kiotomatiki niliyoijenga na niliyoshindwa kulipwa sasa, inaendesha kwa wakati halisi, utekelezaji wa H&M, ikipangwa chini ya mamlaka ya mbunifu, si umiliki wa muuzaji. Katika IBM, mfano niliodai ungeuzwa tena kupitia Amazon una jibu lililothibitishwa: mfano wa Volvo/Geely, ulio wazi kwa umma na unaoweza kuchunguzwa kikamilifu, hakuna kilichofichwa kilichobaki cha kutoa. Shida ya utoaji wa moja kwa moja ya Cognizant imefungwa: Genesis Mesh hairuhusu mzunguko uliouwezesha kutokea. Na utoaji wa miaka sita nilioupitia katika Accenture pia umefungwa: hakuna ufikiri wa siri, kwa sababu hakuna kilichobaki cha kuficha.",
+        "Hawa wanne ni wale tu wenye data ya umma kabla/baada. Sio tofauti. Ni maonyesho. Ubadilishanaji huo huo unatumika kila mahali ambapo muundo huo ulionekana, ambayo ni sehemu nyingi nilizofanyia kazi.",
+        "Mbunifu hakuaajiriwa tena. Mbunifu ndiye mamlaka."
+      ]
+    },
+    {
+      "slug": "deployment",
+      "title": "Utekelezaji",
+      "kicker": "UTEKELEZAJI",
+      "headings": [
+        "MFANO MMOJA WA USIMAMIZI. <em>WATOA HUDUMA WENGI.</em>"
+      ],
+      "paragraphs": [
+        "Mfumo mmoja wa uongozi, unaoendeshwa kwa kila mtoa huduma unaougna. Hilo ndilo lengo la muundo katika H&amp;M, na sasa linafanya kazi.",
+        "Akamai na Cloudflare ziko kwenye kingo, zikiongoza maombi na kupunguza trafiki ya DDoS. Tabaka lisilo na seva kwenye MongoDB Atlas linashughulikia data inayolingana na GDPR katika Ulaya; Salesforce inabeba tabaka la CRM huko Marekani. SAP bado inaendesha kiini cha ERP cha jadi, kwa sababu uhuru haimaanishi kutoa kile kinachofanya kazi. Inamaanisha kuikokotoa. Genesis Mesh inaweka katikati kama tabaka la uratibu, ikithibitisha, kikizuia, kukatisha, na kuakisi yote kwenye Azure, GCP, VMware, na AWS chini yake, huku Ons Allouche katika EY Stockholm akiratibu kila kitu kwa wakati halisi.",
+        "Wauzaji tofauti, wingu tofauti, mamlaka ya kisheria tofauti. Mfumo mmoja wa mamlaka ndio unaounganisha yote."
+      ]
+    },
+    {
+      "slug": "hardware",
+      "title": "Vifaa",
+      "kicker": "UHURU WA VIFAA",
+      "headings": [
+        "PROGRAMU HAIKUTOSHA <em>KABISA.</em>"
+      ],
+      "paragraphs": [
+        "Programu haikuwahi kutosha yenyewe, si kama vipengele vilivyoko chini yake bado vilikuwa vya mtu mwingine kudhibiti.",
+        "Hiyo ni TSWI, Mseto wa Hati za Kifahari za Tunisia: nunua vipande vya bidhaa, tengeneza interposer na mantiki ya AI ndani ya kampuni, na miliki kiwanda cha ufungaji kabisa. Ramani ya njia ina hatua nne: uthibitisho wa vipande vingi kwa $5-10M katika mwaka wa kwanza, waferi ya CPU-na-AI na piloti ya Tunisia kwa $30-60M mwaka wa pili, klasta ya AI huru kwa $20-40M mwaka wa tatu, na kiwanda kamili kwa $150-300M mwaka wa nne. Hatua ya kwanza imekamilika.",
+        "Kilichobaki ni kituo cha ufungaji cha kiwango cha waferi kilicho wazi, kilicho na makazi ya EMEA, nguvu ya jua, na zaidi ya nusu ya gharama ya kompyuta imeondolewa, kilianzishwa kwa kushirikiana na Ons Allouche, ambaye anaongoza upande wa viwanda wakati mimi ninaongoza teknolojia."
+      ],
+      "statline": [
+        {
+          "label": "GHAIRI YA KITENGENZI CHA UNITA",
+          "value": "~$185K"
+        },
+        {
+          "separator": true
+        },
+        {
+          "label": "BEI YA LENGO",
+          "value": "~$450K"
+        },
+        {
+          "separator": true
+        },
+        {
+          "label": "MARGINI",
+          "value": "~58%"
+        },
+        {
+          "separator": true
+        },
+        {
+          "label": "CAAS",
+          "value": "~$45/hr vs AWS $98.32/hr"
+        }
+      ]
+    },
+    {
+      "slug": "coordination",
+      "title": "Uratibu",
+      "kicker": "URATIBU",
+      "headings": [
+        "KISHA TABAKA ZILIKUA <em>SYSTEMU MOJA.</em>"
+      ],
+      "paragraphs": [
+        "Mwishowe tabaka hizo zalisimama kuwa mradi tofauti na kuwa mfumo mmoja. Aspayr inashughulikia pochi na kuratibu katika kila eneo ambalo inagusa: miundombinu, vifaa, reli za crypto, muziki na sauti, VR na Meta OS, mtandao na usalama wa mtandao, bioteknolojia na vifaa vinavyovutwa. TSWI inatoa wafers, ufungaji, na hesabu chini ya kila kitu. Genesis Mesh bado inafanya kile ilichokuwa ikifanya kila mara: kuthibitisha, kuweka kikomo, kufuta, ukaguzi. Na H&M, kando na seti inayopanuka ya uwekaji wa serikali, ndiyo mahali ambapo yote matatu yanaendesha kweli.",
+        "Baada ya Machi 6, 2027, mpango ni awamu ya pili ya TSWI ya kuongeza $30-60M, ukiwa na MOU ya Wizara ya Tunisia na AfDB kama lengo. Ikiwa itafanikiwa, inathibitisha jambo kubwa zaidi kuliko mkataba wowote: kwamba muunganiko wa Kichina-Magharibi, kazi ya <a href='https://github.com/GenesisMeshLabs/genesis-quantum-lab' target='_blank' rel='noopener'>kompyuta ya quantum</a> inayotolewa hadi ujenzi wa Bluemix wa 2016, mifumo ya kujitegemea, na vifaa vya kifalme vinaweza vyote kufanya kazi chini ya mfano mmoja wa utawala."
+      ]
+    },
+    {
+      "slug": "the-choice",
+      "title": "Chaguo",
+      "kicker": "CHAGUO",
+      "headings": [
+        "USICHEZE KURA TU <em>KWA SERIKALI.</em>",
+        "Kura kwa uwezo wa kuendesha serikali."
+      ],
+      "paragraphs": [
+        "Miaka kumi. Karibu kila mchanganyiko mkubwa wa mifumo niliyoshirikiana nayo, sio tano, sio sita, wote. Mlolongo nilioupitia kabla sijaona jina lake. Gharama ya usalama ambayo si ya nadharia tena. Na suluhisho ambalo tayari linafanya kazi katika uzalishaji.",
+        "Hivyo basi, usipige kura tu kwa serikali. Pige kura kwa uwezo wa kuendesha serikali: uwezo wa kudumu wa kuthibitisha nani anayeaminika, kuweka mipaka ya kile wanachoweza kufanya nacho, kuiondoa mara tu imani hayo yakivunjika, na kuchunguza mfuatano ili hakuna mtu anayehitaji kuamini neno lako.",
+        "<strong>Ajiri mamlaka. Sio muuzaji.</strong>"
+      ],
+      "buttons": [
+        {
+          "label": "CHUNGUZA GENESIS MESH ->",
+          "href": "https://dev.connectorzzz.com/",
+          "primary": true
+        },
+        {
+          "label": "TAZAMA SHIRIKA LA MSINGI WAZI ->",
+          "href": "https://github.com/GenesisMeshLabs"
+        }
+      ]
+    }
+  ]
+}

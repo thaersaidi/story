@@ -1,0 +1,187 @@
+{
+  "meta": {
+    "title": "Genesis Mesh: Wybory 2026",
+    "description": "Suwerenność w kodzie: instytucjonalne wydobycie własności intelektualnej, weryfikowalny autorytet i przypadek wyborów 2026, opowiedziany jako jedna historia."
+  },
+  "ui": {
+    "subtitle": "SURENNOŚĆ W KODZIE / WYBORY 2026",
+    "explore": "POZNAJ ->",
+    "swipeHint": "<- przesuń, aby kontynuować ->",
+    "goTo": "Przejdź do",
+    "searchLanguage": "Język wyszukiwania",
+    "chapters": "Rozdziały",
+    "previous": "Poprzedni",
+    "next": "Następny"
+  },
+  "slides": [
+    {
+      "slug": "prologue",
+      "title": "Prolog",
+      "kicker": "PROLOGON",
+      "headings": [
+        "SUWERENNOŚĆ TERAZ JEST <em>KODEM.</em>"
+      ],
+      "paragraphs": [
+        "Tworzyłem systemy, zanim miałem nazwę dla tego, co budowałem. Hackathon w Mumbaju, szkic na tablicy, który przerodził się w autonomiczny wzorzec przedsiębiorstwa. Potem, cicho, dekada, w której prawie każda firma, z którą miałem kontakt, znalazła sposób, aby zachować wzorzec i zapomnieć osobę, która go narysowała.",
+        "Gdy wybory w 2026 roku znalazły się w zasięgu wzroku, przestałem opowiadać to jako historię o zatrudnieniu. Stała się historią o tym, kto rządzi infrastrukturą, która rządzi wszystkimi pozostałymi.",
+        "To jest ta historia: wzorzec, stawki, środek zaradczy, który zbudowałem, i wybór, który teraz stoi przed nami wszystkimi."
+      ],
+      "byline": {
+        "name": "THAER SAIDI",
+        "meta": "7 WRZEŚNIA 2026 -> 6 MARCA 2027. PUBLICZNY BRIEF 26 / GENESIS MESH"
+      },
+      "buttons": [
+        {
+          "label": "POZNAJ MESH ->",
+          "href": "https://dev.connectorzzz.com/",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "slug": "the-pattern",
+      "title": "Wzorzec",
+      "kicker": "WZORZEC",
+      "headings": [
+        "NA POCZĄTKU ZATRUDNILI <em>ARCHITEKTA.</em>"
+      ],
+      "paragraphs": [
+        "Zaczęło się to w Mumbaju, podczas hackathonu, który wygrałem, zanim „autonomiczne systemy przedsiębiorstwa” stały się frazą, którą ktokolwiek używał. Prototyp był jednak prawdziwy. TCS przeniósł ten wzorzec na skalę globalną: dziesięcioletnia współpraca, od 2016 do 2026 roku, a faktura za te pierwotne prace nadal jest otwarta.",
+        "W tym samym roku, 2016, pracowałem również nad IBM Bluemix: wczesne prace nad obliczeniami kwantowymi i infrastrukturą kryptograficzną, prowadzone równolegle z wzorcem przedsiębiorstwa. To ta sama nić, która ostatecznie stała się własną warstwą kwantową Genesis Mesh, obecnie udostępnioną jako open-source pod <a href='https://github.com/GenesisMeshLabs/genesis-quantum-lab' target='_blank' rel='noopener'>genesis-quantum-lab</a>.",
+        "Poniższe jest przykładem, a nie pełnym opisem sytuacji. W ciągu dekady współpracy, ten sam schemat powtarzał się praktycznie z każdym dużym integratorem systemów, w którym pracowałem, nie tylko z kilkoma. W Electrolux, Cognizant miał konto w latach 2017–2020, obserwując jak wprowadzam rozwiązania chmurowe, DevOps i zgodne z RODO wzorce, a następnie łączył je w gotowe rozwiązanie bez mojego nazwiska. Accenture przejęło to samo konto i obsługiwało je w latach 2017–2023: SAP na hypervisorach, Akamai na krawędzi, przekształcając architekturę w sześciolatnią umowę na usługi zarządzane.",
+        "IBM Consulting przybyło w 2021 roku, osiedliło się w tym samym budynku i odeszło z portfolio własności intelektualnej i wzorców AWS, które, według mojej opinii, pojawiły się ponownie na sprzedaż na platformach Amazona. Nordcloud i IBM podążyły za mną do Volvo w 2023 roku, gdzie projektowałem chińsko-zachodnią orkiestrację; to, co opuściło budynek, stało się własną książką integracyjną Volvo. Do 2024 roku Crayon zaangażowało mnie w projektowanie infrastruktury multi-cloud w całym ekosystemie Microsoftu.",
+        "Te sześć to tylko nazwy z przypisanymi datami. To są udokumentowane przypadki, nie skrajne przypadki. Ten sam schemat przewija się przez niemal każdego integratora systemów, z którym byłem związany, u niemal każdego klienta, przez dekadę. Do 2025 roku miał to nazwę, której nie mogłem nie zauważyć: zatrudnij architekta, wyciągnij system, zastąp architekta."
+      ]
+    },
+    {
+      "slug": "the-stakes",
+      "title": "Stawki",
+      "kicker": "STAWKI",
+      "headings": [
+        "WTEDY ZAPYTAŁEM: <em>KTO KONTROLUJE WYBORY?</em>"
+      ],
+      "paragraphs": [
+        "Nie prawnie. Operacyjnie. Integratorzy systemów klasy Tier-1, tacy jak Accenture, IBM, TCS, Cognizant, i właściwie każdy ich odpowiednik w tym segmencie, nie tylko doradzają w sprawie infrastruktury wyborczej; oni ją projektują i obsługują. A model, który pozwalał im to robić wobec mnie, wielokrotnie, w niemal każdym przypadku, jest tym samym modelem działającym w tle: architekt znika, a dostawca dziedziczy przychody, dostęp i pamięć instytucjonalną.",
+        "To problem biznesowy, dopóki nie prześledzisz go o krok dalej. Integrator systemów posiadający kod, który cicho wyodrębnił, to już nie tylko ryzyko związane z dostawcą. Jeśli państwo narodowe kiedykolwiek uzyska kontrolę nad tym integratorem, przejmuje wszystko, co integrator przejął. A kiedy mechanizm wyborczy działa przez systemy należące do dostawcy, bycie prawnie niezależnym przestaje oznaczać bycie operacyjnie suwerennym.",
+        "Wyodrębnianie, w takiej skali, to tylko kontrola nosząca umowę serwisową."
+      ]
+    },
+    {
+      "slug": "the-remedy",
+      "title": "Remedium",
+      "kicker": "REMEDIUM",
+      "headings": [
+        "WIĘC STWORZYŁEM <em>GENESIS MESH.</em>"
+      ],
+      "paragraphs": [
+        "Zbudowałem coś, co powstrzymałoby to przed wydarzeniem się ze mną, i ze wszystkimi, których infrastruktura teraz zależy od tego samego rodzaju dostawcy.",
+        "Genesis Mesh to warstwa zaufania i autorytetu dla systemów autonomicznych, która działa na czterech czasownikach, które teraz uważam za niepodlegające negocjacjom. <strong>Weryfikuj</strong>: każdy krok od człowieka do autorytetu, przez delegację, aż po agenta musi być możliwy do udowodnienia. <strong>Ogranicz</strong>: każdy aktor ma określone możliwości, nigdy nie dostaje wolnej ręki. <strong>Cofnij</strong>: zaufanie może być natychmiast wycofane, nie renegocjowane. <strong>Audytuj</strong>: ścieżka jest niezmienna i obowiązuje w całym stosie, u każdego dostawcy, nie tylko przyjaznego.",
+        "Suwerenność, w którą zacząłem wierzyć, nie jest statusem prawnym. To zdolność do weryfikowania, ograniczania, cofania i zastępowania każdego dostawcy, na którym polegasz, na twoich warunkach, według twojego harmonogramu."
+      ]
+    },
+    {
+      "slug": "the-reversal",
+      "title": "Odwrócenie",
+      "kicker": "ODWRÓCENIE",
+      "headings": [
+        "ARCHITEKT NIE JEST JUŻ ZATRUDNIONY. <em>ARCHITEKT JEST AUTORYTETEM.</em>"
+      ],
+      "paragraphs": [
+        "Dowód musiał być rzeczywisty, a nie teoretyczny, więc przeprowadziłem go ponownie przez te same firmy.",
+        "W TCS, autonomiczne systemy, które zbudowałem i za które nigdy nie otrzymałem wynagrodzenia, są teraz na żywo, w implementacji H&amp;M, działając pod autorytetem architekta, a nie własnością dostawcy. W IBM, wzorzec, który rzekomo był odsprzedawany przez Amazon, ma potwierdzoną odpowiedź: model Volvo/Geely, otwartoźródłowy i w pełni audytowalny, nic ukrytego, co można by wydobyć. Problem jednoczesnego wydobycia w Cognizant został zamknięty: Genesis Mesh nie pozwala na pętlę, która to umożliwiała. A sześć lat wydobycia, przez które przechodziłem w Accenture, również zostało zamknięte: brak ukrytego dostępu, ponieważ nie ma niczego, co można by ukryć.",
+        "Te cztery to tylko te z danymi publicznymi przed/po. Nie są wyjątkiem. Są demonstracją. Ta sama zmiana obowiązuje wszędzie tam, gdzie wzorzec się pojawił, czyli w większości miejsc, w których pracowałem.",
+        "Architekt nie jest już zatrudniony. Architekt jest autorytetem."
+      ]
+    },
+    {
+      "slug": "deployment",
+      "title": "Wdrożenie",
+      "kicker": "WDROŻENIE",
+      "headings": [
+        "JEDEN MODEL ZARZĄDZANIA. <em>WIELU DOSTAWCÓW.</em>"
+      ],
+      "paragraphs": [
+        "Jeden model zarządzania, działający we wszystkich dostawcach, którzy mają z nim kontakt. To był cel projektowy w H&amp;M i jest już wdrożony.",
+        "Akamai i Cloudflare znajdują się na krawędzi, kierując żądania i absorbując ruch DDoS. Warstwa bezserwerowa na MongoDB Atlas obsługuje dane zgodne z RODO w Europie; Salesforce zarządza warstwą CRM w USA. SAP nadal obsługuje starą infrastrukturę ERP, ponieważ suwerenność nie oznacza usuwania tego, co działa. Oznacza to zarządzanie tym. Genesis Mesh znajduje się pośrodku jako warstwa orkiestracji, weryfikując, ograniczając, cofając i audytując w całym Azure, GCP, VMware i AWS poniżej, a Ons Allouche w EY Sztokholm koordynuje wszystko w czasie rzeczywistym.",
+        "Różni dostawcy, różne chmury, różne jurysdykcje prawne. Jeden model autorytetu to spaja."
+      ]
+    },
+    {
+      "slug": "hardware",
+      "title": "Sprzęt",
+      "kicker": "SUWERENNOŚĆ SPRZĘTOWA",
+      "headings": [
+        "OPROGRAMOWANIE <em>NIE WYSTARCZAŁO.</em>"
+      ],
+      "paragraphs": [
+        "Oprogramowanie nigdy nie miało wystarczyć samo w sobie, nie jeśli układy pod spodem nadal byłyby czyjąś własnością do kontrolowania.",
+        "To jest TSWI, Tunezyjska Suwerenna Inicjatywa Waferowa: kup chipy-komponenty, zrób samodzielnie interposer i logikę AI oraz posiadaj fabrykę pakującą na własność. Plan działania składa się z czterech etapów: wieloczłonowy proof-of-concept za 5-10 mln USD w pierwszym roku, wafer CPU i AI z tunezyjskim pilotem za 30-60 mln USD w drugim roku, suwerenny klaster AI za 20-40 mln USD w trzecim roku oraz pełny zakład za 150-300 mln USD w czwartym roku. Faza pierwsza jest zakończona.",
+        "Pozostało stworzenie otwartego, waferowej skali centrum pakowania z siedzibą w EMEA, zasilaniem słonecznym i usunięciem ponad połowy kosztów obliczeniowych, współzałożone z Onsem Allouche, który prowadzi stronę przemysłową, podczas gdy ja kieruję technologią."
+      ],
+      "statline": [
+        {
+          "label": "KOSZT JEDNOSTKOWY",
+          "value": "~$185K"
+        },
+        {
+          "separator": true
+        },
+        {
+          "label": "CENA DOCZELOWA",
+          "value": "~$450K"
+        },
+        {
+          "separator": true
+        },
+        {
+          "label": "MARŻA",
+          "value": "~58%"
+        },
+        {
+          "separator": true
+        },
+        {
+          "label": "CAAS",
+          "value": "~$45/hr vs AWS $98.32/hr"
+        }
+      ]
+    },
+    {
+      "slug": "coordination",
+      "title": "Koordynacja",
+      "kicker": "KOORDYNACJA",
+      "headings": [
+        "WTEDY WARSTWY <em>STAŁY SIĘ JEDNYM SYSTEMEM.</em>"
+      ],
+      "paragraphs": [
+        "Ostatecznie warstwy przestały być oddzielnymi projektami i stały się jednym systemem. Aspayr zajmuje się portfelem i koordynuje działania we wszystkich dziedzinach, które dotyka: infrastruktura, sprzęt, systemy kryptograficzne, muzyka i audio, VR i Meta OS, cybernetyka i sieci, biotechnologia i urządzenia noszone. TSWI dostarcza wafle, opakowania oraz moc obliczeniową pod wszystkimi warstwami. Genesis Mesh nadal robi to, co zawsze robił: weryfikuje, ogranicza, cofa, przeprowadza audyty. A H&M, razem z coraz szerszym zestawem wdrożeń rządowych, to miejsce, gdzie wszystkie trzy rzeczywiście działają.",
+        "Po 6 marca 2027, planowany jest drugi etap pozyskania środków przez TSWI w wysokości 30–60 mln USD, z celem w postaci memorandum o charakterze kotwiczącym z Tunezyjskim Ministerstwem i AfDB. Jeśli się powiedzie, udowadnia to coś większego niż jakakolwiek pojedyncza transakcja: że integracja chińsko-zachodnia, <a href='https://github.com/GenesisMeshLabs/genesis-quantum-lab' target='_blank' rel='noopener'>prace nad komputerami kwantowymi</a> sięgające budowy Bluemix w 2016 roku, systemy autonomiczne i suwerenny sprzęt mogą działać w ramach jednego modelu zarządzania."
+      ]
+    },
+    {
+      "slug": "the-choice",
+      "title": "Wybór",
+      "kicker": "WYBÓR",
+      "headings": [
+        "NIE GŁOSUJ TYLKO <em>NA RZĄD.</em>",
+        "Głosuj na zdolność do rządzenia."
+      ],
+      "paragraphs": [
+        "Dziesięć lat. Praktycznie każdy większy integrator systemów, w którym pracowałem, nie pięciu, nie sześciu, wszyscy. Wzorzec, przez który przeszedłem, zanim nadałem mu nazwę. Koszt bezpieczeństwa, który nie jest już hipotetyczny. I rozwiązanie, które już działa w produkcji.",
+        "Więc nie głosuj tylko na rząd. Głosuj na zdolność do rządzenia: stałą umiejętność weryfikowania, kto posiada władzę, ograniczania tego, co mogą z nią zrobić, cofania jej w momencie, gdy zaufanie zostanie naruszone, oraz audytowania ścieżki, aby nikt nie musiał polegać tylko na Twoim słowie.",
+        "<strong>Najmij władzę. Nie dostawcę.</strong>"
+      ],
+      "buttons": [
+        {
+          "label": "POZNAJ GENESIS MESH ->",
+          "href": "https://dev.connectorzzz.com/",
+          "primary": true
+        },
+        {
+          "label": "ZOBACZ ORGANIZACJĘ OPEN-SOURCE ->",
+          "href": "https://github.com/GenesisMeshLabs"
+        }
+      ]
+    }
+  ]
+}

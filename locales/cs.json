@@ -1,0 +1,187 @@
+{
+  "meta": {
+    "title": "Genesis Mesh: Volby 2026",
+    "description": "Svrchovanost v kódu: institucionální extrakce IP, ověřitelná autorita a případ voleb 2026, vyprávěný jako jeden příběh."
+  },
+  "ui": {
+    "subtitle": "SVRCHOVANOST V KÓDU / VOLBY 2026",
+    "explore": "PROZKOUMEJ ->",
+    "swipeHint": "<- přejetím pokračujte ->",
+    "goTo": "Jít na",
+    "searchLanguage": "Jazyk hledání",
+    "chapters": "Kapitoly",
+    "previous": "Předchozí",
+    "next": "Další"
+  },
+  "slides": [
+    {
+      "slug": "prologue",
+      "title": "Prolog",
+      "kicker": "PROLOGUE",
+      "headings": [
+        "SUVERÉNNOST JE NYNÍ <em>KÓDEM.</em>"
+      ],
+      "paragraphs": [
+        "Budoval jsem systémy, ještě než jsem měl pojmenování pro to, co stavím. Hackathon v Bombaji, skica na tabuli, která se proměnila v autonomní podnikatelský vzor. Pak, tiše, dekáda, během které téměř každá firma, kterou jsem se dotkl, našla způsob, jak zachovat vzor a zapomenout na osobu, která ho nakreslila.",
+        "Když se blížily volby 2026, přestal jsem vyprávět tento příběh jako příběh o zaměstnání. Stal se příběhem o tom, kdo má právo spravovat infrastrukturu, která spravuje všechny ostatní.",
+        "To je ten příběh: vzorec, sázky, prostředek, který jsem vytvořil, a volba, která je nyní před námi všemi."
+      ],
+      "byline": {
+        "name": "THAER SAIDI",
+        "meta": "7. ZÁŘÍ 2026 -> 6. BŘEZNA 2027 . VEŘEJNÁ ZPRÁVA 26 / GENESIS MESH"
+      },
+      "buttons": [
+        {
+          "label": "PROZKOUMEJTE SÍŤ ->",
+          "href": "https://dev.connectorzzz.com/",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "slug": "the-pattern",
+      "title": "Vzor",
+      "kicker": "VZOR",
+      "headings": [
+        "NEJDŘÍVE NAJALI <em>ARCHITEKTA.</em>"
+      ],
+      "paragraphs": [
+        "Začalo to v Bombaji, na hackathonu, který jsem vyhrál dříve, než někdo používal výraz „autonomní podnikové systémy“. Prototyp však byl skutečný. TCS vzal tento vzor na celosvětovou úroveň: desetiletý vztah, 2016 až 2026, a faktura za tu původní práci je stále otevřená.",
+        "Ve stejném roce, 2016, jsem také pracoval na IBM Bluemix: časné práce na kvantovém počítání a kryptoinfrastruktuře, běžící paralelně s firemním vzorem. Je to stejná nit, která se nakonec stala kvantovou vrstvou Genesis Mesh, nyní otevřeně zveřejněnou na <a href='https://github.com/GenesisMeshLabs/genesis-quantum-lab' target='_blank' rel='noopener'>genesis-quantum-lab</a>.",
+        "Co následuje, je ukázka, nikoli celý popis. Během desetiletí zapojení se stejný vzorec opakoval prakticky u každého hlavního systémového integrátora, u kterého jsem pracoval, nejen u několika málo. V Electroluxu měl Cognizant účet od roku 2017 do roku 2020, sledoval, jak zavádím cloud, DevOps a vzory v souladu s GDPR, a pak je začlenil do balíčkového řešení, aniž by se někde objevilo mé jméno. Accenture převzala stejný účet a pracovala s ním od roku 2017 do roku 2023: SAP na hypervisorech, Akamai na okraji sítě, přeměnila architekturu na šestiletou smlouvu o spravovaných službách.",
+        "IBM Consulting přišla v roce 2021, zabydlela se ve stejné budově a odešla s portfoliem IP a AWS vzorů, které se podle mého vlastního vyjádření znovu objevily k prodeji na platformách Amazonu. Nordcloud a IBM mě následovali do Volva v roce 2023, kde jsem navrhoval čínsko-západní orchestraci; to, co opustilo budovu, se stalo vlastním integračním manuálem Volva. Do roku 2024 mě Crayon zaměstnal jako architekta multi-cloud infrastruktury napříč ekosystémem Microsoftu.",
+        "Tato šestice jsou jen jména s připojenými daty. Jsou to zdokumentované případy, ne okrajové situace. Stejný vzorec se objevuje téměř u každého integrátora systémů, se kterým jsem byl nasazen, u téměř každého klienta, po celých deset let. Do roku 2025 to získalo jméno, které jsem už nemohl ignorovat: najměte architekta, vyjměte systém, nahraďte architekta."
+      ]
+    },
+    {
+      "slug": "the-stakes",
+      "title": "Stav sázek",
+      "kicker": "STAV SÁZEK",
+      "headings": [
+        "POTÉ JSEM SE PTAL: <em>KDO ŘÍDÍ VOLBY?</em>"
+      ],
+      "paragraphs": [
+        "Ne legálně. Prakticky. Integrátoři systémů první úrovně, Accenture, IBM, TCS, Cognizant a prakticky každý jejich vrstevník, se nejenže poradí ohledně volební infrastruktury; oni ji navrhují a provozují. A model, který jim umožnil dělat to se mnou, opakovaně, téměř u každého z nich, je stejný model běžící v pozadí: architekt zmizí a dodavatel přebírá příjmy, přístup a institucionální paměť.",
+        "To je obchodní problém, dokud ho nesledujete o krok dál. Systémový integrátor, který sedí na kódu, který tiše extrahoval, už není jen obchodní riziko dodavatele. Pokud by nějaký stát někdy získal kontrolu nad tímto integrátorem, zdědí vše, co integrátor absorboval. A když se vybavení volebního procesu spouští přes systémy vlastněné dodavatelem, být právně nezávislý přestává být totéž, co být provozně suverénní.",
+        "Extrahování v takovém měřítku je jen kontrola, která nosí smlouvu o službách."
+      ]
+    },
+    {
+      "slug": "the-remedy",
+      "title": "Řešení",
+      "kicker": "ŘEŠENÍ",
+      "headings": [
+        "TAK JSEM POSTAVIL <em>GENESIS MESH.</em>"
+      ],
+      "paragraphs": [
+        "Postavil jsem věc, která by tomu zabránila stát se mně i všem, jejichž infrastruktura nyní závisí na stejném typu dodavatele.",
+        "Genesis Mesh je vrstva důvěry a autority pro autonomní systémy a funguje na čtyřech slovesech, která nyní považuji za nepřekročitelná. <strong>Ověřit</strong>: každý krok od člověka k autoritě, k delegaci až k agentovi musí být prokazatelný. <strong>Omezit</strong>: každý aktér má omezené oprávnění, nikdy prázdný šek. <strong>Odvolat</strong>: důvěru lze okamžitě stáhnout, nikoli přejednat. <strong>Auditovat</strong>: stopa je neměnná a platí napříč všemi poskytovateli ve struktuře, nejen těmi přátelskými.",
+        "Suverenitu jsem začal vnímat jako něco jiného než právní status. Je to schopnost ověřovat, omezovat, odvolávat a nahrazovat každého poskytovatele, na kterého spoléháte, podle vašich podmínek a v rámci vašeho časového plánu."
+      ]
+    },
+    {
+      "slug": "the-reversal",
+      "title": "Obrácení",
+      "kicker": "OBRÁCENÍ",
+      "headings": [
+        "ARCHITEKT UŽ NENÍ NAJAT. <em>ARCHITEKT JE AUTORITOU.</em>"
+      ],
+      "paragraphs": [
+        "Důkaz musel být skutečný, ne teoretický, takže jsem to znovu poslal přes stejné společnosti.",
+        "V TCS jsou autonomní systémy, které jsem vytvořil a za něž mi nikdy nebylo zaplaceno, nyní v provozu u implementace H&amp;M, běžící pod autoritou architekta, nikoli vlastnictvím dodavatele. V IBM je vzor, který jsem tvrdil, že byl prodán přes Amazon, potvrzenou odpovědí: model Volvo/Geely, otevřený a plně auditovatelný, nic skrytého nezůstalo k získání. Problém simultánního získávání dat u Cognizant je uzavřen: Genesis Mesh neumožňuje smyčku, která k tomu vedla. A šestileté získávání dat, které jsem zažil u Accenture, je také uzavřeno: žádný skrytý přístup, protože už není co skrývat.",
+        "Tito čtyři jsou jen ti, kteří mají veřejná data před/zapojením. Nejsou výjimkou. Jsou ukázkou. Stejné obrácení platí všude, kde se vzorec objevil, tedy ve většině míst, kde jsem pracoval.",
+        "Architekt už není najímán. Architekt je autoritou."
+      ]
+    },
+    {
+      "slug": "deployment",
+      "title": "Nasazení",
+      "kicker": "NASAZENÍ",
+      "headings": [
+        "JEDEN MODEL SPRÁVY. <em>MNOHO POSKYTOVATELŮ.</em>"
+      ],
+      "paragraphs": [
+        "Jeden model správy, který funguje u každého poskytovatele, který se ho dotýká. To byl designový cíl ve společnosti H&amp;M, a je nyní v provozu.",
+        "Akamai a Cloudflare sedí na okraji, směrují požadavky a absorbují DDoS provoz. Serverless vrstva na MongoDB Atlas zpracovává údaje v souladu s GDPR v Evropě; Salesforce zajišťuje CRM vrstvu v USA. SAP stále provozuje starší ERP páteř, protože suverenita neznamená vytrhnout to, co funguje. Znamená to to spravovat. Genesis Mesh sedí uprostřed jako orchestrátorská vrstva, ověřuje, omezuje, odvolává a provádí audity napříč Azure, GCP, VMware a AWS pod ní, přičemž Ons Allouche z EY Stockholm koordinuje všechno v reálném čase.",
+        "Různí dodavatelé, různé cloudy, různé právní jurisdikce. Jeden model autority to drží pohromadě."
+      ]
+    },
+    {
+      "slug": "hardware",
+      "title": "Hardware",
+      "kicker": "SOVĚRSTVÍ HARDWARE",
+      "headings": [
+        "SOFTWARE NEBYL <em>DOSTATEČNÝ.</em>"
+      ],
+      "paragraphs": [
+        "Software nikdy sám o sobě nebude dostatečný, pokud čipy pod ním stále patří někomu jinému, kdo je ovládá.",
+        "To je TSWI, Tuniská suverénní waferová iniciativa: kupte commodity čiplety, vyrobte interposer a AI logiku interně a vlastníte zcela balicí továrnu. Plán zahrnuje čtyři fáze: multi-čipletový důkaz konceptu za 5–10 milionů dolarů v prvním roce, CPU-a-AI wafer s tuniským pilotním projektem za 30–60 milionů dolarů ve druhém roce, suverénní AI cluster za 20–40 milionů dolarů ve třetím roce a plné zařízení za 150–300 milionů dolarů ve čtvrtém roce. První fáze je hotová.",
+        "Co zbývá, je open-source waferové balicí centrum s pobytem v EMEA, solární energií a více než polovinou nákladů na výpočetní výkon odstraněnou, spoluzaložené s Onsem Allouchem, který vede průmyslovou část, zatímco já vedu technologii."
+      ],
+      "statline": [
+        {
+          "label": "NÁKLADY NA JEDNOTKU",
+          "value": "~$185K"
+        },
+        {
+          "separator": true
+        },
+        {
+          "label": "CÍLOVÁ CENA",
+          "value": "~$450K"
+        },
+        {
+          "separator": true
+        },
+        {
+          "label": "MARŽE",
+          "value": "~58%"
+        },
+        {
+          "separator": true
+        },
+        {
+          "label": "CAAS",
+          "value": "~$45/hr vs AWS $98.32/hr"
+        }
+      ]
+    },
+    {
+      "slug": "coordination",
+      "title": "Koordinace",
+      "kicker": "KOORDINACE",
+      "headings": [
+        "PAK SE VRSTVY <em>STALY JEDNÍM SYSTÉMEM.</em>"
+      ],
+      "paragraphs": [
+        "Nakonec vrstvy přestaly být samostatnými projekty a staly se jedním systémem. Aspayr se stará o peněženku a koordinuje napříč všemi oblastmi, jichž se dotýká: infrastruktura, hardware, kryptoraily, hudba a zvuk, VR a Meta OS, kybernetika a sítě, biotechnologie a nositelná zařízení. TSWI dodává wafle, balení a výpočetní výkon pod vším. Genesis Mesh stále dělá to, co vždy dělal: ověřuje, omezuje, odvolává, audit. A H&M, spolu s rostoucím počtem vládních nasazení, je místo, kde všechny tři skutečně běží.",
+        "Po 6. březnu 2027 je plánem fáze dva TSWI navýšení o 30–60 milionů dolarů, s cílem uzavřít MOU s tuniským ministerstvem a AfDB jako kotvou. Pokud se to podaří, dokazuje to něco většího než kterýkoli jednotlivý obchod: že čínsko-západní integrace, <a href='https://github.com/GenesisMeshLabs/genesis-quantum-lab' target='_blank' rel='noopener'>kvantové počítačové</a> práce, které sahají až k výstavbě Bluemix z roku 2016, autonomní systémy a suverénní hardware mohou všechny fungovat pod jedním modelem řízení."
+      ]
+    },
+    {
+      "slug": "the-choice",
+      "title": "Volba",
+      "kicker": "VOLBA",
+      "headings": [
+        "NEHLASUJTE JEN <em>PRO VLÁDU.</em>",
+        "Hlasujte pro schopnost vládnout."
+      ],
+      "paragraphs": [
+        "Deset let. Prakticky ve všech hlavních systémech, ve kterých jsem pracoval, ne v pěti, ne v šesti, ve všech. Vzor, kterým jsem prošel, než jsem mu dal název. Bezpečnostní náklad, který už není hypotetický. A opatření, které už běží v provozu.",
+        "Takže nehlasujte jen pro vládu. Hlasujte pro schopnost vládnout: stálu schopnost ověřit, kdo má pravomoc, omezit, co s ní mohou dělat, odvolat ji ve chvíli, kdy se důvěra zlomí, a auditovat stopu, aby nikdo nemusel jen věřit vašim slovům.",
+        "<strong>Najměte pravomoc. Ne dodavatele.</strong>"
+      ],
+      "buttons": [
+        {
+          "label": "PROZKOUMEJTE GENESIS MESH ->",
+          "href": "https://dev.connectorzzz.com/",
+          "primary": true
+        },
+        {
+          "label": "PROHLÉDNOUT OTEVŘENOU ORGANIZACI ->",
+          "href": "https://github.com/GenesisMeshLabs"
+        }
+      ]
+    }
+  ]
+}

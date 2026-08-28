@@ -1,0 +1,187 @@
+{
+  "meta": {
+    "title": "Genesis Mesh: Alegerile 2026",
+    "description": "Suveranitate în cod: extragerea instituțională a IP, autoritate verificabilă și cazul alegerilor din 2026, prezentat ca o singură poveste."
+  },
+  "ui": {
+    "subtitle": "SUVENANITATE ÎN COD / ALEGERILE 2026",
+    "explore": "EXPLORAȚI ->",
+    "swipeHint": "<- glisați pentru a continua ->",
+    "goTo": "Mergi la",
+    "searchLanguage": "Limba de căutare",
+    "chapters": "Capitole",
+    "previous": "Anterior",
+    "next": "Următorul"
+  },
+  "slides": [
+    {
+      "slug": "prologue",
+      "title": "Prolog",
+      "kicker": "PROLOG",
+      "headings": [
+        "SUVERANITATEA ESTE ACUM <em>COD.</em>"
+      ],
+      "paragraphs": [
+        "Am construit sisteme înainte să am un nume pentru ceea ce construieam. Un hackathon în Mumbai, un schiț de pe tablă care s-a transformat într-un model de întreprindere autonomă. Apoi, pe ascuns, un deceniu în care aproape fiecare companie pe care am atins-o a găsit o cale de a păstra modelul și de a uita persoana care l-a desenat.",
+        "Până când alegerile din 2026 au intrat în vedere, am încetat să mai povestesc asta ca o poveste despre angajare. A devenit o poveste despre cine ajunge să guverneze infrastructura care guvernează pe toți ceilalți.",
+        "Aceasta este acea poveste: tiparul, mizele, remediul pe care l-am construit și alegerea care se află acum în fața noastră tuturor."
+      ],
+      "byline": {
+        "name": "THAER SAIDI",
+        "meta": "7 SEPTEMBRIE 2026 -> 6 MARTIE 2027. INFORMAȚII PUBLICE 26 / GENESIS MESH"
+      },
+      "buttons": [
+        {
+          "label": "EXPLORAȚI MESH ->",
+          "href": "https://dev.connectorzzz.com/",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "slug": "the-pattern",
+      "title": "Tiparul",
+      "kicker": "TIPARUL",
+      "headings": [
+        "MAI ÎNTÂI, AU ANGAJAT <em>ARHITECTUL.</em>"
+      ],
+      "paragraphs": [
+        "A început în Mumbai, într-un hackathon pe care l-am câștigat înainte ca „sisteme autonome de întreprindere” să fie o expresie folosită de cineva. Prototipul era real, totuși. TCS a dus modelul la nivel global: o relație de zece ani, 2016 până în 2026, iar factura pentru munca originală este încă deschisă.",
+        "În același an, 2016, construisem de asemenea pe IBM Bluemix: lucrări timpurii de calcul cuantic și infrastructura crypto, rulând în paralel cu modelul de întreprindere. Este același fir care, în cele din urmă, a devenit propriul strat cuantic al Genesis Mesh, acum open-source la <a href='https://github.com/GenesisMeshLabs/genesis-quantum-lab' target='_blank' rel='noopener'>genesis-quantum-lab</a>.",
+        "Ceea ce urmează este un exemplu, nu relatarea completă. În decursul unui deceniu de colaborări, același tipar s-a repetat practic cu fiecare integrator major de sisteme la care am lucrat, nu doar cu câțiva. La Electrolux, Cognizant a gestionat contul din 2017 până în 2020, urmărindu-mă cum stabileam modele cloud, DevOps și conforme cu GDPR, apoi le integra într-o soluție pachetizată fără ca numele meu să fie menționat. Accenture a preluat același cont și l-a gestionat din 2017 până în 2023: SAP pe hypervisori, Akamai la margine, transformând arhitectura într-un contract de servicii gestionate pe șase ani.",
+        "IBM Consulting a sosit în 2021, fiind integrată în aceeași clădire, și a plecat cu un portofoliu de IP și modele AWS care, după propria mea evaluare, au reapărut pentru revânzare pe platformele Amazon. Nordcloud și IBM m-au urmărit la Volvo în 2023, unde proiectam orchestrarea chino-occidentală; ceea ce a părăsit clădirea a devenit propriul manual de integrare al Volvo. Până în 2024, Crayon mă avea să proiectez infrastructură multi-cloud în întreaga ecosistem Microsoft.",
+        "Aceștia șase sunt doar numele cu date atașate. Sunt cazurile documentate, nu cazurile marginase. Același tipar se regăsește în aproape toți integratorii de sisteme cu care am lucrat, la aproape fiecare client, timp de un deceniu. Până în 2025, avea un nume pe care nu-l mai puteam ignora: angajează arhitectul, extrage sistemul, înlocuiește arhitectul."
+      ]
+    },
+    {
+      "slug": "the-stakes",
+      "title": "Mizele",
+      "kicker": "MIZELE",
+      "headings": [
+        "ATUNCI AM ÎNTREBAT: <em>CINE CONTROLEAZĂ ALEGERILE?</em>"
+      ],
+      "paragraphs": [
+        "Nu legal. Operațional. Integratorii de sisteme de nivel 1, Accenture, IBM, TCS, Cognizant și practic toți colegii din acest nivel, nu doar consultă în privința infrastructurii electorale; ei o proiectează și o gestionează. Și modelul care le-a permis să facă asta asupra mea, în mod repetat, aproape la fiecare dintre ei, este același model care funcționează în fundal: arhitectul dispare, iar furnizorul moștenește venitul, accesul și memoria instituțională.",
+        "Aceasta este o problemă de afaceri până când o urmezi un pas mai departe. Un integrator de sisteme care deține cod pe care l-a extras în liniște nu mai reprezintă doar un risc legat de furnizor. Dacă vreodată un stat-națiune preia controlul asupra acelui integrator, moștenește tot ceea ce integratorul a absorbit. Și când mecanismul unei alegeri trece prin sistemele deținute de furnizori, faptul de a fi independent din punct de vedere legal nu mai înseamnă același lucru cu a fi suveran operațional.",
+        "Extracția, la această scară, este doar controlul care poartă un contract de servicii."
+      ]
+    },
+    {
+      "slug": "the-remedy",
+      "title": "Remediul",
+      "kicker": "REMEDIUL",
+      "headings": [
+        "AȘADAR, AM CONSTRUIT <em>GENESIS MESH.</em>"
+      ],
+      "paragraphs": [
+        "Am construit lucrul care ar fi împiedicat să mi se întâmple mie, și tuturor celor a căror infrastructură depinde acum de același tip de furnizor.",
+        "Genesis Mesh este un strat de încredere și autoritate pentru sisteme autonome și funcționează pe patru verbe pe care acum le consider netransferabile. <strong>Verifică</strong>: fiecare pas, de la om la autoritate la delegare la agent, trebuie să fie dovedibil. <strong>Limitează</strong>: fiecărui actor îi este acordată o capacitate definită, niciodată un cec în alb. <strong>Retrage</strong>: încrederea poate fi retrasă instantaneu, nu renegociată. <strong>Audit</strong>: traseul este imuabil și se menține în toate nivelurile furnizorilor, nu doar în cel prietenos.",
+        "Suveranitatea, am ajuns să cred, nu este un statut legal. Este abilitatea constantă de a verifica, limita, retrage și înlocui fiecare furnizor pe care te bazezi, în termenii tăi, conform calendarului tău."
+      ]
+    },
+    {
+      "slug": "the-reversal",
+      "title": "Răsturnarea",
+      "kicker": "RĂSTURNAREA",
+      "headings": [
+        "ARHITECTUL NU MAI ESTE ANGAJAT. <em>ARHITECTUL ESTE AUTORITATEA.</em>"
+      ],
+      "paragraphs": [
+        "Dovezile trebuiau să fie reale, nu teoretice, așa că le-am verificat din nou prin aceleași companii.",
+        "La TCS, sistemele autonome pe care le-am construit și pentru care nu am fost plătit sunt acum, în producție, implementarea H&amp;M, funcționând sub autoritatea arhitectului, nu sub proprietatea furnizorului. La IBM, tiparul pe care l-am susținut că a fost revândut prin Amazon are un răspuns validat: modelul Volvo/Geely, open-source și complet audibil, nimic ascuns rămas de extras. Problema extragerii simultane de la Cognizant este rezolvată: Genesis Mesh nu permite bucla care a făcut posibil acest lucru. Iar extragerea de șase ani prin care am trecut la Accenture este de asemenea încheiată: niciun acces ascuns, pentru că nu mai există nimic de ascuns.",
+        "Aceștia patru sunt doar cei cu date publice înainte/după. Ei nu sunt excepția. Ei sunt demonstrația. Aceeași inversare se aplică oriunde a apărut tiparul, ceea ce este majoritatea locurilor unde am lucrat.",
+        "Arhitectul nu mai este angajat. Arhitectul este autoritatea."
+      ]
+    },
+    {
+      "slug": "deployment",
+      "title": "Implementare",
+      "kicker": "IMPLEMENTAREA",
+      "headings": [
+        "UN MODEL DE GUVERNANȚĂ. <em>MUȚI FURNIZORI.</em>"
+      ],
+      "paragraphs": [
+        "Un model de guvernanță, care rulează pe fiecare furnizor care intră în contact cu el. Acesta a fost obiectivul de proiectare la H&amp;M și este activ.",
+        "Akamai și Cloudflare se află la margine, direcționând cererile și absorbând traficul DDoS. Un strat serverless pe MongoDB Atlas gestionează datele conforme cu GDPR în Europa; Salesforce gestionează stratul CRM în SUA. SAP rulează încă infrastructura ERP moștenită, deoarece suveranitatea nu înseamnă eliminarea a ceea ce funcționează. Înseamnă a o guverna. Genesis Mesh stă la mijloc ca strat de orchestrare, verificând, limitând, revocând și auditând pe Azure, GCP, VMware și AWS dedesubt, cu Ons Allouche de la EY Stockholm coordonând totul în timp real.",
+        "Vânzători diferiți, cloud-uri diferite, jurisdicții legale diferite. Un singur model de autoritate le ține împreună."
+      ]
+    },
+    {
+      "slug": "hardware",
+      "title": "Hardware",
+      "kicker": "SUVERANITATEA HARDWARE-ULUI",
+      "headings": [
+        "SOFTWARE-UL <em>NU ERA SUFICIENT.</em>"
+      ],
+      "paragraphs": [
+        "Software-ul nu va fi niciodată suficient de unul singur, nu dacă cipurile de dedesubt sunt încă controlate de altcineva.",
+        "Asta este TSWI, Inițiativa Tunisiană pentru Cipuri Suverane: cumpără chipurile de marfă, realizează interpozitorul și logica AI intern și deține complet fabrica de ambalare. Planul de acțiune se desfășoară în patru etape: un prototip multi-chiplet pentru 5-10 milioane de dolari în primul an, un cip CPU și AI cu un pilot în Tunisia pentru 30-60 de milioane de dolari în al doilea an, un cluster AI suveran pentru 20-40 de milioane de dolari în al treilea an și o facilitate completă pentru 150-300 de milioane de dolari în al patrulea an. Faza întâi este terminată.",
+        "Ce a rămas este un hub de ambalare la scară de wafer open-source cu reședință în EMEA, alimentare solară și mai mult de jumătate din costul de calcul eliminat, cofondat împreună cu Ons Allouche, care conduce partea industrială în timp ce eu conduc tehnologia."
+      ],
+      "statline": [
+        {
+          "label": "COST UNITAR",
+          "value": "~$185K"
+        },
+        {
+          "separator": true
+        },
+        {
+          "label": "PREȚ ȚINTĂ",
+          "value": "~$450K"
+        },
+        {
+          "separator": true
+        },
+        {
+          "label": "MARJĂ",
+          "value": "~58%"
+        },
+        {
+          "separator": true
+        },
+        {
+          "label": "CAAS",
+          "value": "~$45/hr vs AWS $98.32/hr"
+        }
+      ]
+    },
+    {
+      "slug": "coordination",
+      "title": "Coordonare",
+      "kicker": "COORDONARE",
+      "headings": [
+        "ATUNCI STRATURILE <em>AU DEVENIT UN SISTEM.</em>"
+      ],
+      "paragraphs": [
+        "În cele din urmă, straturile au încetat să mai fie proiecte separate și au devenit un singur sistem. Aspayr gestionează portofelul și coordonează totul în fiecare domeniu pe care-l ating: infrastructură, hardware, căi criptografice, muzică și audio, VR și Meta OS, securitate cibernetică și rețele, biotehnologie și dispozitive purtabile. TSWI furnizează plăcile de circuit, ambalajele, calculul de bază al întregului sistem. Genesis Mesh încă face ceea ce a făcut întotdeauna: verifică, limitează, revocă, auditează. Iar H&amp;M, împreună cu un set tot mai larg de implementări guvernamentale, este locul unde rulează efectiv toate trei.",
+        "După 6 martie 2027, planul este o rundă de finanțare TSWI faza a doua de 30-60 milioane USD, având ca obiectiv un memorandum de înțelegere cu Ministerul Tunisian și AfDB ca ancore. Dacă se realizează, demonstrează ceva mai mare decât orice tranzacție individuală: că integrarea chino-occidentală, lucrările de <a href='https://github.com/GenesisMeshLabs/genesis-quantum-lab' target='_blank' rel='noopener'>calcul cuantic</a> care se întind înapoi până la construcția Bluemix din 2016, sistemele autonome și hardware-ul suveran pot funcționa toate sub un singur model de guvernanță."
+      ]
+    },
+    {
+      "slug": "the-choice",
+      "title": "Alegerea",
+      "kicker": "ALEGEA",
+      "headings": [
+        "NU VOTAȚI DOAR <em>PENTRU UN GUVERN.</em>",
+        "Votați pentru capacitatea de a guverna."
+      ],
+      "paragraphs": [
+        "Zece ani. Practic în fiecare mare integrator de sisteme în care am lucrat, nu cinci, nu șase, toate. Un tipar prin care am trecut înainte să-i dau un nume. Un cost de securitate care nu mai este ipotetic. Și un remediu care deja rulează în producție.",
+        "Așadar, nu votați doar pentru un guvern. Votați pentru capacitatea de a guverna: abilitatea constantă de a verifica cine deține autoritatea, de a limita ceea ce pot face cu ea, de a o revoca în momentul în care încrederea se rupe și de a audita traseul astfel încât nimeni să nu fie nevoit să creadă doar pe cuvântul vostru.",
+        "<strong>Angajați autoritatea. Nu furnizorul.</strong>"
+      ],
+      "buttons": [
+        {
+          "label": "EXPLORAȚI GENESIS MESH ->",
+          "href": "https://dev.connectorzzz.com/",
+          "primary": true
+        },
+        {
+          "label": "VEDEȚI ORGANIZAȚIA OPEN-SOURCE ->",
+          "href": "https://github.com/GenesisMeshLabs"
+        }
+      ]
+    }
+  ]
+}

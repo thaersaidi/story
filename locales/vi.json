@@ -1,0 +1,187 @@
+{
+  "meta": {
+    "title": "Genesis Mesh: Bầu cử 2026",
+    "description": "Chủ quyền trong mã: trích xuất IP thể chế, quyền hạn có thể xác minh, và vụ bầu cử 2026, kể như một câu chuyện duy nhất."
+  },
+  "ui": {
+    "subtitle": "CHỦ QUYỀN TRONG MÃ / BẦU CỬ 2026",
+    "explore": "KHÁM PHÁ ->",
+    "swipeHint": "<- vuốt để tiếp tục ->",
+    "goTo": "Đi đến",
+    "searchLanguage": "Ngôn ngữ tìm kiếm",
+    "chapters": "Chương",
+    "previous": "Trước",
+    "next": "Tiếp"
+  },
+  "slides": [
+    {
+      "slug": "prologue",
+      "title": "Lời nói đầu",
+      "kicker": "LỜI MỞ ĐẦU",
+      "headings": [
+        "CHỦ QUYỀN BÂY GIỜ LÀ <em>MÃ</em>."
+      ],
+      "paragraphs": [
+        "Tôi đã xây dựng các hệ thống trước khi có tên gọi cho những gì tôi đang xây dựng. Một cuộc thi hackathon ở Mumbai, một bản phác thảo trên bảng trắng sau đó đã trở thành một mẫu doanh nghiệp tự động. Rồi, một cách lặng lẽ, là một thập kỷ mà hầu hết các công ty tôi chạm đến đều tìm cách giữ lại mẫu đó và quên đi người đã vẽ nó.",
+        "Khi Cuộc bầu cử 2026 đến gần, tôi đã ngừng kể câu chuyện này như một câu chuyện về việc làm. Nó đã trở thành câu chuyện về ai sẽ kiểm soát cơ sở hạ tầng điều hành tất cả những người khác.",
+        "Đây là câu chuyện đó: mô hình, những gì đặt cược, phương thuốc mà tôi đã xây dựng, và sự lựa chọn giờ đây đang ở trước tất cả chúng ta."
+      ],
+      "byline": {
+        "name": "THAER SAIDI",
+        "meta": "7 THÁNG 9, 2026 -> 6 THÁNG 3, 2027 . BÁO CÁO CÔNG KHAI 26 / MẠNG LƯỚI GENESIS"
+      },
+      "buttons": [
+        {
+          "label": "KHÁM PHÁ MẠNG LƯỚI ->",
+          "href": "https://dev.connectorzzz.com/",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "slug": "the-pattern",
+      "title": "Mô Hình",
+      "kicker": "MÔ HÌNH",
+      "headings": [
+        "ĐẦU TIÊN, HỌ ĐÃ THUÊ <em>KỸ SƯ KIẾN TRÚC.</em>"
+      ],
+      "paragraphs": [
+        "Nó bắt đầu ở Mumbai, trong một cuộc thi hackathon mà tôi đã thắng trước khi cụm từ \"hệ thống doanh nghiệp tự động\" được ai đó sử dụng. Tuy nhiên, nguyên mẫu là thật. TCS đã đưa mẫu đó ra toàn cầu: một mối quan hệ mười năm, từ 2016 đến 2026, và hóa đơn cho công việc ban đầu đó vẫn đang mở.",
+        "Cùng năm đó, 2016, tôi cũng đang xây dựng trên IBM Bluemix: công việc về máy tính lượng tử sớm và cơ sở hạ tầng tiền điện tử, chạy song song với mẫu doanh nghiệp. Đây là cùng một mạch mà cuối cùng trở thành lớp lượng tử của Genesis Mesh, hiện đã được mã nguồn mở tại <a href='https://github.com/GenesisMeshLabs/genesis-quantum-lab' target='_blank' rel='noopener'>genesis-quantum-lab</a>.",
+        "Những gì theo sau là một ví dụ mẫu, không phải toàn bộ câu chuyện. Trong suốt một thập kỷ tham gia, cùng một mô hình lặp lại với hầu hết các nhà tích hợp hệ thống lớn mà tôi từng làm việc, không chỉ vài trường hợp. Tại Electrolux, Cognizant nắm giữ tài khoản từ 2017 đến 2020, quan sát tôi triển khai các mô hình điện toán đám mây, DevOps và tuân thủ GDPR, sau đó gói chúng thành một giải pháp hoàn chỉnh mà không có tên tôi trên đó. Accenture tiếp nhận cùng một tài khoản và quản lý nó từ 2017 đến 2023: SAP trên các hypervisor, Akamai tại các điểm biên, biến kiến trúc thành một hợp đồng dịch vụ quản lý kéo dài sáu năm.",
+        "IBM Consulting đến vào năm 2021, làm việc trong cùng một tòa nhà, và rời đi với một danh mục tài sản trí tuệ và các mẫu AWS mà theo đánh giá của riêng tôi, lại xuất hiện trở lại để bán trên các nền tảng của Amazon. Nordcloud và IBM theo tôi đến Volvo vào năm 2023, nơi tôi đang thiết kế sự phối hợp Trung Quốc-Tây phương; những gì rời khỏi tòa nhà đã trở thành cẩm nang tích hợp riêng của Volvo. Đến năm 2024, Crayon đã để tôi thiết kế hạ tầng đa đám mây trên toàn hệ sinh thái Microsoft.",
+        "Sáu trường hợp này chỉ là những cái tên kèm theo ngày tháng. Chúng là những trường hợp đã được ghi nhận, không phải những trường hợp ngoại lệ. Cùng một mô hình xuất hiện ở gần như mọi công ty tích hợp hệ thống mà tôi đã tham gia, ở gần như mọi khách hàng, suốt một thập kỷ. Đến năm 2025, nó đã có một cái tên mà tôi không thể quên: thuê kiến trúc sư, trích xuất hệ thống, thay thế kiến trúc sư."
+      ]
+    },
+    {
+      "slug": "the-stakes",
+      "title": "Nguy cơ",
+      "kicker": "NGUY CƠ",
+      "headings": [
+        "RỒI TÔI HỎI: <em>AI KIỂM SOÁT CUỘC BẦU CỬ?</em>"
+      ],
+      "paragraphs": [
+        "Không về mặt pháp lý. Về mặt vận hành. Các nhà tích hợp hệ thống cấp 1, Accenture, IBM, TCS, Cognizant, và hầu hết các đối tác cùng cấp, không chỉ tư vấn về hạ tầng bầu cử; họ thiết kế và vận hành nó. Và mô hình cho phép họ làm điều đó với tôi, nhiều lần, trên gần như tất cả họ, là cùng một mô hình đang diễn ra phía dưới: kiến trúc sư biến mất, và nhà cung cấp thừa hưởng doanh thu, quyền truy cập, và ký ức tổ chức.",
+        "Đó là một vấn đề kinh doanh cho đến khi bạn theo dõi nó thêm một bước nữa. Một nhà tích hợp hệ thống đang nắm giữ mã mà họ trích xuất một cách âm thầm không chỉ còn là một rủi ro đối với nhà cung cấp nữa. Nếu một quốc gia một ngày nào đó kiểm soát được nhà tích hợp đó, họ sẽ thừa hưởng mọi thứ mà nhà tích hợp đã hấp thụ. Và khi cơ chế của một cuộc bầu cử chạy qua các hệ thống thuộc sở hữu của nhà cung cấp, việc pháp lý độc lập không còn đồng nghĩa với việc có chủ quyền về mặt hoạt động nữa.",
+        "Việc trích xuất, ở quy mô đó, chỉ là quyền kiểm soát khoác lên một hợp đồng dịch vụ."
+      ]
+    },
+    {
+      "slug": "the-remedy",
+      "title": "Biện pháp cứu chữa",
+      "kicker": "BIỆN PHÁP CỨU CHỮA",
+      "headings": [
+        "VẬY NÊN TÔI ĐÃ XÂY DỰNG <em>GENESIS MESH.</em>"
+      ],
+      "paragraphs": [
+        "Tôi đã tạo ra thứ mà lẽ ra đã ngăn điều đó xảy ra với tôi, và với tất cả những ai mà hạ tầng của họ hiện phụ thuộc vào cùng loại nhà cung cấp đó.",
+        "Genesis Mesh là một lớp tin cậy và quyền hạn cho các hệ thống tự động, và nó hoạt động dựa trên bốn động từ mà tôi hiện coi là không thể thương lượng. <strong>Xác minh</strong>: mọi bước từ con người đến quyền hạn đến ủy quyền đến đại lý đều phải có thể chứng minh được. <strong>Giới hạn</strong>: mỗi tác nhân nhận được khả năng giới hạn, không bao giờ là séc trống. <strong>Thu hồi</strong>: niềm tin có thể bị rút lại ngay lập tức, không cần thương lượng lại. <strong>Kiểm toán</strong>: dấu vết là không thể thay đổi, và nó giữ nguyên qua mọi nhà cung cấp trong hệ thống, không chỉ nhà cung cấp thân thiện.",
+        "Chủ quyền, tôi đã nhận ra, không phải là một trạng thái pháp lý. Nó là khả năng hiện hữu để xác minh, giới hạn, thu hồi và thay thế mọi nhà cung cấp mà bạn dựa vào, theo điều kiện của bạn, theo tiến độ của bạn."
+      ]
+    },
+    {
+      "slug": "the-reversal",
+      "title": "Sự Đảo Ngược",
+      "kicker": "SỰ ĐẢO NGƯỢC",
+      "headings": [
+        "KIẾN TRÚC SƯ KHÔNG CÒN ĐƯỢC THUÊ. <em>KIẾN TRÚC SƯ LÀ CHỦ QUYỀN.</em>"
+      ],
+      "paragraphs": [
+        "Bằng chứng phải là thật, không phải lý thuyết, nên tôi đã chạy lại nó qua cùng những công ty đó.",
+        "Tại TCS, các hệ thống tự động mà tôi xây dựng và chưa từng được trả tiền giờ đây đang hoạt động, là triển khai của H&M, chạy dưới quyền kiến trúc sư, không phải thuộc sở hữu nhà cung cấp. Tại IBM, mô hình mà tôi đã cáo buộc bị bán lại qua Amazon giờ có câu trả lời được xác nhận: mô hình Volvo/Geely, mã nguồn mở và hoàn toàn có thể kiểm tra, không còn gì bị giấu để khai thác. Vấn đề trích xuất đồng thời của Cognizant đã được giải quyết: Genesis Mesh không cho phép vòng lặp để điều đó xảy ra. Và quá trình trích xuất sáu năm mà tôi trải qua tại Accenture cũng đã kết thúc: không có quyền truy cập ẩn, vì không còn gì để giấu.",
+        "Bốn cái này chỉ là những cái có dữ liệu trước/sau công khai. Chúng không phải ngoại lệ. Chúng là minh chứng. Sự đảo ngược tương tự xảy ra ở mọi nơi mà mẫu hình xuất hiện, và đó là hầu hết các nơi tôi đã làm việc.",
+        "Kiến trúc sư không còn được thuê nữa. Kiến trúc sư là cơ quan có thẩm quyền."
+      ]
+    },
+    {
+      "slug": "deployment",
+      "title": "Triển khai",
+      "kicker": "VIỆC TRIỂN KHAI",
+      "headings": [
+        "MỘT MÔ HÌNH QUẢN TRỊ. <em>NHIỀU NHÀ CUNG CẤP.</em>"
+      ],
+      "paragraphs": [
+        "Một mô hình quản trị, chạy trên mọi nhà cung cấp có liên quan đến nó. Đó là mục tiêu thiết kế tại H&amp;M, và nó đã được triển khai.",
+        "Akamai và Cloudflare đứng ở rìa, định tuyến các yêu cầu và hấp thụ lưu lượng DDoS. Một lớp serverless trên MongoDB Atlas xử lý dữ liệu tuân thủ GDPR ở châu Âu; Salesforce quản lý lớp CRM ở Mỹ. SAP vẫn chạy nền tảng ERP cũ, vì chủ quyền không có nghĩa là phá bỏ những gì hoạt động tốt. Nó có nghĩa là quản lý nó. Genesis Mesh nằm ở giữa như lớp điều phối, xác minh, giới hạn, thu hồi và kiểm toán trên Azure, GCP, VMware và AWS bên dưới, với Ons Allouche tại EY Stockholm điều phối toàn bộ theo thời gian thực.",
+        "Các nhà cung cấp khác nhau, các đám mây khác nhau, các khu vực pháp lý khác nhau. Một mô hình quyền lực duy nhất giữ mọi thứ lại với nhau."
+      ]
+    },
+    {
+      "slug": "hardware",
+      "title": "Phần cứng",
+      "kicker": "CHỦ QUYỀN PHẦN CỨNG",
+      "headings": [
+        "PHẦN MỀM <em>KHÔNG ĐỦ.</em>"
+      ],
+      "paragraphs": [
+        "Phần mềm sẽ không bao giờ đủ một mình, nếu các chip bên dưới nó vẫn thuộc quyền kiểm soát của người khác.",
+        "Đó là TSWI, Sáng kiến Bánh Wafer Chủ quyền của Tunisia: mua các chiplet hàng hóa, làm interposer và logic AI tại chỗ, và sở hữu hoàn toàn nhà máy đóng gói. Lộ trình gồm bốn giai đoạn: một minh chứng đa chiplet với chi phí 5-10 triệu USD trong năm đầu tiên, một wafer CPU và AI với dự án thí điểm tại Tunisia giá 30-60 triệu USD trong năm thứ hai, một cụm AI chủ quyền với chi phí 20-40 triệu USD trong năm thứ ba, và một cơ sở đầy đủ với chi phí 150-300 triệu USD trong năm thứ tư. Giai đoạn một đã hoàn thành.",
+        "Điều còn lại là một trung tâm đóng gói wafer quy mô mở nguồn với cư trú tại EMEA, sử dụng năng lượng mặt trời, và hơn một nửa chi phí tính toán được cắt giảm, được đồng sáng lập cùng Ons Allouche, người dẫn dắt phía ngành trong khi tôi dẫn dắt công nghệ."
+      ],
+      "statline": [
+        {
+          "label": "GIÁ VỐN ĐƠN VỊ",
+          "value": "~$185K"
+        },
+        {
+          "separator": true
+        },
+        {
+          "label": "GIÁ MỤC TIÊU",
+          "value": "~$450K"
+        },
+        {
+          "separator": true
+        },
+        {
+          "label": "LỢI NHUẬN",
+          "value": "~58%"
+        },
+        {
+          "separator": true
+        },
+        {
+          "label": "CAAS",
+          "value": "~$45/hr vs AWS $98.32/hr"
+        }
+      ]
+    },
+    {
+      "slug": "coordination",
+      "title": "Phối hợp",
+      "kicker": "PHỐI HỢP",
+      "headings": [
+        "SAU ĐÓ CÁC LỚP <em>TRỞ THÀNH MỘT HỆ THỐNG.</em>"
+      ],
+      "paragraphs": [
+        "Cuối cùng các lớp không còn là các dự án riêng lẻ mà trở thành một hệ thống duy nhất. Aspayr quản lý ví và điều phối trên mọi lĩnh vực mà nó tiếp cận: cơ sở hạ tầng, phần cứng, chuỗi khối tiền điện tử, âm nhạc và âm thanh, VR và Meta OS, mạng và an ninh mạng, công nghệ sinh học và thiết bị đeo. TSWI cung cấp các tấm wafer, đóng gói, và khả năng tính toán phía dưới mọi thứ. Genesis Mesh vẫn làm những gì nó luôn làm: xác minh, giới hạn, thu hồi, kiểm toán. Và H&M, cùng với một tập hợp các triển khai của chính phủ ngày càng mở rộng, là nơi cả ba thực sự chạy.",
+        "Sau ngày 6 tháng 3, 2027, kế hoạch là một đợt gọi vốn giai đoạn hai của TSWI trị giá 30-60 triệu USD, với một bản ghi nhớ (MOU) của Bộ Tunisian và AfDB làm mục tiêu. Nếu điều này thành công, nó chứng minh một điều lớn hơn bất kỳ thỏa thuận nào riêng lẻ: rằng sự hội nhập Trung-Tây, công việc <a href='https://github.com/GenesisMeshLabs/genesis-quantum-lab' target='_blank' rel='noopener'>máy tính lượng tử</a> bắt nguồn từ bản xây dựng Bluemix năm 2016, hệ thống tự động và phần cứng có chủ quyền tất cả có thể hoạt động dưới một mô hình quản trị duy nhất."
+      ]
+    },
+    {
+      "slug": "the-choice",
+      "title": "Lựa chọn",
+      "kicker": "LỰA CHỌN",
+      "headings": [
+        "ĐỪNG CHỈ BỎ PHIẾU <em>CHO MỘT CHÍNH PHỦ.</em>",
+        "Bình chọn cho năng lực điều hành."
+      ],
+      "paragraphs": [
+        "Mười năm. Hầu như tất cả các nhà tích hợp hệ thống lớn mà tôi từng làm việc, không phải năm, không phải sáu, tất cả họ. một mô hình mà tôi đã trải qua trước khi có tên gọi. Một chi phí bảo mật không còn chỉ là giả định. Và một giải pháp đã đang chạy trong sản xuất.",
+        "Vì vậy, đừng chỉ bỏ phiếu cho một chính phủ. Hãy bỏ phiếu cho khả năng quản lý: năng lực hiện có để xác minh ai nắm quyền, giới hạn những gì họ có thể làm với quyền đó, thu hồi nó ngay khi niềm tin bị phá vỡ, và kiểm toán tất cả các bước để không ai phải chỉ một lời bạn nói.",
+        "<strong>Thuê quyền hạn. Không thuê nhà cung cấp.</strong>"
+      ],
+      "buttons": [
+        {
+          "label": "KHÁM PHÁ GENESIS MESH ->",
+          "href": "https://dev.connectorzzz.com/",
+          "primary": true
+        },
+        {
+          "label": "XEM TỔ CHỨC MÃ NGUỒN MỞ ->",
+          "href": "https://github.com/GenesisMeshLabs"
+        }
+      ]
+    }
+  ]
+}

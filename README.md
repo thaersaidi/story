@@ -4,7 +4,8 @@ Single-page slider SPA telling the Genesis Mesh story: institutional IP extracti
 
 - Static site, no build step: `index.html`, modular CSS/JS, and JSON locale files
 - Chapter tabs, slide-per-screen navigation (arrows, swipe, keyboard, dots)
-- Query-param languages with i18next: `?lang=en`, `?lang=fr`, `?lang=ar`
+- 35 query-param languages with i18next; for example: `?lang=en`, `?lang=fr`, `?lang=ar`, `?lang=zh`
+- Searchable language picker with native names and RTL support for Arabic, Persian, Hebrew, and Urdu
 - Deployed on Vercel: https://genesismesh-elections-2026-thaersaidi.vercel.app
 
 Related: [genesis-quantum-lab](https://github.com/GenesisMeshLabs/genesis-quantum-lab)

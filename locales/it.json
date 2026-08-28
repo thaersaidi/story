@@ -1,0 +1,187 @@
+{
+  "meta": {
+    "title": "Genesis Mesh: Elezioni 2026",
+    "description": "Sovranità nel codice: estrazione istituzionale della proprietà intellettuale, autorità verificabile e il caso delle elezioni 2026, raccontati come un'unica storia."
+  },
+  "ui": {
+    "subtitle": "SOVRANITÀ NEL CODICE/ELEZIONI 2026",
+    "explore": "ESPLORA ->",
+    "swipeHint": "<- scorri per continuare ->",
+    "goTo": "Vai a",
+    "searchLanguage": "Lingua di ricerca",
+    "chapters": "Capitoli",
+    "previous": "Precedente",
+    "next": "Successivo"
+  },
+  "slides": [
+    {
+      "slug": "prologue",
+      "title": "Prologo",
+      "kicker": "PROLOGO",
+      "headings": [
+        "LA SOVRANITÀ È ORA <em>CODICE.</em>"
+      ],
+      "paragraphs": [
+        "Ho costruito sistemi prima di avere un nome per ciò che stavo costruendo. Un hackathon a Mumbai, uno schizzo sulla lavagna trasformato in un modello di impresa autonoma. Poi, in silenzio, un decennio in cui quasi tutte le aziende che ho contattato hanno trovato un modo per mantenere lo schema e dimenticare la persona che lo ha disegnato.",
+        "Quando si sono avvicinate le elezioni del 2026, avevo smesso di raccontarla come una storia sull'occupazione. Era diventata una storia su chi governa l'infrastruttura che governa tutti gli altri.",
+        "Questa è la storia: il modello, la posta in gioco, il rimedio che ho costruito e la scelta che ora tutti noi abbiamo davanti."
+      ],
+      "byline": {
+        "name": "THAER SAIDI",
+        "meta": "7 SETTEMBRE 2026 -> 6 MARZO 2027 . PUBLIC BRIEF 26 / GENESIS MESH"
+      },
+      "buttons": [
+        {
+          "label": "ESPLORA IL MESH ->",
+          "href": "https://dev.connectorzzz.com/",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "slug": "the-pattern",
+      "title": "Il modello",
+      "kicker": "IL MODELLO",
+      "headings": [
+        "PRIMO, HANNO ASSUNTO <em>IL ARCHITETTO.</em>"
+      ],
+      "paragraphs": [
+        "Tutto è iniziato a Mumbai, in un hackathon che ho vinto prima che \"sistemi aziendali autonomi\" fosse una frase usata da chiunque. Il prototipo era reale, però. TCS ha adottato il modello a livello globale: una relazione decennale, dal 2016 al 2026, e il conto per quel lavoro originale è ancora aperto.",
+        "Quello stesso anno, il 2016, stavo anche costruendo su IBM Bluemix: i primi lavori di calcolo quantistico e infrastruttura crittografica, eseguiti in parallelo con il modello aziendale. È lo stesso thread che alla fine è diventato lo strato quantico di Genesis Mesh, ora open source su <a href='https://github.com/GenesisMeshLabs/genesis-quantum-lab' target='_blank' rel='noopener'>genesis-quantum-lab</a>.",
+        "Quello che segue è un esempio, non il resoconto completo. Nel corso di un decennio di impegni, lo stesso schema si è ripetuto praticamente con tutti i principali integratori di sistemi in cui mi sono seduto, non solo con una manciata. Presso Electrolux, Cognizant ha avuto l'account dal 2017 al 2020, osservandomi creare modelli allineati al cloud, a DevOps e al GDPR, per poi inserirli in una soluzione pacchettizzata senza il mio nome da nessuna parte. Accenture ha preso lo stesso account e lo ha guidato dal 2017 al 2023: SAP sugli hypervisor, Akamai sull'edge, trasformando l'architettura in un contratto di servizi gestiti di sei anni.",
+        "IBM Consulting è arrivata nel 2021, incorporata nello stesso edificio, e se n'è andata con un portafoglio di modelli IP e AWS che, per mio conto, sono riemersi per la rivendita sulle piattaforme di Amazon. Nordcloud e IBM mi hanno seguito in Volvo nel 2023, dove stavo progettando l'orchestrazione cinese-occidentale; ciò che ha lasciato l'edificio è diventato il programma di integrazione di Volvo. Entro il 2024, Crayon mi ha chiesto di progettare un'infrastruttura multi-cloud nell'ecosistema Microsoft.",
+        "Questi sei sono solo i nomi con le date allegate. Sono i casi documentati, non i casi limite. Lo stesso schema è presente in quasi tutti gli integratori di sistemi con cui ho lavorato, in quasi tutti i clienti, per un decennio di fila. Nel 2025 aveva un nome che non potevo nascondere: assumi l'architetto, estrai il sistema, sostituisci l'architetto."
+      ]
+    },
+    {
+      "slug": "the-stakes",
+      "title": "The Stakes",
+      "kicker": "THE STAKES",
+      "headings": [
+        "POI HO CHIESTO: <em>CHI CONTROLLA LE ELEZIONI?</em>"
+      ],
+      "paragraphs": [
+        "Non legalmente. Operativamente. Gli integratori di sistemi di livello 1, Accenture, IBM, TCS, Cognizant e, di fatto, tutti i colleghi di quel livello, non si limitano a consultarsi sull'infrastruttura elettorale; lo progettano e lo gestiscono. E il modello che ha permesso loro di farlo nel mio caso, ripetutamente, in quasi ognuno di essi, è lo stesso modello sottostante: l'architetto scompare e il venditore eredita le entrate, l'accesso e la memoria istituzionale.",
+        "Questo è un problema aziendale finché non lo segui un ulteriore passo avanti. Un integratore di sistemi seduto sul codice estratto silenziosamente non rappresenta più solo un rischio per il fornitore. Se mai uno stato-nazione acquisisse il controllo di quell’integratore, erediterà tutto ciò che l’integratore ha assorbito. E quando la macchina elettorale passa attraverso sistemi di proprietà dei fornitori, essere giuridicamente indipendenti smette di essere la stessa cosa che essere operativamente sovrani.",
+        "L'estrazione, su quella scala, è semplicemente controllo tramite un contratto di servizi."
+      ]
+    },
+    {
+      "slug": "the-remedy",
+      "title": "Il rimedio",
+      "kicker": "IL RIMEDIO",
+      "headings": [
+        "COSÌ HO COSTRUITO <em>GENESIS MESH.</em>"
+      ],
+      "paragraphs": [
+        "Ho costruito ciò che avrebbe impedito che ciò accadesse a me e a tutti coloro la cui infrastruttura ora dipende dallo stesso tipo di fornitore.",
+        "Genesis Mesh è un livello di fiducia e autorità per sistemi autonomi e funziona su quattro verbi che ora considero non negoziabili. <strong>Verifica</strong>: ogni passaggio dall'uomo all'autorità alla delega all'agente deve essere dimostrabile. <strong>Limite</strong>: ogni attore ottiene una capacità con ambito, mai un assegno in bianco. <strong>Revoca</strong>: la fiducia può essere revocata immediatamente, non rinegoziata. <strong>Audit</strong>: il percorso è immutabile e vale per ogni fornitore nello stack, non solo per quello amichevole.",
+        "La sovranità, sono arrivato a credere, non è uno status legale. È la capacità permanente di verificare, limitare, revocare e sostituire ogni fornitore su cui fai affidamento, alle tue condizioni, sulla tua sequenza temporale."
+      ]
+    },
+    {
+      "slug": "the-reversal",
+      "title": "L'inversione",
+      "kicker": "L'INVERSIONE",
+      "headings": [
+        "L'ARCHITETTO NON È PIÙ ASSUNTO. <em>L'ARCHITETTO È L'AUTORITÀ.</em>"
+      ],
+      "paragraphs": [
+        "La prova doveva essere reale, non teorica, quindi l'ho analizzata attraverso le stesse aziende.",
+        "In TCS, i sistemi autonomi che ho costruito e per i quali non sono mai stato pagato sono ora, dal vivo, l'implementazione di H&M, eseguita sotto l'autorità dell'architetto, non di proprietà del fornitore. In IBM, il modello che sostenevo fosse stato rivenduto tramite Amazon ha una risposta convalidata: il modello Volvo/Geely, open source e completamente verificabile, senza più nulla di nascosto da estrarre. Il problema dell'estrazione simultanea di Cognizant è chiuso: Genesis Mesh non consente il ciclo che lo ha consentito. E anche l'estrazione di sei anni che ho vissuto in Accenture è chiusa: nessun accesso nascosto, perché non c'è più niente da nascondere.",
+        "Questi quattro sono solo quelli con dati pubblici prima/dopo. Non sono l'eccezione. Ne sono la dimostrazione. La stessa inversione si applica ovunque lo schema si manifesti, ovvero nella maggior parte dei posti in cui ho lavorato.",
+        "L'architetto non viene più assunto. L'architetto è l'autorità."
+      ]
+    },
+    {
+      "slug": "deployment",
+      "title": "Implementazione",
+      "kicker": "L'IMPLEMENTAZIONE",
+      "headings": [
+        "UN MODELLO DI GOVERNANCE. <em>MOLTI FORNITORI.</em>"
+      ],
+      "paragraphs": [
+        "Un modello di governance, applicato a tutti i provider che lo toccano. Questo era l'obiettivo progettuale di H&M, ed è attuale.",
+        "Akamai e Cloudflare siedono all'edge, instradando le richieste e assorbendo il traffico DDoS. Un livello serverless su MongoDB Atlas gestisce i dati allineati al GDPR in Europa; Salesforce porta il livello CRM negli Stati Uniti. SAP gestisce ancora la dorsale ERP legacy, perché sovranità non significa eliminare ciò che funziona. Vuol dire governarlo. Genesis Mesh si trova al centro come livello di orchestrazione, verificando, limitando, revocando e controllando Azure, GCP, VMware e AWS al di sotto di esso, con Ons Allouche di EY Stockholm che coordina il tutto in tempo reale.",
+        "Fornitori diversi, cloud diversi, giurisdizioni legali diverse. Un modello di autorità tiene insieme il tutto."
+      ]
+    },
+    {
+      "slug": "hardware",
+      "title": "Hardware",
+      "kicker": "SOVEREIGNTY HARDWARE",
+      "headings": [
+        "IL SOFTWARE <em>NON ABBASTANZA.</em>"
+      ],
+      "paragraphs": [
+        "Il software non sarebbe mai stato sufficiente da solo, non se i chip sottostanti fossero ancora sotto il controllo di qualcun altro.",
+        "Questa è TSWI, la Tunisian Sovereign Wafer Initiative: acquistare i chiplet di base, realizzare internamente l'interposer e la logica dell'intelligenza artificiale e possedere a titolo definitivo la fabbrica di imballaggi. La tabella di marcia si svolge in quattro fasi: una prova multi-chiplet per 5-10 milioni di dollari nel primo anno, un wafer con CPU e intelligenza artificiale con un pilota di Tunisi per 30-60 milioni di dollari nel secondo anno, un cluster AI sovrano per 20-40 milioni di dollari nel terzo anno e una struttura completa per 150-300 milioni di dollari nel quarto anno. La prima fase è terminata.",
+        "Ciò che rimane è un hub di packaging open source su scala wafer con residenza nell'area EMEA, energia solare e più della metà dei costi di elaborazione eliminati, co-fondato con Ons Allouche, che guida il settore mentre io sono a capo della tecnologia."
+      ],
+      "statline": [
+        {
+          "label": "UNIT COGS",
+          "value": "~$185K"
+        },
+        {
+          "separator": true
+        },
+        {
+          "label": "PREZZO OBBLIGATORIO",
+          "value": "~$450K"
+        },
+        {
+          "separator": true
+        },
+        {
+          "label": "MARGINE",
+          "value": "~58%"
+        },
+        {
+          "separator": true
+        },
+        {
+          "label": "CAAS",
+          "value": "~$45/hr vs AWS $98.32/hr"
+        }
+      ]
+    },
+    {
+      "slug": "coordination",
+      "title": "Coordinamento",
+      "kicker": "COORDINAMENTO",
+      "headings": [
+        "QUINDI GLI STRATI <em>SONO DIVENTATI UN UNICO SISTEMA.</em>"
+      ],
+      "paragraphs": [
+        "Alla fine i livelli hanno smesso di essere progetti separati e sono diventati un unico sistema. Aspayr gestisce il portafoglio e coordina tutti i settori che tocca: infrastruttura, hardware, binari crittografici, musica e audio, realtà virtuale e Meta OS, cyber e reti, biotecnologia e dispositivi indossabili. TSWI fornisce i wafer, la confezione e il computer sottostante a tutto. Genesis Mesh fa ancora quello che ha sempre fatto: verifica, limitazione, revoca, audit. E H&M, insieme a una serie sempre più ampia di implementazioni governative, è dove tutti e tre effettivamente operano.",
+        "Lo scorso 6 marzo 2027, il piano prevede un aumento di fase due di TSWI di 30-60 milioni di dollari, con come obiettivo un MOU del Ministero tunisino e dell'AfDB. Se dovesse concretizzarsi, dimostrerebbe qualcosa di più grande di qualsiasi altro accordo: che l'integrazione cinese-occidentale, il lavoro di <a href='https://github.com/GenesisMeshLabs/genesis-quantum-lab' target='_blank' rel='noopener'>informatica quantistica</a> che risale alla build Bluemix del 2016, i sistemi autonomi e l'hardware sovrano possono tutti operare sotto un unico modello di governance."
+      ]
+    },
+    {
+      "slug": "the-choice",
+      "title": "La scelta",
+      "kicker": "LA SCELTA",
+      "headings": [
+        "NON SOLO VOTARE <em>PER UN GOVERNO.</em>",
+        "Vota per la capacità di governare."
+      ],
+      "paragraphs": [
+        "Dieci anni. Praticamente tutti i principali integratori di sistemi con cui ho lavorato, non cinque, non sei, tutti. Uno schema che ho vissuto prima di dargli un nome. Un costo per la sicurezza che non è più ipotetico. E un rimedio già in produzione.",
+        "Quindi non limitatevi a votare per un governo. Vota per la capacità di governare: la capacità permanente di verificare chi detiene l'autorità, limitare ciò che può farne, revocarla nel momento in cui la fiducia viene meno e controllare il percorso in modo che nessuno debba crederti sulla parola.",
+        "<strong>Assumi l'autorità. Non il fornitore.</strong>"
+      ],
+      "buttons": [
+        {
+          "label": "ESPLORA GENESIS MESH ->",
+          "href": "https://dev.connectorzzz.com/",
+          "primary": true
+        },
+        {
+          "label": "VISUALIZZA L'ORGANIZZAZIONE OPEN SOURCE ->",
+          "href": "https://github.com/GenesisMeshLabs"
+        }
+      ]
+    }
+  ]
+}

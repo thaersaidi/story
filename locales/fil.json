@@ -1,0 +1,187 @@
+{
+  "meta": {
+    "title": "Genesis Mesh: Halalan 2026",
+    "description": "Kapangyarihan sa code: institusyonal na pagkuha ng IP, mapapatunayang awtoridad, at ang kaso ng halalan 2026, ikinuwento bilang isang kwento."
+  },
+  "ui": {
+    "subtitle": "KAPANGYARIHAN SA CODE / HALALAN 2026",
+    "explore": "TUKLASIN ->",
+    "swipeHint": "<- i-swipe upang magpatuloy ->",
+    "goTo": "Pumunta sa",
+    "searchLanguage": "Wikang hahanapin",
+    "chapters": "Mga Kabanata",
+    "previous": "Nakaraan",
+    "next": "Susunod"
+  },
+  "slides": [
+    {
+      "slug": "prologue",
+      "title": "Prologo",
+      "kicker": "PAMBUNGAD",
+      "headings": [
+        "ANG KAWALAN NG HANGGANGAYAN AY NGAYON <em>KODE.</em>"
+      ],
+      "paragraphs": [
+        "Nagtayo ako ng mga sistema bago ko pa man natutukoy ang pangalan ng aking binubuo. Isang hackathon sa Mumbai, isang guhit sa whiteboard na naging isang awtonomong pattern ng negosyo. Pagkatapos, tahimik, isang dekada kung saan halos bawat kumpanyang aking nahawakan ay nakahanap ng paraan upang panatilihin ang pattern at limutin ang taong nagdibuho nito.",
+        "Nang dumating na sa tanaw ang Eleksyon 2026, tumigil na akong ikwento ito bilang isang kwento tungkol sa trabaho. Naging kwento na ito tungkol sa sino ang may karapatang pamahalaan ang imprastruktura na namamahala sa lahat ng iba pa.",
+        "Ito ang kwentong iyon: ang pattern, ang panganib, ang lunas na aking ginawa, at ang pagpipilian na nasa harap natin ngayon."
+      ],
+      "byline": {
+        "name": "THAER SAIDI",
+        "meta": "SEPT 7, 2026 -> MAR 6, 2027 . PAMPUBLKO NA PAHAYAG 26 / GENESIS MESH"
+      },
+      "buttons": [
+        {
+          "label": "TUKLASIN ANG MESH ->",
+          "href": "https://dev.connectorzzz.com/",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "slug": "the-pattern",
+      "title": "Ang Pattern",
+      "kicker": "ANG PATTERN",
+      "headings": [
+        "UNA, KINUHA NILA ANG <em>ARCHITECT.</em>"
+      ],
+      "paragraphs": [
+        "Nagsimula ito sa Mumbai, sa isang hackathon na napanalunan ko bago pa man naging kilala ang pariralang \"autonomous enterprise systems.\" Totoo naman ang prototype. Inilapat ng TCS ang pattern sa buong mundo: isang sampung taong relasyon, mula 2016 hanggang 2026, at ang invoice para sa orihinal na trabahong iyon ay bukas pa rin.",
+        "Sa parehong taon, 2016, nagtatayo rin ako sa IBM Bluemix: maagang trabaho sa quantum computing at crypto infrastructure, kasabay ng enterprise pattern. Ito rin ang parehong thread na kalaunan ay naging quantum layer ng Genesis Mesh, na ngayon ay bukas na sa <a href='https://github.com/GenesisMeshLabs/genesis-quantum-lab' target='_blank' rel='noopener'>genesis-quantum-lab</a>.",
+        "Ang sumusunod ay isang halimbawa lamang, hindi ang buong ulat. Sa loob ng isang dekada ng pakikipag-ugnayan, ang parehong pattern ay paulit-ulit sa halos bawat pangunahing systems integrator na aking nakasama, hindi lamang sa iilang kumpanya. Sa Electrolux, hawak ng Cognizant ang account mula 2017 hanggang 2020, pinapanood akong maglatag ng cloud, DevOps, at mga pattern na sumusunod sa GDPR, pagkatapos ay ini-integrate ang mga ito sa isang naka-package na solusyon na wala ang aking pangalan. Kinuha ng Accenture ang parehong account at pinatakbo ito mula 2017 hanggang 2023: SAP sa mga hypervisor, Akamai sa edge, ginagawa ang arkitektura bilang isang anim na taong managed-services contract.",
+        "Dumating ang IBM Consulting noong 2021, nakapaloob sa parehong gusali, at umalis na may dalang portfolio ng IP at mga pattern ng AWS na, ayon sa sarili kong tala, muling lumitaw para sa muling pagbebenta sa mga platform ng Amazon. Sinundan ako ng Nordcloud at IBM sa Volvo noong 2023, kung saan nagdidisenyo ako ng Chinese-Western orchestration; ang umalis sa gusali ay naging sariling integration playbook ng Volvo. Pagsapit ng 2024, pinagawa ako ng Crayon ng arkitektura ng multi-cloud infrastructure sa buong ecosystem ng Microsoft.",
+        "Ang anim na ito ay mga pangalan lamang na may kasamang petsa. Ito ang mga naidokumento na kaso, hindi ang mga hangganang kaso. Ang parehong pattern ay umiikot sa halos bawat integrator ng sistema na aking naki-ugnayan, sa halos bawat kliyente, sa loob ng isang dekada. Pagsapit ng 2025, nagkaroon ito ng pangalang hindi ko na maiwasang makita: kunin ang arkitekto, kunin ang sistema, palitan ang arkitekto."
+      ]
+    },
+    {
+      "slug": "the-stakes",
+      "title": "Ang Pustahan",
+      "kicker": "ANG PUSTAHAN",
+      "headings": [
+        "TAPOS TINANONG KO: <em>SINO ANG KUMOKONTROL SA ELEKSYON?</em>"
+      ],
+      "paragraphs": [
+        "Hindi legal. Sa operasyon. Ang mga Tier-1 na system integrators, gaya ng Accenture, IBM, TCS, Cognizant, at halos lahat ng kauri nila sa tier na iyon, ay hindi lamang nagbibigay ng konsultasyon sa imprastruktura ng eleksyon; sila mismo ang nagdidisenyo at nagpapatakbo nito. At ang modelong nagbigay daan sa kanila para gawin iyon sa akin, paulit-ulit, sa halos bawat isa sa kanila, ay ang parehong modelong umiiral sa ilalim: ang arkitekto ay nawawala, at ang vendor ang nagmamana sa kita, access, at institutional na alaala.",
+        "Isa itong problema sa negosyo hanggang sundan mo ito ng isang hakbang pa. Ang isang systems integrator na may hawak na code na tahimik na nakuha ay hindi na lamang panganib bilang vendor. Kung sakaling makontrol ito ng isang bansa, mamanahin nito ang lahat ng nakuha ng integrator. At kapag dumaan ang mekanismo ng isang eleksyon sa mga sistemang pag-aari ng vendor, ang pagiging legal na independiyento ay hindi na kapareho ng pagiging operationally sovereign.",
+        "Ang pagkuha, sa ganoong kalaking saklaw, ay kontrol lamang na nakasuot ng kontrata sa serbisyo."
+      ]
+    },
+    {
+      "slug": "the-remedy",
+      "title": "Ang Solusyon",
+      "kicker": "ANG SOLUSYON",
+      "headings": [
+        "KAYA GUMAWA AKO NG <em>GENESIS MESH.</em>"
+      ],
+      "paragraphs": [
+        "Gumawa ako ng bagay na sana ay makapigil na nangyari ito sa akin, at sa lahat ng ang imprastruktura ay umaasa ngayon sa parehong uri ng vendor.",
+        "Ang Genesis Mesh ay isang layer ng tiwala at awtoridad para sa mga autonomous na sistema, at gumagana ito sa apat na pandiwa na ngayon ay tinitingnan kong hindi maaaring pag-usapan pa. <strong>Beripikahin</strong>: bawat hakbang mula sa tao hanggang sa awtoridad, sa delegasyon, at sa ahente ay dapat na mapapatunayan. <strong>Limitahan</strong>: bawat aktor ay may takdang kakayahan, hindi kailanman isang blangkong tseke. <strong>Bawiin</strong>: ang tiwala ay maaaring bawiin kaagad, hindi muling pag-usapan. <strong>Audit</strong>: ang bakas ay hindi mababago, at nananatili ito sa bawat provider sa stack, hindi lamang sa kaibigan.",
+        "Naniniwala ako na ang soberanya ay hindi isang legal na status. Ito ay ang kakayahang patunayan, limitahan, bawiin, at palitan ang bawat provider na umaasa ka sa kanya, ayon sa iyong mga termino, ayon sa iyong iskedyul."
+      ]
+    },
+    {
+      "slug": "the-reversal",
+      "title": "Ang Pagbabaliktad",
+      "kicker": "ANG PAGBEBALIKTAD",
+      "headings": [
+        "HINDI NA INIHAHIRING ANG ARKITEKTO. <em>ANG ARKITEKTO ANG MAY KAPANGYARIHAN.</em>"
+      ],
+      "paragraphs": [
+        "Dapat tunay ang patunay, hindi teoretikal, kaya muling pinadaloy ko ito sa parehong mga kumpanya.",
+        "Sa TCS, ang mga autonomous system na ginawa ko at kailanman ay hindi binayaran ay ngayon ginagamit na sa H&amp;M implementation, nagpapatakbo sa ilalim ng awtoridad ng arkitekto, hindi pagmamay-ari ng vendor. Sa IBM, ang pattern na aking sinasabing muling naibenta sa pamamagitan ng Amazon ay may napatunayang sagot: ang Volvo/Geely na modelo, open-sourced at ganap na masusuri, walang nakatagong bagay na maaring kunin. Ang problema sa sabay-sabay na extraction ng Cognizant ay naisara: hindi pinapayagan ng Genesis Mesh ang loop na nagdulot nito. At ang anim na taong extraction na naranasan ko sa Accenture ay naisara rin: walang nakatagong access, dahil wala nang natitirang maitago.",
+        "Ang apat na ito ay yaong may pampublikong datos bago/pagkatapos lamang. Hindi sila ang eksepsyon. Sila ang demonstrasyon. Ang parehong pagbaliktad ay naaangkop sa lahat ng lugar na lumitaw ang pattern, na siyang karamihan ng lugar kung saan ako nagtrabaho.",
+        "Hindi na iniaarkila ang arkitekto. Ang arkitekto ang awtoridad."
+      ]
+    },
+    {
+      "slug": "deployment",
+      "title": "Pagpapatupad",
+      "kicker": "ANG PAGPAPATUPAD",
+      "headings": [
+        "ISANG MODELO NG PAMAMAHALA. <em>MARAMING TAGABIGAY.</em>"
+      ],
+      "paragraphs": [
+        "Isang modelo ng pamamahala, na tumatakbo sa bawat provider na humahawak nito. Iyon ang layunin sa disenyo sa H&amp;M, at ito ay aktibo na.",
+        "Nasa gilid ang Akamai at Cloudflare, na nagro-route ng mga kahilingan at sumisipsip ng DDoS na trapiko. Isang serverless na layer sa MongoDB Atlas ang humahawak ng data na alinsunod sa GDPR sa Europa; nagdadala ang Salesforce ng CRM layer sa US. Ang SAP ay nagpapatuloy pa rin sa pagpapatakbo ng legacy ERP backbone, dahil ang soberanya ay hindi nangangahulugan ng pagtanggal sa gumagana nang maayos. Ibig sabihin nito ay pamahalaan ito. Nasa gitna ang Genesis Mesh bilang orchestration layer, na nagve-verify, naglilimita, nagri-revoke, at nagsasagawa ng audit sa Azure, GCP, VMware, at AWS sa ilalim nito, kasama si Ons Allouche sa EY Stockholm na nag-uugnay sa lahat ng ito sa real time.",
+        "Iba't ibang nagtitinda, iba't ibang ulap, iba't ibang hurisdiksyon ng batas. Isang modelo ng awtoridad ang nagpapanatili nito."
+      ]
+    },
+    {
+      "slug": "hardware",
+      "title": "Kagamitan",
+      "kicker": "KASARILI NG HARDWARE",
+      "headings": [
+        "HINDI <em>SAPAT</em> ANG SOFTWARE."
+      ],
+      "paragraphs": [
+        "Hindi sapat ang software mag-isa, lalo na kung ang mga chips sa ilalim nito ay kontrolado pa rin ng iba.",
+        "Iyan ang TSWI, ang Tunisian Sovereign Wafer Initiative: bumili ng commodity chiplets, gumawa ng interposer at AI logic nang in-house, at ariin nang buo ang packaging factory. Ang roadmap ay may apat na yugto: isang multi-chiplet proof para sa $5-10M sa unang taon, isang CPU-at-AI wafer na may Tunis pilot para sa $30-60M sa ikalawang taon, isang sovereign AI cluster para sa $20-40M sa ikatlong taon, at isang buong pasilidad para sa $150-300M sa ikaapat na taon. Natapos na ang Phase one.",
+        "Ang natitira ay isang open-source, wafer-scale packaging hub na may EMEA residency, solar power, at higit sa kalahati ng compute cost ang naalis, na co-founded kay Ons Allouche, na namumuno sa industriya habang ako ang namumuno sa teknolohiya."
+      ],
+      "statline": [
+        {
+          "label": "GASTOS NG UNIT",
+          "value": "~$185K"
+        },
+        {
+          "separator": true
+        },
+        {
+          "label": "TARGET NA PRESYO",
+          "value": "~$450K"
+        },
+        {
+          "separator": true
+        },
+        {
+          "label": "MARGEN",
+          "value": "~58%"
+        },
+        {
+          "separator": true
+        },
+        {
+          "label": "CAAS",
+          "value": "~$45/hr vs AWS $98.32/hr"
+        }
+      ]
+    },
+    {
+      "slug": "coordination",
+      "title": "Koordinasyon",
+      "kicker": "KOORDINASYON",
+      "headings": [
+        "PAGKATAPOS ANG MGA LAYER <em>NAGING ISANG SISTEMA.</em>"
+      ],
+      "paragraphs": [
+        "Sa huli, ang mga layer ay huminto sa pagiging hiwalay na mga proyekto at naging isang sistema. Ang Aspayr ang humahawak sa wallet at nakikipag-ugnayan sa bawat domain na nahahawakan nito: imprastruktura, hardware, crypto rails, musika at audio, VR at ang Meta OS, cyber at mga network, biotech at mga wearable. Ang TSWI ang nagbibigay ng wafers, ang packaging, ang compute sa ilalim ng lahat. Patuloy pa rin ang Genesis Mesh sa ginagawa nitong palagi: beripikahin, limitahan, pawalang bisa, i-audit. At ang H&M, kasama ang lumalawak na hanay ng mga deployment ng gobyerno, ay kung saan aktwal na tumatakbo ang lahat ng tatlo.",
+        "Noong nakaraang Marso 6, 2027, ang plano ay isang TSWI phase-two na pagtaas ng $30-60M, na may Tunisian Ministry at AfDB anchor MOU bilang target. Kung ito ay mangyari, pinatutunayan nito ang isang bagay na mas malaki kaysa sa kahit isang kasunduan: na ang Chinese-Western integration, ang <a href='https://github.com/GenesisMeshLabs/genesis-quantum-lab' target='_blank' rel='noopener'>quantum computing</a> na trabaho na nagmula pa sa 2016 Bluemix build, autonomous systems, at sovereign hardware ay maaaring lahat gumana sa ilalim ng isang modelo ng pamamahala."
+      ]
+    },
+    {
+      "slug": "the-choice",
+      "title": "Ang Pagpipilian",
+      "kicker": "ANG PAGPIPILIAN",
+      "headings": [
+        "HUWAG LANG BUMOTO <em>PARA SA ISANG PAMAHALAAN.</em>",
+        "Bumoto para sa kakayahan sa pamamahala."
+      ],
+      "paragraphs": [
+        "Sampung taon. Halos sa bawat pangunahing integrator ng sistema na aking pinasukan, hindi lima, hindi anim, lahat sila. Isang pattern na aking naranasan bago ko pa ito mabigyan ng pangalan. Isang gastos sa seguridad na hindi na haka-haka. At isang lunas na kasalukuyang tumatakbo sa produksyon.",
+        "Kaya huwag lang bumoto para sa isang pamahalaan. Bumoto para sa kakayahan na pamahalaan: ang matibay na kakayahang tukuyin kung sino ang may awtoridad, limitahan kung ano ang kanilang magagawa dito, bawiin ito sa sandaling masira ang tiwala, at suriin ang talaan upang walang sinuman ang kailangang umasa lamang sa iyong salita.",
+        "<strong>Kunin ang awtoridad. Huwag ang nagbebenta.</strong>"
+      ],
+      "buttons": [
+        {
+          "label": "TUKLASIN ANG GENESIS MESH ->",
+          "href": "https://dev.connectorzzz.com/",
+          "primary": true
+        },
+        {
+          "label": "TINGNAN ANG ORGANISASYONG BUKAS-SOURCE ->",
+          "href": "https://github.com/GenesisMeshLabs"
+        }
+      ]
+    }
+  ]
+}

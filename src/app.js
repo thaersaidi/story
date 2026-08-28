@@ -149,6 +149,12 @@ function renderContent() {
   document.documentElement.dir = language.dir;
   document.title = content.meta.title;
   document.querySelector('meta[name="description"]').setAttribute('content', content.meta.description);
+  const searchLanguage = t('ui.searchLanguage', 'Search language');
+  els.languageSearch.placeholder = searchLanguage;
+  els.languageSearch.setAttribute('aria-label', searchLanguage);
+  els.tabs.setAttribute('aria-label', t('ui.chapters', 'Chapters'));
+  els.prev.setAttribute('aria-label', t('ui.previous', 'Previous'));
+  els.next.setAttribute('aria-label', t('ui.next', 'Next'));
   els.i18n.forEach((node) => {
     node.textContent = t(node.dataset.i18n, node.textContent);
   });

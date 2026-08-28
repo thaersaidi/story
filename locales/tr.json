@@ -1,0 +1,187 @@
+{
+  "meta": {
+    "title": "Genesis Mesh: 2026 Seçimleri",
+    "description": "Kodda egemenlik: kurumsal IP çıkarımı, doğrulanabilir yetki ve 2026 seçimleri vakası, tek bir hikaye olarak anlatılıyor."
+  },
+  "ui": {
+    "subtitle": "KODDA EGEMENLİK / 2026 SEÇİMLERİ",
+    "explore": "KEŞFET ->",
+    "swipeHint": "<- devam etmek için kaydır ->",
+    "goTo": "Git",
+    "searchLanguage": "Arama dili",
+    "chapters": "Bölümler",
+    "previous": "Önceki",
+    "next": "Sonraki"
+  },
+  "slides": [
+    {
+      "slug": "prologue",
+      "title": "Önsöz",
+      "kicker": "ÖNSÖZ",
+      "headings": [
+        "EGEMENLİK ARTIK <em>KOD HALİNDE</em>."
+      ],
+      "paragraphs": [
+        "Ne inşa ettiğimi adlandırmadan önce sistemler inşa ettim. Mumbai'de bir hackathon, otonom bir işletme modeline dönüşen bir beyaz tahta taslağı. Sonra, sessizce, dokunduğum neredeyse her şirketin bu modeli sürdüğü ve onu çizen kişiyi unuttuğu bir on yıl geçti.",
+        "2026 Seçimleri ufukta göründüğünde, bunu iş hakkında bir hikaye olarak anlatmayı bıraktım. Bu, herkesin yönetildiği altyapıyı kimin yöneteceği hakkında bir hikaye haline gelmişti.",
+        "Bu o hikaye: örüntü, riskler, benim oluşturduğum çözüm ve şimdi hepimizin önündeki seçim."
+      ],
+      "byline": {
+        "name": "THAER SAIDI",
+        "meta": "7 EYL 2026 -> 6 MAR 2027 . KAMU RAPORU 26 / GENESIS MESH"
+      },
+      "buttons": [
+        {
+          "label": "ÖRÜNTÜYÜ KEŞFET ->",
+          "href": "https://dev.connectorzzz.com/",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "slug": "the-pattern",
+      "title": "Örüntü",
+      "kicker": "ÖRÜNTÜ",
+      "headings": [
+        "İLK ÖNCE, <em>MİMAR</em>'I KİRALADILAR."
+      ],
+      "paragraphs": [
+        "Her şey Mumbai'de başladı, \"otonom işletme sistemleri\" ifadesi henüz kimsenin kullanmadığı bir dönemde kazandığım hackathon'da. Prototip gerçekti. TCS bu modeli dünya çapında uyguladı: on yıllık bir ilişki, 2016'dan 2026'ya kadar ve o orijinal iş için fatura hâlâ açık.",
+        "Aynı yıl, 2016'da, IBM Bluemix üzerinde de çalışıyordum: erken dönem kuantum hesaplama ve kripto altyapısı çalışmaları, kurumsal modelle paralel olarak yürüyordu. Bu, sonunda Genesis Mesh'in kendi kuantum katmanı haline gelen aynı ipliktir, şimdi <a href='https://github.com/GenesisMeshLabs/genesis-quantum-lab' target='_blank' rel='noopener'>genesis-quantum-lab</a> üzerinde açık kaynak olarak bulunuyor.",
+        "Aşağıda verilen örnek, tam bir anlatım değildir. On yıl süren işbirlikleri boyunca, oturduğum hemen her büyük sistem entegratörüyle aynı desen tekrarlandı, sadece birkaç tanesi değil. Electrolux'te, Cognizant 2017'den 2020'ye kadar hesabı elinde tuttu, benim kurduğum bulut, DevOps ve GDPR uyumlu desenleri izleyip, bunları ismimin hiçbir yerde olmadığı paketlenmiş bir çözüm haline getirdi. Accenture aynı hesabı devraldı ve 2017'den 2023'e kadar sürdürdü: Hiper yöneticilerde SAP, uçta Akamai, mimariyi altı yıllık yönetilen hizmetler sözleşmesine dönüştürerek.",
+        "IBM Danışmanlık 2021 yılında geldi, aynı binaya yerleşti ve kendi hesabıma göre, Amazon'un platformlarında yeniden satış için ortaya çıkan bir IP ve AWS desenleri portföyü ile ayrıldı. Nordcloud ve IBM 2023'te beni Volvo'ya takip etti, burada Çin-Batı orkestrasyonunu tasarlıyordum; binadan çıkanlar Volvo'nun kendi entegrasyon el kitabı oldu. 2024'e gelindiğinde, Crayon beni Microsoft ekosistemi kapsamında çok bulutlu altyapıyı tasarlamaya yönlendirdi.",
+        "Bu altı kişi sadece tarihleri eklenmiş isimler. Bunlar belgelenmiş vakalar, uç durumlar değil. Benim gömülü olduğum neredeyse her sistem entegratöründe, neredeyse her müşteride, on yıl boyunca aynı model devam etti. 2025 yılına gelindiğinde, gözlerimden silemediğim bir isim vardı: mimarı işe al, sistemi çıkar, mimarı değiştir."
+      ]
+    },
+    {
+      "slug": "the-stakes",
+      "title": "Bahisler",
+      "kicker": "BAHİSLER",
+      "headings": [
+        "SONRA SORDUM: <em>SEÇİMLERİ KİM KONTROL EDİYOR?</em>"
+      ],
+      "paragraphs": [
+        "Hukuken değil. Operasyonel olarak. Tier-1 sistem entegratörleri, Accenture, IBM, TCS, Cognizant ve aslında o seviyedeki her eşleri, sadece seçim altyapısı üzerine danışmanlık yapmıyor; onu tasarlıyor ve yönetiyorlar. Ve bana bunu defalarca, neredeyse her birinde yapmalarını sağlayan model, altında çalışan aynı modeldir: mimar ortadan kaybolur ve satıcı geliri, erişimi ve kurumsal hafızayı devralır.",
+        "Bunu bir adım daha ileri götürene kadar bu bir iş sorunudur. Sessizce çıkardığı kod üzerinde oturan bir sistem entegratörü artık sadece bir tedarikçi riski değildir. Eğer bir ulus-devlet o entegratörün kontrolünü ele geçirirse, entegratörün edindiği her şeyi devralır. Ve bir seçim mekanizması tedarikçi mülkiyetindeki sistemlerden geçtiğinde, yasal olarak bağımsız olmak, operasyonel olarak egemen olmakla aynı şey olmaktan çıkar.",
+        "Bu ölçekteki çıkarma, sadece hizmet sözleşmesi giymiş bir kontroldür."
+      ]
+    },
+    {
+      "slug": "the-remedy",
+      "title": "Çözüm",
+      "kicker": "ÇÖZÜM",
+      "headings": [
+        "YANI BEN <em>GENESIS MESH</em>'İ İNŞA ETTİM."
+      ],
+      "paragraphs": [
+        "Bana ve şimdi altyapısı aynı tür satıcıya bağımlı olan herkese olmasını engelleyecek şeyi inşa ettim.",
+        "Genesis Mesh, otonom sistemler için bir güven ve otorite katmanıdır ve şimdi pazarlık yapılamaz olarak kabul ettiğim dört fiil üzerinde çalışır. <strong>Doğrula</strong>: insandan otoriteye, otoriteden delegeye, delegeden ajana kadar her adım kanıtlanabilir olmalı. <strong>Sınırla</strong>: her aktör belirli bir yetki kapsamına sahip olur, asla sınırsız yetki verilmez. <strong>Geri Al</strong>: güven anında geri çekilebilir, yeniden müzakere edilemez. <strong>Denetle</strong>: iz bırakma değiştirilemezdir ve sadece dost sağlayıcıda değil, yığın içerisindeki her sağlayıcıda geçerlidir.",
+        "Egemenliğin, inanmak geldiğim kadarıyla, yasal bir statü olmadığını görüyorum. Egemenlik, güvendiğiniz her sağlayıcıyı kendi şartlarınız ve zaman çizelgeniz üzerinde doğrulama, sınırlama, geri alma ve değiştirme yeteneğine sahip olmaktır."
+      ]
+    },
+    {
+      "slug": "the-reversal",
+      "title": "Tersine Çevirme",
+      "kicker": "TERSİNE ÇEVİRME",
+      "headings": [
+        "MİMAR ARTIK İŞE ALINMIYOR. <em>MİMAR YETKİLİDİR.</em>"
+      ],
+      "paragraphs": [
+        "Kanıtın teorik değil, gerçek olması gerekiyordu, bu yüzden onu aynı şirketlerden tekrar geçirdim.",
+        "TCS'de, inşa ettiğim ve hiçbir zaman ödeme almadığım otonom sistemler artık canlı, H&M uygulaması olarak çalışıyor, mimar yetkisi altında, satıcı mülkiyeti altında değil. IBM'de, iddia ettiğim desenin Amazon üzerinden tekrar satıldığına dair doğrulanmış bir cevabı var: Volvo/Geely modeli, açık kaynaklı ve tamamen denetlenebilir, çıkarılacak gizli bir şey yok. Cognizant'ın eşzamanlı çıkarım sorunu kapandı: Genesis Mesh, bunun gerçekleşmesine izin veren döngüyü engelliyor. Ve Accenture'da altı yıl boyunca yaşadığım çıkarım da kapandı: gizli erişim yok, çünkü gizlenecek hiçbir şey kalmadı.",
+        "Bu dördü sadece öncesi/sonrası verisi halka açık olanlar. İstisna değiller. Gösterim bunlar. Aynı terslik, desenin ortaya çıktığı her yerde geçerli, ki bu benim çalıştığım çoğu yer.",
+        "Mimar artık işe alınmıyor. Mimar yetkidir."
+      ]
+    },
+    {
+      "slug": "deployment",
+      "title": "Dağıtım",
+      "kicker": "DAĞITIM",
+      "headings": [
+        "BIR YÖNETIM MODELİ. <em>ÇOK SAYIDA SAĞLAYICI.</em>"
+      ],
+      "paragraphs": [
+        "Her sağlayıcının dokunduğu her yerde çalışan tek bir yönetim modeli. Bu, H&amp;M’deki tasarım hedefiydi ve şu anda canlı.",
+        "Akamai ve Cloudflare uçta duruyor, istekleri yönlendiriyor ve DDoS trafiğini emiyor. MongoDB Atlas üzerindeki sunucusuz katman, Avrupa'da GDPR uyumlu verileri işliyor; Salesforce, ABD’de CRM katmanını taşıyor. SAP hâlâ eski ERP omurgasını çalıştırıyor, çünkü egemenlik işe yarayanı söküp atmak anlamına gelmez. Egemenlik onu yönetmek anlamına gelir. Genesis Mesh, ortada düzenleyici katman olarak bulunuyor, altında Azure, GCP, VMware ve AWS üzerinde doğrulama, sınırlama, iptal etme ve denetleme yapıyor ve EY Stockholm’den Ons Allouche tüm süreci gerçek zamanlı koordine ediyor.",
+        "Farklı satıcılar, farklı bulutlar, farklı yasal yargı bölgeleri. Tek bir yetki modeli bunu bir arada tutar."
+      ]
+    },
+    {
+      "slug": "hardware",
+      "title": "Donanım",
+      "kicker": "DONANIM EGEMENLİĞİ",
+      "headings": [
+        "YAZILIM <em>YETMEZDİ.</em>"
+      ],
+      "paragraphs": [
+        "Yazılım tek başına asla yeterli olmayacaktı, altında yatan çipler hala başkasının kontrolündeyse.",
+        "Bu TSWI, Tunus Egemen Wafer Girişimi: emtia çipletlerini al, ara yüz (interposer) ve AI mantığını kendi bünyende üret ve paketleme fabrikasının tamamına sahip ol. Yol haritası dört aşamada ilerliyor: ilk yıl 5-10 milyon dolar bütçeyle çoklu çiplet kanıtı, ikinci yıl 30-60 milyon dolar bütçeyle Tunus pilotlu CPU ve AI wafer, üçüncü yıl 20-40 milyon dolar bütçeyle egemen AI kümesi ve dördüncü yıl 150-300 milyon dolar bütçeyle tam bir tesis. Birinci aşama tamamlandı.",
+        "Geriye kalan, Ons Allouche ile birlikte kurduğumuz, EMEA bölgesinde yerleşik, güneş enerjisi ile çalışan ve hesaplama maliyetinin yarısından fazlasının ortadan kaldırıldığı açık kaynaklı, wafer ölçekli paketleme merkezi; Ons sektörel tarafı yönetirken ben teknolojiyi yönetiyorum."
+      ],
+      "statline": [
+        {
+          "label": "BİRİM MALİYETİ",
+          "value": "~$185K"
+        },
+        {
+          "separator": true
+        },
+        {
+          "label": "HEDEF FİYAT",
+          "value": "~$450K"
+        },
+        {
+          "separator": true
+        },
+        {
+          "label": "KAR MARJI",
+          "value": "~58%"
+        },
+        {
+          "separator": true
+        },
+        {
+          "label": "CAAS",
+          "value": "~$45/hr vs AWS $98.32/hr"
+        }
+      ]
+    },
+    {
+      "slug": "coordination",
+      "title": "Koordinasyon",
+      "kicker": "KOORDİNASYON",
+      "headings": [
+        "SONRA KATMANLAR <em>TEK BİR SİSTEM OLDU.</em>"
+      ],
+      "paragraphs": [
+        "Sonunda katmanlar ayrı projeler olmayı bıraktı ve tek bir sistem haline geldi. Aspayr cüzdanı yönetiyor ve dokunduğu her alanda koordinasyonu sağlıyor: altyapı, donanım, kripto yolları, müzik ve ses, VR ve Meta OS, siber ve ağlar, biyoteknoloji ve giyilebilir teknolojiler. TSWI, her şeyin altında olan waferleri, paketlemeyi ve hesaplamayı sağlıyor. Genesis Mesh her zaman yaptığı şeyi yapmaya devam ediyor: doğrulama, sınırlama, iptal etme, denetleme. Ve H&M, giderek genişleyen bir hükümet uygulamaları seti ile birlikte, aslında bu üçünün çalıştığı yer.",
+        "2027 Mart 6'sından sonra, plan TSWI faz-iki kapsamında 30-60 milyon dolar bir sermaye artırımı olup, hedef olarak bir Tunus Bakanlığı ve AfDB çapa mutabakatı (MOU) belirlenmiştir. Eğer gerçekleşirse, bu yalnızca tek bir anlaşmadan daha büyük bir şeyi kanıtlar: Çin-Batı entegrasyonunun, 2016 Bluemix yapısına kadar uzanan <a href='https://github.com/GenesisMeshLabs/genesis-quantum-lab' target='_blank' rel='noopener'>kuantum hesaplama</a> çalışmalarının, otonom sistemlerin ve bağımsız donanımların hepsinin tek bir yönetişim modeli altında çalışabileceğini."
+      ]
+    },
+    {
+      "slug": "the-choice",
+      "title": "Seçim",
+      "kicker": "SEÇİM",
+      "headings": [
+        "SADECE <em>BİR HÜKÜMET İÇİN OY VERMEYİN.</em>",
+        "Yönetme kapasitesi için oy verin."
+      ],
+      "paragraphs": [
+        "On yıl. İçinde çalıştığım hemen hemen her büyük sistem entegratörü, beş değil, altı değil, hepsi. Adını koymadan önce yaşadığım bir desen. Artık varsayımsal olmayan bir güvenlik maliyeti. Ve hali hazırda üretimde çalışan bir çözüm.",
+        "Öyleyse sadece bir hükümete oy vermeyin. Yönetme kapasitesine oy verin: yetkinin kimde olduğunu doğrulama, onların bunu ne şekilde kullanabileceğini sınırlama, güven kırıldığı anda bu yetkiyi geri alma ve kimsenin sözünüze güvenmek zorunda kalmaması için iz sürmeyi denetleme yeteneğine sahip olma.",
+        "<strong>Yetkiyi işe alın. Satıcıyı değil.</strong>"
+      ],
+      "buttons": [
+        {
+          "label": "GENESIS MESH'İ KEŞFET ->",
+          "href": "https://dev.connectorzzz.com/",
+          "primary": true
+        },
+        {
+          "label": "AÇIK KAYNAK ORGANİZASYONU GÖR ->",
+          "href": "https://github.com/GenesisMeshLabs"
+        }
+      ]
+    }
+  ]
+}

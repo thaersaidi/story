@@ -1,0 +1,187 @@
+{
+  "meta": {
+    "title": "Genesis Mesh: Vaalit 2026",
+    "description": "Suvereniteetti koodissa: institutionaalinen IP-erotus, todennettavissa oleva valta ja vaalit 2026 -tapaus, kerrottuna yhtenä tarinana."
+  },
+  "ui": {
+    "subtitle": "SUVENIERITEETTI KOODISSA / VAALET 2026",
+    "explore": "TUTKI ->",
+    "swipeHint": "<- pyyhkäise jatkaaksesi ->",
+    "goTo": "Siirry",
+    "searchLanguage": "Hakukieli",
+    "chapters": "Luvut",
+    "previous": "Edellinen",
+    "next": "Seuraava"
+  },
+  "slides": [
+    {
+      "slug": "prologue",
+      "title": "Prologi",
+      "kicker": "ESIPUHE",
+      "headings": [
+        "SUVERENITEETTI ON NYT <em>KOODI.</em>"
+      ],
+      "paragraphs": [
+        "Rakensin järjestelmiä ennen kuin minulla oli nimeä sille, mitä rakensin. Hackathon Mumbaissa, liitutaulupiirros, joka muuttui autonomiseksi yrityskuvaksi. Sitten hiljaa, vuosikymmen, jonka aikana melkein jokainen yritys, johon koskin, löysi tavan säilyttää kuvio ja unohtaa henkilö, joka sen piirrti.",
+        "Kun vuodet 2026 vaaleihin alkoivat lähestyä, olin lopettanut kertomasta tätä tarinaa työsuhteesta. Siitä oli tullut tarina siitä, kuka saa hallita infrastruktuuria, joka hallitsee kaikkia muita.",
+        "Tässä on se tarina: kuvio, panokset, rakentamani hoito ja valinta, joka on nyt kaikkien meidän edessämme."
+      ],
+      "byline": {
+        "name": "THAER SAIDI",
+        "meta": "7. SYYSKUUTA 2026 -> 6. MAALISKUUTA 2027. JULKINEN TIIVISTELMÄ 26 / GENESIS MESH"
+      },
+      "buttons": [
+        {
+          "label": "TUTKI MESH ->",
+          "href": "https://dev.connectorzzz.com/",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "slug": "the-pattern",
+      "title": "Kuvio",
+      "kicker": "KUVIOT",
+      "headings": [
+        "ENSIN HE PALKKASIVAT <em>ARKKITEHDIN.</em>"
+      ],
+      "paragraphs": [
+        "Se alkoi Mumbaissa, hackathonissa, jonka voitin ennen kuin kukaan käytti ilmausta \"autonomiset yritysjärjestelmät\". Prototyyppi oli kuitenkin todellinen. TCS vei mallin maailmanlaajuiseksi: kymmenen vuoden suhde, 2016–2026, ja alkuperäisen työn lasku on edelleen avoinna.",
+        "Sama vuonna, 2016, työskentelin myös IBM Bluemixin parissa: varhaisia kokeellisia töitä kvanttilaskennasta ja kryptoinfrastruktuurista, samanaikaisesti yritysmallin kanssa. Se on sama lanka, joka lopulta muodostui Genesis Meshin omaksi kvanttikerrokseksi, nyt avoimen lähdekoodin saatavilla osoitteessa <a href='https://github.com/GenesisMeshLabs/genesis-quantum-lab' target='_blank' rel='noopener'>genesis-quantum-lab</a>.",
+        "Se, mikä seuraa, on esimerkki, ei koko kertomus. Kymmenen vuoden ajan tekemissäni projekteissa sama kaava toistui käytännössä jokaisen suuren järjestelmäintegraattorin kanssa, joiden sisällä istuin, ei vain muutaman kanssa. Electroluxilla Cognizant hallinnoi tiliä vuosina 2017–2020, seuraten, kun loidin pilvi-, DevOps- ja GDPR-yhdenmukaistettuja malleja, ja sitten pakaten ne ratkaisupaketiksi ilman nimeäni. Accenture otti saman tilin ja jatkoi sitä vuosina 2017–2023: SAP hypervisoreilla, Akamai reunassa, muuttamalla arkkitehtuurin kuuden vuoden hallinnoiduiksi palveluiksi sopimukseksi.",
+        "IBM Consulting saapui vuonna 2021, integroituneena samaan rakennukseen, ja lähti mukanaan IP- ja AWS-malleja, jotka oman arvioni mukaan nousivat uudelleen myyntiin Amazonin alustoilla. Nordcloud ja IBM seurasivat minua Volvolle vuonna 2023, jolloin suunnittelin kiinalais-länsimaista orkestrointia; mikä lähti rakennuksesta, siitä tuli Volvon oma integraatiokäsikirja. Vuoteen 2024 mennessä Crayon sai minut suunnittelemaan monipilvivä infrastruktuuria Microsoftin ekosysteemissä.",
+        "Nämä kuusi ovat vain nimiä päivämäärineen liitettynä. Ne ovat dokumentoituja tapauskohtaisia tilanteita, eivät ääriesimerkkejä. Sama kaava toistuu lähes jokaisessa järjestelmäintegraattorissa, jonka kanssa olen ollut mukana, lähes kaikilla asiakkailla, koko kymmenen vuoden ajan. Vuoteen 2025 mennessä sillä oli nimi, jota en voinut olla näkemättä: palkkaa arkkitehti, ota järjestelmä irti, korvaa arkkitehti."
+      ]
+    },
+    {
+      "slug": "the-stakes",
+      "title": "Panokset",
+      "kicker": "PANOKSET",
+      "headings": [
+        "SITTEN KYSYIN: <em>KUKA HALLITSEE VAALIA?</em>"
+      ],
+      "paragraphs": [
+        "Ei laillisesti. Toiminnallisesti. Tier-1-järjestelmäintegraattorit, kuten Accenture, IBM, TCS, Cognizant, ja käytännössä kaikki heidän tasoisensa kollegat, eivät vain konsultoi vaalijärjestelmiin liittyen; he suunnittelevat ja ylläpitävät niitä. Ja malli, joka antoi heidän tehdä sitä minulle toistuvasti, lähes jokaisessa heistä, on sama malli, joka toimii alla: arkkitehti katoaa, ja toimittaja perii tulot, pääsyn ja institutionaalisen muistin.",
+        "Se on liiketoimintaongelma, kunnes seuraat sitä askeleen pidemmälle. Järjestelmäintegraattori, joka istuu hiljaa koodilla, jonka se on hiljaisesti poistanut, ei ole enää pelkkä toimittajariskin lähde. Jos kansallisvaltio onnistuu joskus hallitsemaan kyseisen integraattorin, se perii kaiken, mitä integraattori on omaksunut. Ja kun vaalien koneisto kulkee toimittajan omistamien järjestelmien läpi, laillinen riippumattomuus ei enää ole sama asia kuin operatiivinen suvereniteetti.",
+        "Tuolla mittakaavalla poisto on vain valvontaa palvelusopimuksen muodossa."
+      ]
+    },
+    {
+      "slug": "the-remedy",
+      "title": "Ratkaisu",
+      "kicker": "RATKAISU",
+      "headings": [
+        "JOTEN RAKENSIN <em>GENESIS MESH.</em>"
+      ],
+      "paragraphs": [
+        "Rakensin asian, joka olisi estänyt sen tapahtumisen minulle, ja kaikille, joiden infrastruktuuri nyt riippuu samanlaisesta toimittajasta.",
+        "Genesis Mesh on luottamus- ja auktoriteettikerros autonomisille järjestelmille, ja se toimii neljän verbin varassa, joita pidän nyt neuvottelemattomina. <strong>Tarkista</strong>: jokainen askel ihmisestä auktoriteettiin, delegointiin ja agenttiin on voitava todistaa. <strong>Rajoita</strong>: jokaisella toimijalla on rajattu toimivalta, ei koskaan tyhjää shekkiä. <strong>Peruuta</strong>: luottamus voidaan peruuttaa välittömästi, ei neuvotella uudelleen. <strong>Tarkasta</strong>: jälki on muuttumaton, ja se säilyy kaikkien pinon tarjoajien keskuudessa, ei vain ystävällisen.",
+        "Suvereniteetti, olen tullut uskomaan, ei ole oikeudellinen asema. Se on kyky tarkistaa, rajoittaa, peruuttaa ja korvata jokainen tarjoaja, johon luotat, omilla ehdoillasi ja aikataulullasi."
+      ]
+    },
+    {
+      "slug": "the-reversal",
+      "title": "Käänteinen",
+      "kicker": "KÄÄNTEINEN",
+      "headings": [
+        "ARKKITEHTIA EI OLE ENÄÄ PALKATTU. <em>ARKKITEHTI ON VIRANOMAISUUS.</em>"
+      ],
+      "paragraphs": [
+        "Todisteen piti olla todellinen, ei teoreettinen, joten ajoin sen takaisin samoiden yritysten läpi.",
+        "TCS:llä rakentamani ja joista minulle ei koskaan maksettu autonomiset järjestelmät ovat nyt käytössä H&amp;M:n toteutuksessa, toimien arkkitehdin valtuudella, eivät toimittajan omistuksessa. IBM:llä se kaava, jonka väitin myydyn uudelleen Amazonin kautta, on saanut vahvistetun vastauksen: Volvo/Geely-malli, avoimen lähdekoodin mukainen ja täysin tarkastettavissa, mitään piilotettua ei ole enää talletettuna. Cognizantin samanaikaisen poiminnan ongelma on ratkaistu: Genesis Mesh ei salli silmukkaa, jonka kautta se tapahtui. Ja kuusi vuotta kestänyt poiminta, jonka koin Accenturella, on myös suljettu: ei piilotettua pääsyä, koska ei ole enää mitään piilotettavaa.",
+        "Nämä neljä ovat vain ne, joilla on julkista ennen/jälkeen dataa. Ne eivät ole poikkeus. Ne ovat demonstraatio. Sama käänne pätee kaikkialla, missä malli esiintyi, mikä on useimmissa paikoissa, joissa olen työskennellyt.",
+        "Arkkitehtiä ei enää palkata. Arkkitehti on auktoriteetti."
+      ]
+    },
+    {
+      "slug": "deployment",
+      "title": "Käyttöönotto",
+      "kicker": "KÄYTTÖÖNOTTO",
+      "headings": [
+        "YHTEINEN HALLINTAMALLI. <em>MONE TARJOAJAA.</em>"
+      ],
+      "paragraphs": [
+        "Yksi hallintomalli, joka toimii kaikkien sitä käsittelevien palveluntarjoajien yli. Tämä oli H&amp;M:n suunnittelutavoite, ja se on nyt käytössä.",
+        "Akamai ja Cloudflare toimivat reunalla, ohjaten pyyntöjä ja vaimentaen DDoS-liikennettä. Serverittömässä kerroksessa MongoDB Atlasissa käsitellään GDPR-yhteensopivia tietoja Euroopassa; Salesforce kuljettaa CRM-kerroksen Yhdysvalloissa. SAP pyörittää edelleen perinteistä ERP-tukirankaa, koska suvereniteetti ei tarkoita toimivan järjestelmän poistamista. Se tarkoittaa sen hallintaa. Genesis Mesh sijaitsee keskellä orkestrointikerroksena, varmistaen, rajoittaen, peruen ja tarkastaen Azure-, GCP-, VMware- ja AWS-ympäristöissä sen alla, ja Ons Allouche EY:stä Tukholmasta koordinoi koko asiaa reaaliajassa.",
+        "Eri myyjät, eri pilvet, eri oikeudelliset toimivallat. Yksi valtuutusmalli pitää sen koossa."
+      ]
+    },
+    {
+      "slug": "hardware",
+      "title": "Laitteisto",
+      "kicker": "LAITTEISTOSUVERENITEETTI",
+      "headings": [
+        "OHJELMISTO EI <em>RIITTÄNYT.</em>"
+      ],
+      "paragraphs": [
+        "Ohjelmisto ei koskaan tule riittämään yksin, jos sen alla olevat sirut ovat edelleen jonkun muun hallittavissa.",
+        "Se on TSWI, Tunisian Sovereign Wafer Initiative: osta hyödykelaatta-chipit, tee interposeri ja tekoälylogiikka itse, ja omista pakkaustehtaasi kokonaan. Suunnitelma etenee neljässä vaiheessa: monichiplet-todiste 5–10 miljoonalla dollarilla ensimmäisenä vuonna, CPU- ja tekoälylaatta Tunisian pilottihankkeella 30–60 miljoonalla dollarilla toisena vuonna, suvereeni tekoälyklusteri 20–40 miljoonalla dollarilla kolmantena vuonna, ja kokonainen tehdas 150–300 miljoonalla dollarilla neljäntenä vuonna. Vaihe yksi on valmis.",
+        "Jäljellä on avoimen lähdekoodin, laattatason pakkauskeskus EMEA-alueella, aurinkovoimalla, ja yli puolet laskentakustannuksista poistettuna, perustettu yhdessä Ons Allouchen kanssa, joka johtaa teollisuuspuolta, kun taas minä johdan teknologiaa."
+      ],
+      "statline": [
+        {
+          "label": "Yksikkökustannukset",
+          "value": "~$185K"
+        },
+        {
+          "separator": true
+        },
+        {
+          "label": "Tavoitehinta",
+          "value": "~$450K"
+        },
+        {
+          "separator": true
+        },
+        {
+          "label": "Kate",
+          "value": "~58%"
+        },
+        {
+          "separator": true
+        },
+        {
+          "label": "CAAS",
+          "value": "~$45/hr vs AWS $98.32/hr"
+        }
+      ]
+    },
+    {
+      "slug": "coordination",
+      "title": "Koordinointi",
+      "kicker": "KOORDINOINTI",
+      "headings": [
+        "SITTEN KERROKSET <em>MUUTTUivat YKSIKSI JÄRJESTELMÄKSI.</em>"
+      ],
+      "paragraphs": [
+        "Lopulta kerrokset lakkasivat olemasta erillisiä projekteja ja muodostuivat yhdeksi järjestelmäksi. Aspayr hoitaa lompakon ja koordinoi kaikkialla, missä se toimii: infrastruktuuri, laitteisto, kryptoradat, musiikki ja ääni, VR ja Meta OS, kyber ja verkot, biotekniikka ja puettavat laitteet. TSWI toimittaa sirut, pakkaukset ja kaiken alla olevan laskentatehon. Genesis Mesh tekee edelleen sitä, mitä se on aina tehnyt: varmista, rajoita, peruuta, tarkasta. Ja H&M, yhdessä laajenevan hallituksen käyttöönottojen sarjan kanssa, on paikka, jossa kaikki kolme todellisuudessa toimivat.",
+        "6. maaliskuuta 2027 jälkeen suunnitelmana on TSWI toisen vaiheen rahoituskeräys 30–60 miljoonaa dollaria, tavoitteena on Tunisian ministeriön ja AfDB:n ankkurimuistio. Jos se onnistuu, se todistaa jotain suurempaa kuin yksittäinen sopimus: että kiinalais-länsimainen integraatio, <a href='https://github.com/GenesisMeshLabs/genesis-quantum-lab' target='_blank' rel='noopener'>kvanttilaskenta</a>, joka juontaa juurensa vuoden 2016 Bluemix-rakennelmaan, autonomiset järjestelmät ja suvereenit laitteistot voivat kaikki toimia yhden hallintomallin alla."
+      ]
+    },
+    {
+      "slug": "the-choice",
+      "title": "Valinta",
+      "kicker": "VALINTA",
+      "headings": [
+        "ÄLÄ VAIN ÄÄNESTÄ <em>HALLITUSTA.</em>",
+        "Äänestä hallintakyvyn puolesta."
+      ],
+      "paragraphs": [
+        "Kymmenen vuotta. Käytännössä jokaisessa suurimmassa järjestelmäintegraattorissa, jossa olen työskennellyt, ei viidessä, ei kuudessa, kaikissa. Kaava, jonka koin ennen kuin sille oli nimi. Turvallisuuskustannus, joka ei enää ole hypoteettinen. Ja korjauskeino, joka on jo tuotannossa käytössä.",
+        "Joten älä äänestä vain hallitusta. Äänestä kykyä hallita: pysyvää kykyä varmistaa, kuka pitää valtaa, rajoittaa, mitä he voivat tehdä sen kanssa, peruuttaa se heti, kun luottamus rikkoutuu, ja tarkastaa jäljet, jotta kenenkään ei tarvitse luottaa vain sanaasi.",
+        "<strong>Palkkaa valta. Ei myyjää.</strong>"
+      ],
+      "buttons": [
+        {
+          "label": "TUTUSTU GENESIS MESH->",
+          "href": "https://dev.connectorzzz.com/",
+          "primary": true
+        },
+        {
+          "label": "NAUTI AVOIN LÄHTEKOODIN ORGANISAATIO->",
+          "href": "https://github.com/GenesisMeshLabs"
+        }
+      ]
+    }
+  ]
+}

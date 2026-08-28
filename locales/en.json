@@ -7,14 +7,20 @@
     "subtitle": "SOVEREIGNTY IN CODE / ELECTIONS 2026",
     "explore": "EXPLORE ->",
     "swipeHint": "<- swipe to continue ->",
-    "goTo": "Go to"
+    "goTo": "Go to",
+    "searchLanguage": "Search language",
+    "chapters": "Chapters",
+    "previous": "Previous",
+    "next": "Next"
   },
   "slides": [
     {
       "slug": "prologue",
       "title": "Prologue",
       "kicker": "PROLOGUE",
-      "headings": ["SOVEREIGNTY IS NOW <em>CODE.</em>"],
+      "headings": [
+        "SOVEREIGNTY IS NOW <em>CODE.</em>"
+      ],
       "paragraphs": [
         "I built systems before I had a name for what I was building. A hackathon in Mumbai, a whiteboard sketch that turned into an autonomous enterprise pattern. Then, quietly, a decade in which almost every company I touched found a way to keep the pattern and forget the person who drew it.",
         "By the time Elections 2026 came into view, I'd stopped telling this as a story about employment. It had become a story about who gets to govern the infrastructure that governs everyone else.",
@@ -25,14 +31,20 @@
         "meta": "SEPT 7, 2026 -> MAR 6, 2027 . PUBLIC BRIEF 26 / GENESIS MESH"
       },
       "buttons": [
-        { "label": "EXPLORE THE MESH ->", "href": "https://dev.connectorzzz.com/", "primary": true }
+        {
+          "label": "EXPLORE THE MESH ->",
+          "href": "https://dev.connectorzzz.com/",
+          "primary": true
+        }
       ]
     },
     {
       "slug": "the-pattern",
       "title": "The Pattern",
       "kicker": "THE PATTERN",
-      "headings": ["FIRST, THEY HIRED <em>THE ARCHITECT.</em>"],
+      "headings": [
+        "FIRST, THEY HIRED <em>THE ARCHITECT.</em>"
+      ],
       "paragraphs": [
         "It started in Mumbai, in a hackathon I won before \"autonomous enterprise systems\" was a phrase anyone used. The prototype was real, though. TCS took the pattern global: a ten-year relationship, 2016 to 2026, and the invoice for that original work is still open.",
         "That same year, 2016, I was also building on IBM Bluemix: early quantum computing and crypto infrastructure work, running in parallel with the enterprise pattern. It's the same thread that eventually became Genesis Mesh's own quantum layer, now open-sourced at <a href='https://github.com/GenesisMeshLabs/genesis-quantum-lab' target='_blank' rel='noopener'>genesis-quantum-lab</a>.",
@@ -45,7 +57,9 @@
       "slug": "the-stakes",
       "title": "The Stakes",
       "kicker": "THE STAKES",
-      "headings": ["THEN I ASKED: <em>WHO CONTROLS THE ELECTION?</em>"],
+      "headings": [
+        "THEN I ASKED: <em>WHO CONTROLS THE ELECTION?</em>"
+      ],
       "paragraphs": [
         "Not legally. Operationally. Tier-1 systems integrators, Accenture, IBM, TCS, Cognizant, and effectively every peer in that tier, don't just consult on election infrastructure; they design and run it. And the model that let them do that to me, repeatedly, across nearly every one of them, is the same model running underneath: the architect disappears, and the vendor inherits the revenue, the access, and the institutional memory.",
         "That's a business problem until you follow it one step further. A systems integrator sitting on code it quietly extracted isn't just a vendor risk anymore. If a nation-state ever gains control of that integrator, it inherits everything the integrator absorbed. And when the machinery of an election runs through vendor-owned systems, being legally independent stops being the same thing as being operationally sovereign.",
@@ -56,7 +70,9 @@
       "slug": "the-remedy",
       "title": "The Remedy",
       "kicker": "THE REMEDY",
-      "headings": ["SO I BUILT <em>GENESIS MESH.</em>"],
+      "headings": [
+        "SO I BUILT <em>GENESIS MESH.</em>"
+      ],
       "paragraphs": [
         "I built the thing that would have stopped it from happening to me, and to everyone whose infrastructure now depends on the same kind of vendor.",
         "Genesis Mesh is a trust and authority layer for autonomous systems, and it runs on four verbs I now treat as non-negotiable. <strong>Verify</strong>: every step from human to authority to delegation to agent has to be provable. <strong>Limit</strong>: every actor gets scoped capability, never a blank check. <strong>Revoke</strong>: trust can be withdrawn instantly, not renegotiated. <strong>Audit</strong>: the trail is immutable, and it holds across every provider in the stack, not just the friendly one.",
@@ -67,7 +83,9 @@
       "slug": "the-reversal",
       "title": "The Reversal",
       "kicker": "THE REVERSAL",
-      "headings": ["THE ARCHITECT IS NO LONGER HIRED. <em>THE ARCHITECT IS THE AUTHORITY.</em>"],
+      "headings": [
+        "THE ARCHITECT IS NO LONGER HIRED. <em>THE ARCHITECT IS THE AUTHORITY.</em>"
+      ],
       "paragraphs": [
         "The proof had to be real, not theoretical, so I ran it back through the same companies.",
         "At TCS, the autonomous systems I built and was never paid for are now, live, the H&amp;M implementation, running under architect authority, not vendor ownership. At IBM, the pattern I'd alleged was resold through Amazon has a validated answer: the Volvo/Geely model, open-sourced and fully auditable, nothing hidden left to extract. Cognizant's simultaneous-extraction problem is closed: Genesis Mesh doesn't allow the loop that let it happen. And the six-year extraction I lived through at Accenture is closed too: no hidden access, because there's nothing left to hide.",
@@ -79,7 +97,9 @@
       "slug": "deployment",
       "title": "Deployment",
       "kicker": "THE DEPLOYMENT",
-      "headings": ["ONE GOVERNANCE MODEL. <em>MANY PROVIDERS.</em>"],
+      "headings": [
+        "ONE GOVERNANCE MODEL. <em>MANY PROVIDERS.</em>"
+      ],
       "paragraphs": [
         "One governance model, running across every provider that touches it. That was the design goal at H&amp;M, and it's live.",
         "Akamai and Cloudflare sit at the edge, routing requests and absorbing DDoS traffic. A serverless layer on MongoDB Atlas handles GDPR-aligned data in Europe; Salesforce carries the CRM layer in the US. SAP still runs the legacy ERP backbone, because sovereignty doesn't mean ripping out what works. It means governing it. Genesis Mesh sits in the middle as the orchestration layer, verifying, limiting, revoking, and auditing across Azure, GCP, VMware, and AWS underneath it, with Ons Allouche at EY Stockholm coordinating the whole thing in real time.",
@@ -90,27 +110,49 @@
       "slug": "hardware",
       "title": "Hardware",
       "kicker": "HARDWARE SOVEREIGNTY",
-      "headings": ["SOFTWARE WAS <em>NOT ENOUGH.</em>"],
+      "headings": [
+        "SOFTWARE WAS <em>NOT ENOUGH.</em>"
+      ],
       "paragraphs": [
         "Software was never going to be enough on its own, not if the chips underneath it were still someone else's to control.",
         "That's TSWI, the Tunisian Sovereign Wafer Initiative: buy the commodity chiplets, make the interposer and the AI logic in-house, and own the packaging factory outright. The roadmap runs in four stages: a multi-chiplet proof for $5-10M in year one, a CPU-and-AI wafer with a Tunis pilot for $30-60M in year two, a sovereign AI cluster for $20-40M in year three, and a full facility for $150-300M in year four. Phase one is done.",
         "What's left is an open-source, wafer-scale packaging hub with EMEA residency, solar power, and more than half the compute cost stripped out, co-founded with Ons Allouche, who leads the industry side while I lead the technology."
       ],
       "statline": [
-        { "label": "UNIT COGS", "value": "~$185K" },
-        { "separator": true },
-        { "label": "TARGET PRICE", "value": "~$450K" },
-        { "separator": true },
-        { "label": "MARGIN", "value": "~58%" },
-        { "separator": true },
-        { "label": "CAAS", "value": "~$45/hr vs AWS $98.32/hr" }
+        {
+          "label": "UNIT COGS",
+          "value": "~$185K"
+        },
+        {
+          "separator": true
+        },
+        {
+          "label": "TARGET PRICE",
+          "value": "~$450K"
+        },
+        {
+          "separator": true
+        },
+        {
+          "label": "MARGIN",
+          "value": "~58%"
+        },
+        {
+          "separator": true
+        },
+        {
+          "label": "CAAS",
+          "value": "~$45/hr vs AWS $98.32/hr"
+        }
       ]
     },
     {
       "slug": "coordination",
       "title": "Coordination",
       "kicker": "COORDINATION",
-      "headings": ["THEN THE LAYERS <em>BECAME ONE SYSTEM.</em>"],
+      "headings": [
+        "THEN THE LAYERS <em>BECAME ONE SYSTEM.</em>"
+      ],
       "paragraphs": [
         "Eventually the layers stopped being separate projects and became one system. Aspayr handles the wallet and coordinates across every domain it touches: infrastructure, hardware, crypto rails, music and audio, VR and the Meta OS, cyber and networks, biotech and wearables. TSWI supplies the wafers, the packaging, the compute underneath everything. Genesis Mesh still does what it's always done: verify, limit, revoke, audit. And H&amp;M, alongside a widening set of government deployments, is where all three actually run.",
         "Past March 6, 2027, the plan is a TSWI phase-two raise of $30-60M, with a Tunisian Ministry and AfDB anchor MOU as the target. If it lands, it proves something bigger than any one deal: that Chinese-Western integration, the <a href='https://github.com/GenesisMeshLabs/genesis-quantum-lab' target='_blank' rel='noopener'>quantum computing</a> work that traces back to the 2016 Bluemix build, autonomous systems, and sovereign hardware can all operate under a single governance model."
@@ -120,15 +162,25 @@
       "slug": "the-choice",
       "title": "The Choice",
       "kicker": "THE CHOICE",
-      "headings": ["DO NOT JUST VOTE <em>FOR A GOVERNMENT.</em>", "Vote for the capacity to govern."],
+      "headings": [
+        "DO NOT JUST VOTE <em>FOR A GOVERNMENT.</em>",
+        "Vote for the capacity to govern."
+      ],
       "paragraphs": [
         "Ten years. Practically every major systems integrator I've worked inside, not five, not six, all of them. A pattern I lived through before I had a name for it. A security cost that's no longer hypothetical. And a remedy that's already running in production.",
         "So don't just vote for a government. Vote for the capacity to govern: the standing ability to verify who holds authority, limit what they can do with it, revoke it the moment that trust breaks, and audit the trail so no one has to take your word for it.",
         "<strong>Hire the authority. Not the vendor.</strong>"
       ],
       "buttons": [
-        { "label": "EXPLORE GENESIS MESH ->", "href": "https://dev.connectorzzz.com/", "primary": true },
-        { "label": "VIEW THE OPEN-SOURCE ORGANIZATION ->", "href": "https://github.com/GenesisMeshLabs" }
+        {
+          "label": "EXPLORE GENESIS MESH ->",
+          "href": "https://dev.connectorzzz.com/",
+          "primary": true
+        },
+        {
+          "label": "VIEW THE OPEN-SOURCE ORGANIZATION ->",
+          "href": "https://github.com/GenesisMeshLabs"
+        }
       ]
     }
   ]

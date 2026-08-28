@@ -1,0 +1,187 @@
+{
+  "meta": {
+    "title": "Genesis Mesh: Valen 2026",
+    "description": "Suveränitet i kod: institutionell IP-extraktion, verifierbar auktoritet och fallet med valen 2026, berättat som en historia."
+  },
+  "ui": {
+    "subtitle": "SUVERÄNITET I KOD / VALEN 2026",
+    "explore": "UTFORSKA ->",
+    "swipeHint": "<- svep för att fortsätta ->",
+    "goTo": "Gå till",
+    "searchLanguage": "Sök språk",
+    "chapters": "Kapitel",
+    "previous": "Föregående",
+    "next": "Nästa"
+  },
+  "slides": [
+    {
+      "slug": "prologue",
+      "title": "Prolog",
+      "kicker": "PROLOG",
+      "headings": [
+        "SUVERÄNITET ÄR NU <em>KOD.</em>"
+      ],
+      "paragraphs": [
+        "Jag byggde system innan jag hade ett namn för det jag byggde. En hackathon i Mumbai, en whiteboard-skiss som blev ett autonomt företagsmönster. Sedan, tyst, ett decennium där nästan alla företag jag rörde vid fann ett sätt att behålla mönstret och glömma personen som ritade det.",
+        "När valet 2026 närmade sig hade jag slutat berätta detta som en historia om anställning. Det hade blivit en historia om vem som får styra infrastrukturen som styr alla andra.",
+        "Det här är den berättelsen: mönstret, insatserna, botemedlet jag byggde, och valet som nu ligger framför oss alla."
+      ],
+      "byline": {
+        "name": "THAER SAIDI",
+        "meta": "7 SEPT 2026 -> 6 MAR 2027 . OFFENTLIG REDOGÖRELSE 26 / GENESIS MESH"
+      },
+      "buttons": [
+        {
+          "label": "UTFORSKA MESH ->",
+          "href": "https://dev.connectorzzz.com/",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "slug": "the-pattern",
+      "title": "Mönstret",
+      "kicker": "MÖNSTRET",
+      "headings": [
+        "FÖRST, ANSTÄLLDE DE <em>ARKITEKTEN.</em>"
+      ],
+      "paragraphs": [
+        "Det började i Mumbai, på en hackathon som jag vann innan 'autonoma företagsystem' var ett uttryck som någon använde. Prototypen var dock verklig. TCS tog mönstret globalt: ett tioårigt förhållande, 2016 till 2026, och fakturan för det ursprungliga arbetet är fortfarande öppen.",
+        "Samma år, 2016, byggde jag också på IBM Bluemix: tidigt arbete med kvantdatorer och kryptoinfrastruktur, parallellt med företagsmönstret. Det är samma tråd som så småningom blev Genesis Mesh egen kvantnivå, nu öppen källkod på <a href='https://github.com/GenesisMeshLabs/genesis-quantum-lab' target='_blank' rel='noopener'>genesis-quantum-lab</a>.",
+        "Det som följer är ett exempel, inte hela rapporten. Under ett decennium av uppdrag upprepades samma mönster med praktiskt taget varje större systemintegratör som jag varit inblandad i, inte bara ett par stycken. På Electrolux hade Cognizant kontot från 2017 till 2020, och såg på när jag lade upp moln-, DevOps- och GDPR-anpassade mönster, för att sedan paketera dem till en lösning med mitt namn ingenstans på. Accenture tog över samma konto och drev det från 2017 till 2023: SAP på hypervisorer, Akamai på kanten, och omvandlade arkitektur till ett sexårigt managed-services-avtal.",
+        "IBM Consulting anlände 2021, integrerat i samma byggnad, och lämnade med en portfölj av IP och AWS-mönster som, enligt min egen uppfattning, återuppstod för återförsäljning på Amazons plattformar. Nordcloud och IBM följde mig till Volvo 2023, där jag designade kinesisk-västlig orkestrering; det som lämnade byggnaden blev Volvos egen integrationshandbok. År 2024 hade Crayon mig att arkitektera multi-cloud-infrastruktur över Microsoft-ekosystemet.",
+        "Dessa sex är bara namn med datum kopplade. De är de dokumenterade fallen, inte de extrema fallen. Samma mönster återkommer hos nästan varje systemintegratör jag har varit inne hos, hos nästan varje kund, under ett helt decennium. År 2025 fick det ett namn som jag inte kunde se bort ifrån: anställ arkitekten, extrahera systemet, ersätt arkitekten."
+      ]
+    },
+    {
+      "slug": "the-stakes",
+      "title": "Insatserna",
+      "kicker": "INSATSERNA",
+      "headings": [
+        "DÅ FRÅGADE JAG: <em>VEM KONTROLLERAR VALET?</em>"
+      ],
+      "paragraphs": [
+        "Inte juridiskt. Operativt. Tier-1 systemintegratörer, Accenture, IBM, TCS, Cognizant, och i praktiken varje jämförbar aktör i den nivån, konsulterar inte bara kring valinfrastruktur; de designar och driver den. Och modellen som lät dem göra det mot mig, upprepade gånger, över nästan varje en av dem, är samma modell som körs under: arkitekten försvinner, och leverantören ärver intäkterna, tillgången och den institutionella minnet.",
+        "Det är ett affärsproblem tills du följer det ett steg längre. En systemintegratör som sitter på kod som den tyst extraherat är inte bara en leverantörrisk längre. Om en nationalstat någonsin får kontroll över den integratören, ärver den allt som integratören absorberade. Och när ett valmechanism körs genom leverantörsägda system, slutar det att vara juridiskt oberoende att vara samma sak som att vara operativt suverän.",
+        "Extraktion, i den skalan, är bara kontroll som bär ett servicekontrakt."
+      ]
+    },
+    {
+      "slug": "the-remedy",
+      "title": "Åtgärden",
+      "kicker": "ÅTGÄRDEN",
+      "headings": [
+        "SÅ JAG BYGDE <em>GENESIS MESH.</em>"
+      ],
+      "paragraphs": [
+        "Jag byggde det som skulle ha förhindrat att det hände mig, och alla vars infrastruktur nu beror på samma typ av leverantör.",
+        "Genesis Mesh är ett tillits- och auktoritetslager för autonoma system, och det körs på fyra verb som jag nu betraktar som icke-förhandlingsbara. <strong>Verifiera</strong>: varje steg från människa till auktoritet till delegation till agent måste vara bevisbart. <strong>Begränsa</strong>: varje aktör får begränsad kapacitet, aldrig en blankocheck. <strong>Återkalla</strong>: tilliten kan tas tillbaka omedelbart, inte omförhandlas. <strong>Granska</strong>: spåret är oföränderligt och gäller över varje leverantör i stacken, inte bara den vänliga.",
+        "Suveränitet, har jag kommit att tro, är inte en juridisk status. Det är den stående förmågan att verifiera, begränsa, återkalla och ersätta varje leverantör du litar på, på dina villkor, enligt din tidsplan."
+      ]
+    },
+    {
+      "slug": "the-reversal",
+      "title": "Vändningen",
+      "kicker": "VÄNDNINGEN",
+      "headings": [
+        "ARKITEKTEN ÄR INTE LÄNGRE ANLITAD. <em>ARKITEKTEN ÄR MYNDIGHETEN.</em>"
+      ],
+      "paragraphs": [
+        "Beviset var tvunget att vara verkligt, inte teoretiskt, så jag körde det igen genom samma företag.",
+        "På TCS är de autonoma system jag byggde och aldrig fick betalt för nu, live, H&amp;M-implementeringen, som körs under arkitektens auktoritet, inte leverantörsägande. På IBM har mönstret jag påstod blev återförsäljts via Amazon ett verifierat svar: Volvo/Geely-modellen, öppen källkod och fullt granskbar, inget dolt kvar att extrahera. Cognizants problem med samtidig extraktion är löst: Genesis Mesh tillåter inte loopen som gjorde det möjligt. Och de sex år av extraktion jag upplevde på Accenture är också avslutade: ingen dold åtkomst, eftersom det inte finns något kvar att dölja.",
+        "Dessa fyra är bara de med offentliga före/efter-data. De är inte undantaget. De är demonstrationen. Samma omvändning gäller överallt där mönstret dök upp, vilket är de flesta ställen jag har arbetat.",
+        "Arkitekten är inte längre anställd. Arkitekten är auktoriteten."
+      ]
+    },
+    {
+      "slug": "deployment",
+      "title": "Utrullning",
+      "kicker": "UTRULLNINGEN",
+      "headings": [
+        "EN FÖRVALTNINGSMODELL. <em>MÅNGA LEVERANTÖRER.</em>"
+      ],
+      "paragraphs": [
+        "En styrningsmodell som fungerar över varje leverantör som berörs av den. Det var designmålet på H&amp;M, och det är live.",
+        "Akamai och Cloudflare sitter vid kanten, dirigerar förfrågningar och absorberar DDoS-trafik. Ett serverlöst lager på MongoDB Atlas hanterar GDPR-anpassad data i Europa; Salesforce ansvarar för CRM-lagret i USA. SAP driver fortfarande den äldre ERP-ryggraden, eftersom suveränitet inte betyder att man river ut det som fungerar. Det betyder att styra det. Genesis Mesh sitter i mitten som orkestreringslager, verifierar, begränsar, återkallar och granskar över Azure, GCP, VMware och AWS under det, med Ons Allouche på EY Stockholm som koordinerar hela processen i realtid.",
+        "Olika leverantörer, olika moln, olika juridiska jurisdiktioner. En auktoritetsmodell håller ihop det."
+      ]
+    },
+    {
+      "slug": "hardware",
+      "title": "Hårdvara",
+      "kicker": "HÅRDVARUSUVERÄNITET",
+      "headings": [
+        "PROGRAMVARA VAR <em>INTE TILLRÄCKLIGT.</em>"
+      ],
+      "paragraphs": [
+        "Programvara skulle aldrig vara nog på egen hand, inte om chipen under fortfarande tillhörde någon annan att kontrollera.",
+        "Det är TSWI, den Tunisiska Suveräna Wafer-initiativet: köp råchiplets, tillverka interposern och AI-logiken internt, och äg förpackningsfabriken helt. Färdplanen går i fyra steg: ett multi-chiplet-test för 5-10 miljoner dollar under år ett, en CPU- och AI-wafer med en tunisisk pilot för 30-60 miljoner dollar under år två, ett suveränt AI-kluster för 20-40 miljoner dollar under år tre, och en fullständig anläggning för 150-300 miljoner dollar under år fyra. Fas ett är klar.",
+        "Det som återstår är en open-source, wafer-skala förpackningsnav med EMEA-hemvist, solenergi, och mer än hälften av datorkostnaden borttagen, grundad tillsammans med Ons Allouche, som leder industrisidan medan jag leder teknologin."
+      ],
+      "statline": [
+        {
+          "label": "ENHETSKOSTNADER",
+          "value": "~$185K"
+        },
+        {
+          "separator": true
+        },
+        {
+          "label": "MÅLPRIS",
+          "value": "~$450K"
+        },
+        {
+          "separator": true
+        },
+        {
+          "label": "MARGINAL",
+          "value": "~58%"
+        },
+        {
+          "separator": true
+        },
+        {
+          "label": "CAAS",
+          "value": "~$45/hr vs AWS $98.32/hr"
+        }
+      ]
+    },
+    {
+      "slug": "coordination",
+      "title": "Samordning",
+      "kicker": "SAMORDNING",
+      "headings": [
+        "DÅ BLEV LAGERNA <em>EN SYSTEM.</em>"
+      ],
+      "paragraphs": [
+        "Så småningom slutade lagren att vara separata projekt och blev ett system. Aspayr hanterar plånboken och koordinerar över varje domän den berör: infrastruktur, hårdvara, kryptospår, musik och ljud, VR och Meta OS, cyber och nätverk, bioteknik och bärbar teknik. TSWI levererar wafers, förpackning och beräkningar under allt. Genesis Mesh gör fortfarande det den alltid har gjort: verifiera, begränsa, återkalla, granska. Och H&amp;M, tillsammans med en växande uppsättning av statliga implementationer, är där alla tre faktiskt körs.",
+        "Efter den 6 mars 2027 är planen en TSWI fas-två insamling på 30-60 miljoner dollar, med ett memorandum om förankring från ett tunisiskt ministerium och AfDB som mål. Om det lyckas, bevisar det något större än någon enskild affär: att kinesisk-västlig integration, <a href='https://github.com/GenesisMeshLabs/genesis-quantum-lab' target='_blank' rel='noopener'>kvantdatorarbete</a> som spårar tillbaka till Bluemix-byggnaden 2016, autonoma system och suverän hårdvara alla kan fungera under en gemensam styrmodell."
+      ]
+    },
+    {
+      "slug": "the-choice",
+      "title": "Valet",
+      "kicker": "VALET",
+      "headings": [
+        "RÖSTA INTE BARA <em>PÅ EN REGERING.</em>",
+        "Rösta för förmågan att styra."
+      ],
+      "paragraphs": [
+        "Tio år. I praktiken alla stora systemintegratörer jag har arbetat inom, inte fem, inte sex, alla. Ett mönster jag upplevde innan jag hade ett namn för det. En säkerhetskostnad som inte längre är hypotetisk. Och en lösning som redan körs i produktion.",
+        "Så rösta inte bara på en regering. Rösta för förmågan att styra: den bestående förmågan att verifiera vem som har myndighet, begränsa vad de kan göra med den, återkalla den i samma ögonblick som förtroendet bryts, och granska spåret så att ingen behöver ta ditt ord för det.",
+        "<strong>Anställ auktoriteten. Inte leverantören.</strong>"
+      ],
+      "buttons": [
+        {
+          "label": "UTFORSKA GENESIS MESH ->",
+          "href": "https://dev.connectorzzz.com/",
+          "primary": true
+        },
+        {
+          "label": "SE DEN ÖPPEN KÄLLKODSORGANISATIONEN ->",
+          "href": "https://github.com/GenesisMeshLabs"
+        }
+      ]
+    }
+  ]
+}
